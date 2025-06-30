@@ -1,4 +1,4 @@
-# Hello, I am Rubaiya! 👋
+# Hello, I am Rubaiya! 👋 🧕 💻
 
  **A DevOps enthusiast & IT Master's student (graduating June 2025)**  
  Passionate about automation, cloud and building scalable solutions.  
@@ -19,6 +19,18 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+---
+
+## 🛠️ Projects
+
+- 📄 **[Flask App with Docker & Jenkins](https://github.com/rubak714/Flask_App_with_Docker_Jenkins)** — Built and deployed a Flask application using Docker containers and Jenkins CI/CD pipelines.
+- 📄 **[Flask App on Kubernetes](https://github.com/rubak714/Flask_App_Kubernetes)** — Deployed a Flask application on a Kubernetes cluster with automated scaling and service management.
+- 📄 **[Terraform Learning](https://github.com/rubak714/Terraform-Learning)** — Provisioned and managed cloud infrastructure using Terraform, showcasing Infrastructure as Code principles.
+- 📄 **[Kubernetes with Helm, Prometheus & Grafana](https://github.com/rubak714/Kubernetes-with-Helm-and-Prometheus-Grafana)** — Automated Kubernetes deployments using Helm and integrated cluster monitoring with Prometheus and Grafana.
+- 📄 **[Know about Kubernetes](https://github.com/rubak714/Know-about-Kubernetes)** — Learning-focused repository with detailed notes, resources, and examples to understand Kubernetes fundamentals.
+- 📄 **[Master’s Projects at German University](https://github.com/rubak714/Master-s-Projects-at-German-University)** — Collection of projects and research work completed during my master's program in Germany.
+- 📄 **[All Certifications](https://github.com/rubak714/All-Certifications)** — Repository showcasing all completed certifications with details and proof of skills.
 
 ---
 
