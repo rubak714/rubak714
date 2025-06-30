@@ -1,7 +1,7 @@
 # Hello, I am Rubaiya! 👋 🧕 💻
 
- **A DevOps enthusiast & IT Master's student (graduating June 2025)**  
- Passionate about automation, cloud and building scalable solutions.  
+ **A DevOps enthusiast & IT Master's student in Cologne, Germany (graduating June 2025)**  
+ Passionate about DevOps Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.  
 
 ---
 
