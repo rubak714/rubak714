@@ -1,16 +1,19 @@
 # Hello, I am Rubaiya! 👋 🧕 💻 
+---
 
  #### **A passionate DevOps enthusiast & IT based Master's student staying in Cologne, Germany**  
- ---
- 
- **Enriching my knowledge on DevOps Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.** 
- ---
- 
-I am deeply passionate about DevOps because it combines my love for technology, automation, and continuous improvement.  
 
-⚡ I see DevOps as more than just tools — it’s a mindset focused on **collaboration, efficiency, and delivering value faster**. I thrive on solving complex problems, optimizing systems, and building scalable, secure, and reliable solutions.  
+ **Currently, I am enriching my knowledge on DevOps Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.** 
+ 
+## Why into DevOps?
 
-⚡ I enjoy tackling new challenges, breaking down bottlenecks, and creating streamlined workflows that empower teams to innovate confidently.  
+I am deeply passionate about DevOps because it combines my love for technology, automation, and continuous improvement. 
+
+⚡ I have 3 years of hands-on experience in DevOps, networking, cloud technologies, machine learning, and other IT-related fields. This expertise was built through my master’s studies, hands-on experience with open source projects in Germany and strengthened by working in three student-job roles alongside my degree.
+
+⚡ Moreover, I see DevOps as more than just tools — it is a mindset focused on **collaboration, efficiency, and delivering value faster**. I thrive on solving complex problems, optimizing systems and building scalable, secure and reliable solutions.  
+
+⚡ Not to mention, I highly enjoy tackling new challenges, breaking down bottlenecks and waiting to create streamlined workflows that empower teams to innovate confidently.  
 
 ⚡ Currently finishing my master’s degree (thesis presentation on July, 2025) and actively strengthening my skills through hands-on projects, certifications, and bootcamps.  
 
