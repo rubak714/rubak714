@@ -3,8 +3,6 @@
  **Currently, I am enriching my knowledge on DevOps Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.** 
 
 ---
-### Why into DevOps?
-
 I am deeply passionate about DevOps because it combines my love for technology, automation and continuous improvement. 
 
 ⚡ I have 3 years of hands-on experience in DevOps, networking, cloud technologies, machine learning and other IT-related fields. This expertise was built through my master’s studies, hands-on experience with open source projects in Germany and strengthened by working in three student-job roles alongside my degree.
