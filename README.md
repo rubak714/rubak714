@@ -42,6 +42,11 @@
 - Security in DevOps pipelines
 - Cost-optimization strategies on AWS
 
+## ✉️ Contact Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rubk/)
+
+
 ---
 
 
