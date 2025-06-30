@@ -1,6 +1,38 @@
-- 👋 Hi, I’m @rubak714
-- 👀 I’m interested in working with data . So I am trying to enrich my knowledge continuously in data science, machine learning and deep learning domain.
-- 🌱 I’m currently learning different machine learning algorithms.
+# Hello, I am Rubaiya! 👋
+
+ **A DevOps enthusiast & IT Master's student (graduating June 2025)**  
+ Passionate about automation, cloud and building scalable solutions.  
+
+---
+
+## ⚡ Tech Stack & Tools
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced DevOps skils on AWS
+- Advanced Kubernetes
+- Advanced Helm charts
+- Security in DevOps pipelines
+- Cost-optimization strategies on AWS
+
+---
+
+
 
 
 <!---
