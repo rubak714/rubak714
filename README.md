@@ -61,10 +61,10 @@
 ---
 
 ## 🌱 Currently Learning
-
+- Bootcamp on DevOps at IronHack
 - ArgoCD and SonarQube
 - Elastic Stack (ELK)
-- Advanced DevOps skils on AWS
+- Advanced DevOps skills on AWS
 - Advanced Kubernetes
 - Advanced Helm charts
 - Security in DevOps pipelines
