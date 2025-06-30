@@ -1,5 +1,5 @@
 # Hello, I am Rubaiya! 👋 🧕 💻 
- #### **A passionate DevOps enthusiast & IT based Master's student staying in Cologne, Germany**  
+ #### **A passionate DevOps enthusiast & IT based Master's student living in Cologne, Germany**  
  **Currently, I am enriching my knowledge on DevOps Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.** 
 
 ---
