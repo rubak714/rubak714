@@ -80,11 +80,11 @@ I am deeply passionate about DevOps because it combines my love for technology, 
 - Bootcamp on DevOps at IronHack
 - ArgoCD and SonarQube
 - Elastic Stack (ELK)
-- Advanced DevOps skills on AWS
+- Advanced DevOps skills 
 - Advanced Kubernetes
 - Advanced Helm charts
 - Security in DevOps pipelines
-- Cost-optimization strategies on AWS
+- Cost-optimization strategies 
 
 ---
 
