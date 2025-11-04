@@ -1,17 +1,17 @@
 # Hello, I am Rubaiya! 👋 🧕 💻 
- #### **A passionate DevOps enthusiast & IT based Master's student living in Cologne, Germany**  
- **Currently, I am enriching my knowledge on DevOps Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.** 
+ #### **A passionate DevOps and SRE enthusiast and IT based Master's Graduate living in Cologne, Germany**  
+ **Currently, I am enriching my knowledge on DevOps, SRE Tech Stack, automation, cloud, AI, machine learning and building scalable solutions.** 
 
 ---
-I am deeply passionate about DevOps because it combines my love for technology, automation and continuous improvement. 
+I am deeply passionate about DevOps and SRE because it combines my love for technology, automation and continuous improvement. 
 
-⚡ I have 3 years of hands-on experience in DevOps, networking, cloud technologies, machine learning and other IT-related fields. This expertise was built through my master’s studies, hands-on experience with open source projects in Germany and strengthened by working in three student-job roles alongside my degree.
+⚡ I have 3 years of hands-on experience in DevOps, SRE, networking, cloud technologies, machine learning and other IT-related fields. This expertise was built through my master’s studies, hands-on experience with open source projects in Germany and strengthened by working in three student-job roles alongside my degree.
 
-⚡ Moreover, I see DevOps as more than just tools, it is a mindset focused on **collaboration, efficiency and delivering value faster**. I thrive on solving complex problems, optimizing systems and building scalable, secure and reliable solutions.  
+⚡ Moreover, I see DevOps and SRE as more than just tools, it is a mindset focused on **collaboration, efficiency and delivering value faster**. I thrive on solving complex problems, optimizing systems and building scalable, secure and reliable solutions.  
 
 ⚡ Not to mention, I highly enjoy tackling new challenges, breaking down bottlenecks and waiting to create streamlined workflows that empower teams to innovate confidently.  
 
-⚡ Currently finishing my master’s degree (thesis presentation on July, 2025) and actively strengthening my skills through hands-on projects, certifications, and bootcamps.  
+⚡ Recently finished my master’s degree (on July, 2025) and actively strengthening my skills through hands-on projects, certifications, and bootcamps.  
 
 ⚡ Driven by curiosity, strong problem-solving abilities and a hands-on work ethic, I am committed to making a positive impact wherever I work.  
 
