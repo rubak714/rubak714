@@ -1,4 +1,4 @@
-<svg viewBox="0 0 740 430" xmlns="http://www.w3.org/2000/svg" width="740">
+<svg viewBox="0 0 740 420" xmlns="http://www.w3.org/2000/svg" width="740">
   <defs>
     <style>
       .win { fill:#0d1117; }
@@ -10,7 +10,6 @@
       .grn { fill:#3fb950; }
       .yel { fill:#e3b341; }
       .nvy { fill:#79c0ff; }
-      .cyn { fill:#56d364; }
       .cur { fill:#58a6ff; animation:blink 1s step-end infinite; }
 
       .l01{opacity:0;animation:f .05s  0.3s forwards;}
@@ -29,73 +28,59 @@
       .l14{opacity:0;animation:f .05s  4.6s forwards;}
       .l15{opacity:0;animation:f .05s  4.8s forwards;}
       .l16{opacity:0;animation:f .05s  5.0s forwards;}
-      .l17{opacity:0;animation:f .05s  5.8s forwards;}
-      .l18{opacity:0;animation:f .05s  6.0s forwards;}
-      .l19{opacity:0;animation:f .05s  6.2s forwards;}
-      .l20{opacity:0;animation:f .05s  6.4s forwards;}
 
       @keyframes f    { to { opacity:1; } }
       @keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:0;} }
     </style>
   </defs>
 
-  <!-- window -->
-  <rect width="740" height="430" rx="10" class="win"/>
+  <rect width="740" height="420" rx="10" class="win"/>
   <rect width="740" height="34" rx="10" class="bar"/>
   <rect y="17" width="740" height="17" class="bar"/>
   <circle cx="22" cy="17" r="6" fill="#f78166"/>
   <circle cx="44" cy="17" r="6" fill="#e3b341"/>
   <circle cx="66" cy="17" r="6" fill="#3fb950"/>
-  <text x="370" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#484f58">rubak714@enterprise-stack -- bash -- 96x34</text>
+  <text x="370" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#484f58">rubak714@enterprise-stack -- bash -- 96x32</text>
 
-  <!-- CMD 1 whoami -->
+  <!-- CMD 1: whoami -->
   <g class="l01">
     <text x="18" y="58" class="t">
       <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">whoami --full</tspan>
     </text>
   </g>
-  <g class="l02"><text x="18" y="75"  class="t"><tspan class="dim">  name       </tspan><tspan class="grn">Rubaiya</tspan><tspan class="dim"> -- M.Sc. Communication, Networks and Systems -- Cologne, DE</tspan></text></g>
-  <g class="l03"><text x="18" y="91"  class="t"><tspan class="dim">  focus      </tspan><tspan class="grn">Full-stack IT infrastructure -- every layer, end to end</tspan></text></g>
-  <g class="l04"><text x="18" y="107" class="t"><tspan class="dim">  passion    </tspan><tspan class="yel">DevOps and emerging DevOps/SRE engineering</tspan></text></g>
-  <g class="l05"><text x="18" y="123" class="t"><tspan class="dim">  available  </tspan><tspan class="grn">notice period 2 weeks -- relocation possible within Germany</tspan></text></g>
+  <g class="l02"><text x="18" y="75"  class="t"><tspan class="dim">  name       : </tspan><tspan class="grn">Rubaiya -- M.Sc. Communications, Systems and Networks -- Cologne, DE</tspan></text></g>
+  <g class="l03"><text x="18" y="91"  class="t"><tspan class="dim">  experience : </tspan><tspan class="grn">3+ years across IT infrastructure, cloud and security in Germany</tspan></text></g>
+  <g class="l04"><text x="18" y="107" class="t"><tspan class="dim">  notice     : </tspan><tspan class="yel">2 weeks</tspan><tspan class="dim">    relocation : </tspan><tspan class="yel">possible within Germany</tspan></text></g>
 
-  <!-- CMD 2 stack -->
-  <g class="l06">
-    <text x="18" y="147" class="t">
+  <!-- CMD 2: stack -->
+  <g class="l05">
+    <text x="18" y="131" class="t">
       <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">systemctl list-units --type=skill --state=active</tspan>
     </text>
   </g>
-  <g class="l07"><text x="18" y="164" class="t dim">  LAYER                           STACK                                           STATUS</text></g>
-  <g class="l08"><text x="18" y="180" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">identity.service            </tspan><tspan class="dim">AD, Entra ID, GPO, RBAC, SSO, MFA              </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l09"><text x="18" y="196" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">systems.service             </tspan><tspan class="dim">Linux, Windows Server, Bash, PowerShell, VMs   </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l10"><text x="18" y="212" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">networking.service          </tspan><tspan class="dim">DNS, DHCP, VPN, Firewall, Cisco, TCP/IP        </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l11"><text x="18" y="228" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">microsoft365.service        </tspan><tspan class="dim">Exchange, Teams, SharePoint, Intune, Defender  </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l12"><text x="18" y="244" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">security-soc.service        </tspan><tspan class="dim">Splunk, ELK, Sentinel, log analysis, triage    </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l13"><text x="18" y="260" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">cloud.service               </tspan><tspan class="dim">Azure, AWS, GCP, Terraform, Ansible             </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l14"><text x="18" y="276" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">devops-sre.service          </tspan><tspan class="dim">Docker, K8s, Helm, Grafana, Prometheus, CI/CD  </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l06"><text x="18" y="148" class="t dim">  LAYER                         STACK                                           STATUS</text></g>
+  <g class="l07"><text x="18" y="164" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">identity.service          </tspan><tspan class="dim">AD, Entra ID, GPO, RBAC, SSO, MFA              </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l08"><text x="18" y="180" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">systems.service           </tspan><tspan class="dim">Linux, Windows Server, Bash, PowerShell         </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l09"><text x="18" y="196" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">networking.service        </tspan><tspan class="dim">DNS, DHCP, VPN, Firewall, Cisco, TCP/IP         </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l10"><text x="18" y="212" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">microsoft365.service      </tspan><tspan class="dim">Exchange, Teams, SharePoint, Intune, Defender   </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l11"><text x="18" y="228" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">security-soc.service      </tspan><tspan class="dim">Splunk, ELK, Sentinel, log analysis, triage     </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l12"><text x="18" y="244" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">cloud.service             </tspan><tspan class="dim">Azure, AWS, GCP, Terraform, Ansible              </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l13"><text x="18" y="260" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">automation.service        </tspan><tspan class="dim">Docker, K8s, Helm, Grafana, Prometheus, CI/CD   </tspan><tspan class="grn">active</tspan></text></g>
 
-  <!-- CMD 3 interest -->
-  <g class="l15">
-    <text x="18" y="300" class="t">
-      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">cat career_goal.txt</tspan>
+  <!-- CMD 3: availability -->
+  <g class="l14">
+    <text x="18" y="284" class="t">
+      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">curl -s https://linkedin.com/in/rubkp110 | grep availability</tspan>
     </text>
   </g>
-  <g class="l16"><text x="18" y="317" class="t"><tspan class="yel">  Deeply interested in DevOps and growing into DevOps/SRE engineering.</tspan></text></g>
-  <g class="l17"><text x="18" y="333" class="t"><tspan class="yel">  I bring the full IT stack as my foundation and automation as my direction.</tspan></text></g>
-
-  <!-- CMD 4 ping -->
-  <g class="l18">
-    <text x="18" y="357" class="t">
-      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">curl -s https://linkedin.com/in/rubkp110 | grep status</tspan>
-    </text>
-  </g>
-  <g class="l19"><text x="18" y="374" class="t"><tspan class="dim">  notice_period  </tspan><tspan class="grn">2 weeks</tspan><tspan class="dim">  |  relocation  </tspan><tspan class="grn">within Germany</tspan><tspan class="dim">  |  status  </tspan><tspan class="grn">AVAILABLE</tspan></text></g>
+  <g class="l15"><text x="18" y="301" class="t"><tspan class="dim">  open_to     : </tspan><tspan class="grn">Azure Admin, Cloud Admin, IT Admin, IT Support, SysAdmin, SOC</tspan></text></g>
+  <g class="l16"><text x="18" y="317" class="t"><tspan class="dim">  long_term   : </tspan><tspan class="grn">growing into DevOps and SRE engineering</tspan></text></g>
 
   <!-- final prompt -->
-  <g class="l20">
-    <text x="18" y="398" class="t">
+  <g>
+    <text x="18" y="350" class="t" style="opacity:0;animation:f .05s 6.0s forwards">
       <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan>
     </text>
-    <rect x="230" y="386" width="8" height="14" class="cur"/>
+    <rect x="230" y="338" width="8" height="14" class="cur" style="opacity:0;animation:f .05s 6.0s forwards, blink 1s 6.0s step-end infinite"/>
   </g>
 </svg>

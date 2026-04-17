@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Rubaiya+%F0%9F%91%8B;M.Sc.+Communication%2C+Networks+and+Systems;Full-Stack+IT+Infrastructure+Engineer;Identity+%7C+Systems+%7C+Network+%7C+Security+%7C+Cloud;Deeply+interested+in+DevOps+and+SRE." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Rubaiya+%F0%9F%91%8B;M.Sc.+Communications%2C+Systems+and+Networks;IT+Infrastructure+Engineer+based+in+Germany;Azure+Admin+%7C+Cloud+Admin+%7C+IT+Support+%7C+SysAdmin;Full+stack+from+identity+to+cloud." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -14,17 +14,29 @@
 
 ### 🧕 About Me
 
-I'm an **IT Infrastructure Engineer** based in **Cologne, Germany**, holding a **Master's in Communication, Networks and Systems (2025)** with **3+ years of hands-on experience** built through academic projects, open-source work, internships and student roles in Germany.
+I'm an IT professional based in **Cologne, Germany**, holding a **M.Sc. in Communications, Systems and Networks (2025)** with over 3 years of hands-on experience built through academic projects, open-source contributions, internships and working student roles in Germany.
 
-I work **across every layer of enterprise IT** — from the hardware and OS level up through identity, networking, security, cloud and automation. I don't hand things off at the edge of my lane; I understand how each layer connects to the next and I take responsibility for the full picture.
+I work across every layer of enterprise IT: identity and access management, on-premise server administration, networking, Microsoft 365 and Active Directory, security operations, and cloud infrastructure on Azure, AWS and GCP. I understand how each layer connects to the next and I take responsibility for the full picture rather than just one piece of it.
 
-My experience spans **on-premise and hybrid environments**: setting up and maintaining Linux and Windows Server systems, managing Active Directory and Microsoft 365, administering networks, responding to security incidents, provisioning cloud infrastructure on Azure, AWS and GCP, and automating operations with scripts and CI/CD pipelines.
+My goal right now is to bring this broad IT foundation into a role where I can grow and contribute, whether that is Azure administration, cloud infrastructure, IT support, systems administration or SOC work. Longer term I am interested in moving into DevOps and SRE engineering.
 
-I am **deeply interested in DevOps and growing into DevOps/SRE engineering**. I bring the full IT infrastructure stack as my foundation and automation as my direction.
+> Notice period: 2 weeks. Relocation possible within Germany.
 
-I think in systems, not silos.
+---
 
-**Notice period:** 2 weeks | **Relocation:** possible within Germany
+### 🔗 Connect
+
+<a href="https://www.linkedin.com/in/rubkp110/">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://tryhackme.com/p/Birdybird00">
+  <img src="https://img.shields.io/badge/TryHackMe-Active-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://www.credly.com/users/rubaiya110/badges">
+  <img src="https://img.shields.io/badge/Credly-Verified%20Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
+</a>
 
 ---
 
@@ -38,49 +50,51 @@ I think in systems, not silos.
 
 ### 🏆 Achievements and Profiles
 
-**GitHub Badges**
+**Academic Awards**
 
-I have earned the following GitHub achievement badges through real activity on the platform:
+- DAAD Scholar: received the DAAD scholarship during my Master's thesis in Germany
+- Dean's List: awarded during my Bachelor's in Electrical and Electronics Engineering in Bangladesh
+- Talentplus Scholarships: received multiple Talentplus scholarships throughout my undergraduate studies in Bangladesh
 
-| Badge | How it was earned |
+**GitHub Badges** earned through real activity on the platform:
+
+| Badge | What it reflects |
 |---|---|
-| 🦈 **Pull Shark** | Opened pull requests that were merged by others |
-| ⚡ **Quickdraw** | Closed an issue or pull request within 5 minutes of opening |
-| 🎯 **YOLO** | Merged a pull request without a code review |
-| 👥 **Pair Extraordinaire** | Co-authored commits on a merged pull request |
+| 🦈 Pull Shark | Pull requests opened and merged by others |
+| ⚡ Quickdraw | Issue or pull request closed within 5 minutes of opening |
+| 🎯 YOLO | Pull request merged without a code review |
+| 👥 Pair Extraordinaire | Co-authored commits on a merged pull request |
 
 **TryHackMe** — active cybersecurity learning and CTF practice
 
 <a href="https://tryhackme.com/p/Birdybird00">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00.png" alt="TryHackMe Badge" height="80"/>
+  <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00.png" alt="TryHackMe" height="80"/>
 </a>
 
-**Credly** — verified IT and cloud certifications
+**Credly** — verified cloud and IT certifications
 
 <a href="https://www.credly.com/users/rubaiya110/badges">
-  <img src="https://img.shields.io/badge/Credly-Verified%20Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/View%20my%20verified%20badges%20on%20Credly-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
 </a>
 
 ---
 
-### 🧪 Enterprise IT Lab — Simulated Infrastructure Project
+### 🧪 Enterprise IT Lab
 
-> *Currently building a personal simulated enterprise IT environment to demonstrate how all layers work together end to end.*
+Currently building a simulated enterprise IT environment to show how all infrastructure layers work together in practice. The project is modelled after a real company setup, not isolated tutorials.
 
-The lab is structured as a **single integrated system**, not isolated demos, modelled after a real company IT setup:
+Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab)
 
-| Module | What it covers |
+| Module | Covers |
 |---|---|
-| **Module 1 — Identity and Access** | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
-| **Module 2 — Helpdesk and Incident Management** | osTicket, simulated L1/L2 tickets, resolution workflows, SLA tracking |
-| **Module 3 — On-Premise Infrastructure** | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
-| **Module 4 — Monitoring and Alerting** | Prometheus and Grafana, ELK stack, alert-to-ticket integration |
-| **Module 5 — Automation** | Ansible playbooks, Bash/Python scripts for user management, patching, restarts |
-| **Module 6 — Security Layer** | Failed login detection, firewall rules, log correlation, basic SOC workflow |
+| Module 1: Identity and Access | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
+| Module 2: Helpdesk and Incident Management | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
+| Module 3: On-Premise Infrastructure | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
+| Module 4: Monitoring and Alerting | Prometheus and Grafana, ELK stack, alert-to-ticket integration |
+| Module 5: Automation | Ansible playbooks, Bash and Python scripts for user management, patching |
+| Module 6: Security Layer | Failed login detection, firewall rules, log correlation, SOC workflow |
 
-The goal: show the full flow — **incident detected, alert fired, ticket created, admin resolves, automation prevents recurrence**.
-
-Repo: *coming soon — [enterprise-it-lab](https://github.com/rubak714/enterprise-it-lab)*
+The flow this demonstrates: incident detected > alert fires > ticket created > admin resolves > automation prevents recurrence.
 
 ---
 
@@ -98,23 +112,23 @@ Repo: *coming soon — [enterprise-it-lab](https://github.com/rubak714/enterpris
     "windows": ["Windows Server 2016/2019/2022", "PowerShell", "GPO", "IIS", "Hyper-V", "SCCM"]
   },
   "networking": ["DNS", "DHCP", "VPN (OpenVPN, IPSec, WireGuard)", "Firewall rules", "Cisco IOS", "TCP/IP", "Subnetting", "VLANs", "BGP/OSPF basics", "Wireshark"],
-  "microsoft_365": ["Exchange Online", "Microsoft Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint", "Compliance and retention policies"],
+  "microsoft_365": ["Exchange Online", "Microsoft Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint"],
   "security_and_soc": {
     "siem": ["Splunk", "Elastic SIEM", "Microsoft Sentinel"],
     "practices": ["Log analysis", "Alert triage", "Vulnerability management", "Threat detection", "IAM auditing", "Incident response"]
   },
   "cloud": {
-    "azure": ["Azure VMs", "Azure Networking", "AKS", "Azure Monitor", "Log Analytics", "Azure DevOps", "Entra ID"],
+    "azure": ["Azure VMs", "Azure Networking", "AKS", "Azure Monitor", "Log Analytics", "Entra ID"],
     "aws": ["EC2", "S3", "IAM", "VPC", "CloudWatch"],
     "gcp": ["Compute Engine", "GKE", "Cloud IAM"],
     "iac": ["Terraform", "Ansible", "Vagrant"]
   },
-  "devops_and_sre": {
+  "automation_and_devops": {
     "containers": ["Docker", "Kubernetes", "Helm", "ArgoCD"],
     "cicd": ["GitHub Actions", "Jenkins", "GitLab CI"],
     "monitoring": ["Grafana", "Prometheus", "ELK Stack", "Datadog", "Splunk", "Zabbix"]
   },
-  "scripting_and_automation": ["Python", "Bash", "PowerShell", "Go"],
+  "scripting": ["Python", "Bash", "PowerShell", "Go"],
   "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
   "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk"],
   "notice_period": "2 weeks",
@@ -162,7 +176,7 @@ Repo: *coming soon — [enterprise-it-lab](https://github.com/rubak714/enterpris
 ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=flat-square&logo=elasticsearch)
 ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=flat-square&logo=datadog&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=flat-square&logo=sonarqube&logoColor=4E9BCD)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-%23212C42.svg?style=flat-square&logo=tryhackme&logoColor=white)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-%23212C42?style=flat-square&logo=tryhackme&logoColor=white)
 
 **Monitoring and Observability**
 
@@ -214,23 +228,15 @@ Repo: *coming soon — [enterprise-it-lab](https://github.com/rubak714/enterpris
 
 | Project | What it demonstrates |
 |---|---|
-| 🏗️ [**Enterprise IT Lab**](https://github.com/rubak714/enterprise-it-lab) *(coming soon)* | Simulated company IT environment — identity, helpdesk, servers, monitoring, automation, security — all integrated |
-| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform built local-first then scaled to cloud: Dockerized Flask app, Kubernetes (Minikube and GKE) with HPA that auto-scaled from 2 to 3 replicas under real CPU load, Terraform-provisioned GKE cluster on GCP, Prometheus and Grafana via Helm with custom /metrics endpoint and ServiceMonitor, GitHub Actions CI/CD pipeline, load-tested and fully documented with incident response runbooks |
-| ⚙️ [**DevOps Projects — K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Real DevOps problem-solving: GitHub Actions CI/CD pipelines, Kubernetes deployments with Helm chart templating, Terraform GCP bucket provisioning, Dockerfile builds, feature branch workflows — 128 commits of working infrastructure code |
+| 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
+| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app, Kubernetes on Minikube and GKE with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
+| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Problem-solving across GitHub Actions pipelines, Kubernetes with Helm chart templating, Terraform GCP provisioning, Dockerfile builds and feature branch workflows — 128 commits of working infrastructure code |
 | 🎓 [**Master's Projects at German University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from my M.Sc. |
 | 📄 [**All Certifications**](https://github.com/rubak714/All-Certifications) | Cloud, networking and IT certifications with proof |
 
 ---
 
 <!-- ACTIVITY:START -->
-#### ⚡ Recent Activity
-
-<!-- last refreshed: 2026-04-17 15:14 UTC -->
-- 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-04-17`
-- ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
-- ⭐ Starred **[NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop](https://github.com/NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop)** `2026-04-17`
-- ⭐ Starred **[tramcar/awesome-job-boards](https://github.com/tramcar/awesome-job-boards)** `2026-04-17`
-- ⭐ Starred **[ambicuity/New-Grad-Jobs](https://github.com/ambicuity/New-Grad-Jobs)** `2026-04-17`
 <!-- ACTIVITY:END -->
 
 ---
@@ -249,32 +255,6 @@ Repo: *coming soon — [enterprise-it-lab](https://github.com/rubak714/enterpris
 <img src="https://streak-stats.demolab.com/?user=rubak714&theme=tokyonight&hide_border=true"/>
 
 </div>
-
----
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-![](https://github-profile-trophy.vercel.app/?username=rubak714&theme=tokyonight&no-frame=true&margin-w=6&column=6)
-
-</div>
-
----
-
-### 🔗 Connect
-
-<a href="https://www.linkedin.com/in/rubkp110/">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://tryhackme.com/p/Birdybird00">
-  <img src="https://img.shields.io/badge/TryHackMe-%23212C42.svg?style=flat-square&logo=tryhackme&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.credly.com/users/rubaiya110/badges">
-  <img src="https://img.shields.io/badge/Credly-Verified%20Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
-</a>
 
 ---
 
