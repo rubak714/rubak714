@@ -33,8 +33,8 @@ Right now I am looking for a role where I can contribute and grow, whether that 
   <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<a href="https://tryhackme.com/p/Birdybird00">
-  <img src="https://img.shields.io/badge/TryHackMe-Birdybird00-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
+<a href="https://tryhackme.com/p/Birdybird00Rubai?tab=badges">
+  <img src="https://img.shields.io/badge/TryHackMe-Birdybird00Rubai-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://www.credly.com/users/rubaiya110/badges">
@@ -51,18 +51,28 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub at a Glance
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rubak714&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,smarty,mustache,html&langs_count=6" height="160"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=rubak714&theme=tokyonight&hide_border=true"/>
+![Focus](https://img.shields.io/badge/Focus-Infrastructure%20%26%20Cloud%20Automation-blue?style=flat-square)
+![Currently](https://img.shields.io/badge/Currently-Open%20to%20Work-brightgreen?style=flat-square)
+![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-lightgrey?style=flat-square)
+![Degree](https://img.shields.io/badge/M.Sc.-Communications%2C%20Systems%20%26%20Networks-blueviolet?style=flat-square)
+
+</div>
+
+<div align="center">
+
+![Works With](https://img.shields.io/badge/Works%20With-Linux%20%7C%20Windows%20Server%20%7C%20Azure%20%7C%20AWS%20%7C%20GCP-0078D4?style=flat-square)
+![Automates With](https://img.shields.io/badge/Automates%20With-Terraform%20%7C%20Ansible%20%7C%20Bash%20%7C%20Python-informational?style=flat-square)
+![Secures With](https://img.shields.io/badge/Secures%20With-Splunk%20%7C%20Sentinel%20%7C%20ELK%20%7C%20Defender-red?style=flat-square)
 
 </div>
 
@@ -87,8 +97,8 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 
 **TryHackMe** > active cybersecurity learning and CTF challenges
 
-<a href="https://tryhackme.com/p/Birdybird00">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00.png" alt="TryHackMe" height="80"/>
+<a href="https://tryhackme.com/p/Birdybird00Rubai?tab=badges">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00Rubai.png" alt="TryHackMe" height="80"/>
 </a>
 
 **Credly** > verified cloud and IT certifications
