@@ -14,13 +14,16 @@
 
 ### 🧕 About Me
 
-I'm an IT professional based in **Cologne, Germany**, holding a **M.Sc. in Communications, Systems and Networks (2025)** with over 3 years of hands-on experience built through academic projects, open-source contributions, internships and working student roles in Germany.
+I am an IT professional based in **Cologne, Germany**, holding a **M.Sc. in Communications, Systems and Networks (2025)** with over 3 years of hands-on experience built through academic projects, open-source contributions, internships and working student roles in Germany.
 
 I work across every layer of enterprise IT: identity and access management, on-premise server administration, networking, Microsoft 365 and Active Directory, security operations, and cloud infrastructure on Azure, AWS and GCP. I understand how each layer connects to the next and I take responsibility for the full picture rather than just one piece of it.
 
-My goal right now is to bring this broad IT foundation into a role where I can grow and contribute, whether that is Azure administration, cloud infrastructure, IT support, systems administration or SOC work. Longer term I am interested in moving into DevOps and SRE engineering.
+Right now I am looking for a role where I can contribute and grow, whether that is Azure administration, cloud infrastructure, IT support, systems administration, or SOC work. Longer term I am interested in moving into DevOps and SRE engineering as a natural next step from my infrastructure background.
 
-> Notice period: 2 weeks. Relocation possible within Germany.
+- Notice period: 2 weeks
+- Relocation: possible within Germany
+- German: B1 certified, actively working towards B2
+- English: professional working proficiency
 
 ---
 
@@ -52,9 +55,9 @@ My goal right now is to bring this broad IT foundation into a role where I can g
 
 **Academic Awards**
 
-- DAAD Scholar: received the DAAD scholarship during my Master's thesis in Germany
-- Dean's List: awarded during my Bachelor's in Electrical and Electronics Engineering in Bangladesh
-- Talentplus Scholarships: received multiple Talentplus scholarships throughout my undergraduate studies in Bangladesh
+- DAAD Scholar: received the DAAD scholarship during my Master's thesis research in Germany
+- Dean's List: awarded during my Bachelor's in Electrical and Electronics Engineering (EECE) in Bangladesh
+- Talentplus Scholarships: received multiple Talentplus scholarships throughout undergraduate studies in Bangladesh
 
 **GitHub Badges** earned through real activity on the platform:
 
@@ -74,14 +77,14 @@ My goal right now is to bring this broad IT foundation into a role where I can g
 **Credly** — verified cloud and IT certifications
 
 <a href="https://www.credly.com/users/rubaiya110/badges">
-  <img src="https://img.shields.io/badge/View%20my%20verified%20badges%20on%20Credly-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/View%20verified%20badges%20on%20Credly-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
 </a>
 
 ---
 
 ### 🧪 Enterprise IT Lab
 
-Currently building a simulated enterprise IT environment to show how all infrastructure layers work together in practice. The project is modelled after a real company setup, not isolated tutorials.
+Currently building a simulated enterprise IT environment to show how all infrastructure layers work together in practice. Modelled after a real company setup, not isolated tutorials.
 
 Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab)
 
@@ -91,10 +94,10 @@ Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpde
 | Module 2: Helpdesk and Incident Management | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
 | Module 3: On-Premise Infrastructure | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
 | Module 4: Monitoring and Alerting | Prometheus and Grafana, ELK stack, alert-to-ticket integration |
-| Module 5: Automation | Ansible playbooks, Bash and Python scripts for user management, patching |
+| Module 5: Automation | Ansible playbooks, Bash and Python scripts for user management and patching |
 | Module 6: Security Layer | Failed login detection, firewall rules, log correlation, SOC workflow |
 
-The flow this demonstrates: incident detected > alert fires > ticket created > admin resolves > automation prevents recurrence.
+The flow this shows: incident detected, alert fires, ticket created, admin resolves, automation prevents recurrence.
 
 ---
 
@@ -131,6 +134,11 @@ The flow this demonstrates: incident detected > alert fires > ticket created > a
   "scripting": ["Python", "Bash", "PowerShell", "Go"],
   "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
   "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk"],
+  "languages": {
+    "German": "B1 certified, actively working towards B2",
+    "English": "professional working proficiency",
+    "Bengali": "native"
+  },
   "notice_period": "2 weeks",
   "location": "Cologne, Germany",
   "available": true,
@@ -176,7 +184,6 @@ The flow this demonstrates: incident detected > alert fires > ticket created > a
 ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=flat-square&logo=elasticsearch)
 ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=flat-square&logo=datadog&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=flat-square&logo=sonarqube&logoColor=4E9BCD)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-%23212C42?style=flat-square&logo=tryhackme&logoColor=white)
 
 **Monitoring and Observability**
 
@@ -229,8 +236,8 @@ The flow this demonstrates: incident detected > alert fires > ticket created > a
 | Project | What it demonstrates |
 |---|---|
 | 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
-| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app, Kubernetes on Minikube and GKE with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
-| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Problem-solving across GitHub Actions pipelines, Kubernetes with Helm chart templating, Terraform GCP provisioning, Dockerfile builds and feature branch workflows — 128 commits of working infrastructure code |
+| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app on Kubernetes (Minikube and GKE) with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
+| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Problem-solving across GitHub Actions pipelines, Kubernetes with Helm chart templating, Terraform GCP provisioning, Dockerfile builds and feature branch workflows. 128 commits of working infrastructure code |
 | 🎓 [**Master's Projects at German University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from my M.Sc. |
 | 📄 [**All Certifications**](https://github.com/rubak714/All-Certifications) | Cloud, networking and IT certifications with proof |
 
