@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=89B4FA&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Rubaiya+%F0%9F%91%8B;M.Sc.+IT+%E2%80%94+Cologne%2C+Germany;Full-Stack+IT+Infrastructure+Engineer;Identity+%E2%80%A2+Systems+%E2%80%A2+Network+%E2%80%A2+Security+%E2%80%A2+Cloud;I+own+the+whole+stack." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Rubaiya+%F0%9F%91%8B;M.Sc.+Communications%2C+Systems+and+Networks;IT+Infrastructure+Engineer+based+in+Germany;Azure+Admin+%7C+Cloud+Admin+%7C+IT+Support+%7C+SysAdmin;Full+stack+from+identity+to+cloud." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -14,60 +14,109 @@
 
 ### 🧕 About Me
 
-I am an **IT Infrastructure Engineer** based in **Cologne, Germany**, holding a **Master's in Communication, Systems and Networks (2025)** with **3+ years of hands-on experience** built through academic projects, personal hands-on projects, internships and student roles in Germany.
+I am an IT professional based in **Cologne, Germany**, holding a **M.Sc. in Communications, Systems and Networks (2025)** with over 3 years of hands-on experience built through academic projects, open-source contributions, internships and working student roles in Germany.
 
-I work **across every layer of enterprise IT** - from the hardware and OS level up through identity, networking, security, cloud and automation. I don't hand things off at the edge of my lane; I understand how each layer connects to the next and I take responsibility for the full picture.
+I work across every layer of enterprise IT: identity and access management, on-premise server administration, networking, Microsoft 365 and Active Directory, security operations, and cloud infrastructure on Azure, AWS and GCP. I understand how each layer connects to the next and I take responsibility for the full picture rather than just one piece of it.
 
-My experience spans **on-premise and hybrid environments**: setting up and maintaining Linux and Windows Server systems, managing Active Directory and Microsoft 365, administering networks, responding to security incidents, provisioning cloud infrastructure on Azure, AWS and GCP, and automating repetitive operations with scripts and CI/CD pipelines.
+Right now I am looking for a role where I can contribute and grow, whether that is Azure administration, cloud infrastructure, IT support, systems administration, or SOC work. Longer term I am interested in moving into DevOps and SRE engineering as a natural next step from my infrastructure background.
 
-I think in systems > not silos.
+- Notice period: 2 weeks
+- Relocation: possible within Germany
+- German: professional working proficiency at B1, actively working towards B2
+- English: professional working proficiency
+
+---
+
+### 🔗 Connect
+
+<a href="https://www.linkedin.com/in/rubkp110/">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://tryhackme.com/p/Birdybird00">
+  <img src="https://img.shields.io/badge/TryHackMe-Birdybird00-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://www.credly.com/users/rubaiya110/badges">
+  <img src="https://img.shields.io/badge/Credly-Verified%20Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
+</a>
 
 ---
 
 ### 🏗️ How I Work Across the Stack
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  LAYER 1 — Identity & Access                                    │
-│  Active Directory · Azure AD / Entra ID · GPO · RBAC           │
-│  SSO · MFA · Conditional Access · PIM · LDAP · AD Connect      │
-├─────────────────────────────────────────────────────────────────┤
-│  LAYER 2 — Systems & On-Premise Infrastructure                  │
-│  Linux (Ubuntu, RHEL, Debian) · Windows Server 2019/2022        │
-│  Hyper-V · VMware · IIS · systemd · cron · patch management    │
-├─────────────────────────────────────────────────────────────────┤
-│  LAYER 3 — Networking                                           │
-│  DNS · DHCP · VPN · Firewalls · Cisco IOS · TCP/IP             │
-│  Subnetting · VLANs · BGP/OSPF basics · Wireshark              │
-├─────────────────────────────────────────────────────────────────┤
-│  LAYER 4 — Microsoft 365 & Endpoint Management                  │
-│  Exchange Online · Teams · SharePoint · OneDrive                │
-│  Intune (MDM/MAM) · Defender for Endpoint · SCCM               │
-├─────────────────────────────────────────────────────────────────┤
-│  LAYER 5 — Security & SOC                                       │
-│  SIEM: Splunk · Elastic SIEM · Microsoft Sentinel               │
-│  Log analysis · Alert triage · Vulnerability management         │
-│  IAM auditing · Firewall hardening · Incident response          │
-├─────────────────────────────────────────────────────────────────┤
-│  LAYER 6 — Cloud & Hybrid Infrastructure                        │
-│  Azure · AWS · GCP · Terraform · Ansible                        │
-│  AKS · Azure Monitor · Log Analytics · Azure DevOps             │
-├─────────────────────────────────────────────────────────────────┤
-│  LAYER 7 — Automation, DevOps & Observability                   │
-│  Docker · Kubernetes · Helm · GitHub Actions · Jenkins          │
-│  Grafana · Prometheus · ELK Stack · Datadog · Bash · Python     │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+<img src="./assets/stack.svg" alt="stack layers" width="100%"/>
+</div>
 
 ---
 
-### 🧪 Enterprise IT Lab — Simulated Infrastructure Project
+### 📊 GitHub Stats
 
-> *Currently building a personal simulated enterprise IT environment to demonstrate how all layers work together end-to-end.*
+<div align="center">
 
-The lab is structured as a **single integrated system** - not isolated demos - modelled after a real company's IT setup:
+<img src="https://github-readme-stats.vercel.app/api?username=rubak714&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,smarty,mustache,html&langs_count=6" height="160"/>
 
-📁 Repo: *coming soon — [enterprise-it-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab)*
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=rubak714&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+### 🏆 Achievements and Profiles
+
+**Academic Awards**
+
+- DAAD Scholar: received the DAAD scholarship during Master's thesis research in Germany
+- Dean's List: awarded during Bachelor's in Electrical and Electronics Engineering (EECE) in Bangladesh
+- Talentplus Scholarships: received multiple Talentplus scholarships throughout undergraduate studies in Bangladesh
+
+**GitHub Badges** earned through real activity on the platform:
+
+| Badge | What it reflects |
+|---|---|
+| 🦈 Pull Shark | Pull requests opened and merged by others |
+| ⚡ Quickdraw | Issue or pull request closed within 5 minutes of opening |
+| 🎯 YOLO | Pull request merged without a code review |
+| 👥 Pair Extraordinaire | Co-authored commits on a merged pull request |
+
+**TryHackMe** > active cybersecurity learning and CTF challenges
+
+<a href="https://tryhackme.com/p/Birdybird00">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00.png" alt="TryHackMe" height="80"/>
+</a>
+
+**Credly** > verified cloud and IT certifications
+
+<a href="https://www.credly.com/users/rubaiya110/badges">
+  <img src="https://img.shields.io/badge/View%20verified%20badges%20on%20Credly-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
+</a>
+
+---
+
+### 🧪 Enterprise IT Lab
+
+Currently building a simulated enterprise IT environment to show how all infrastructure layers work together in practice. Modelled after a real company setup, not isolated tutorials.
+
+Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab)
+
+| Module | Covers |
+|---|---|
+| **Module 1: Identity and Access** | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
+| **Module 2: Helpdesk and Incident Management** | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
+| **Module 3: On-Premise Infrastructure** | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
+| **Module 4: Monitoring and Alerting** | Prometheus and Grafana, ELK stack, *alert-to-ticket integration* |
+| **Module 5: Automation** | Ansible playbooks, Bash and Python scripts for user management and patching |
+| **Module 6: Security Layer** | Failed login detection, firewall rules, log correlation, *SOC workflow* |
+
+The full flow this demonstrates:
+
+> incident detected > alert fires > ticket created > admin resolves > automation prevents recurrence
 
 ---
 
@@ -81,29 +130,35 @@ The lab is structured as a **single integrated system** - not isolated demos - m
     "cloud": ["Azure AD / Entra ID", "Azure AD Connect", "SSO", "MFA", "Conditional Access", "PIM"]
   },
   "systems": {
-    "linux": ["Ubuntu", "RHEL", "Debian", "Bash scripting", "cron", "systemd", "user & permission management"],
+    "linux": ["Ubuntu", "RHEL", "Debian", "Bash scripting", "cron", "systemd", "user and permission management"],
     "windows": ["Windows Server 2016/2019/2022", "PowerShell", "GPO", "IIS", "Hyper-V", "SCCM"]
   },
   "networking": ["DNS", "DHCP", "VPN (OpenVPN, IPSec, WireGuard)", "Firewall rules", "Cisco IOS", "TCP/IP", "Subnetting", "VLANs", "BGP/OSPF basics", "Wireshark"],
-  "microsoft_365": ["Exchange Online", "Microsoft Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint", "Compliance & retention policies"],
+  "microsoft_365": ["Exchange Online", "Microsoft Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint"],
   "security_and_soc": {
     "siem": ["Splunk", "Elastic SIEM", "Microsoft Sentinel"],
     "practices": ["Log analysis", "Alert triage", "Vulnerability management", "Threat detection", "IAM auditing", "Incident response"]
   },
   "cloud": {
-    "azure": ["Azure VMs", "Azure Networking", "AKS", "Azure Monitor", "Log Analytics", "Azure DevOps", "Entra ID"],
+    "azure": ["Azure VMs", "Azure Networking", "AKS", "Azure Monitor", "Log Analytics", "Entra ID"],
     "aws": ["EC2", "S3", "IAM", "VPC", "CloudWatch"],
     "gcp": ["Compute Engine", "GKE", "Cloud IAM"],
     "iac": ["Terraform", "Ansible", "Vagrant"]
   },
-  "devops_and_observability": {
+  "automation_and_devops": {
     "containers": ["Docker", "Kubernetes", "Helm", "ArgoCD"],
     "cicd": ["GitHub Actions", "Jenkins", "GitLab CI"],
     "monitoring": ["Grafana", "Prometheus", "ELK Stack", "Datadog", "Splunk", "Zabbix"]
   },
-  "scripting_and_automation": ["Python", "Bash", "PowerShell", "Go"],
+  "scripting": ["Python", "Bash", "PowerShell", "Go"],
   "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
   "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk"],
+  "languages": {
+    "German": "professional working proficiency at B1, actively working towards B2",
+    "English": "professional working proficiency",
+    "Bengali": "native"
+  },
+  "notice_period": "2 weeks",
   "location": "Cologne, Germany",
   "available": true,
   "open_to_relocation_within_germany": true
@@ -116,15 +171,15 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 
 ### 🛠️ Tech Stack
 
-**Identity, Directory & Microsoft**
+**Identity, Directory and Microsoft**
 
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-%230078D4.svg?style=flat-square&logo=microsoft&logoColor=white)
-![Azure AD](https://img.shields.io/badge/Azure%20AD%20%2F%20Entra%20ID-%230078D4.svg?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure AD](https://img.shields.io/badge/Azure%20AD%20Entra%20ID-%230078D4.svg?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-D83B01?style=flat-square&logo=microsoft-office&logoColor=white)
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-%230078D4.svg?style=flat-square&logo=windows&logoColor=white)
 ![Intune](https://img.shields.io/badge/Intune-%230078D4.svg?style=flat-square&logo=microsoft&logoColor=white)
 
-**Cloud Platforms & IaC**
+**Cloud Platforms and IaC**
 
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
@@ -133,7 +188,7 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
 ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=flat-square&logo=vagrant&logoColor=white)
 
-**Systems & Networking**
+**Systems and Networking**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
@@ -142,19 +197,19 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
 ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=flat-square&logo=cisco&logoColor=black)
 
-**Security & SOC**
+**Security and SOC**
 
 ![Splunk](https://img.shields.io/badge/splunk-%23000000.svg?style=flat-square&logo=splunk&logoColor=white)
 ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=flat-square&logo=elasticsearch)
 ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=flat-square&logo=datadog&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=flat-square&logo=sonarqube&logoColor=4E9BCD)
 
-**Monitoring & Observability**
+**Monitoring and Observability**
 
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=flat-square&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=Prometheus&logoColor=white)
 
-**Containers & CI/CD**
+**Containers and CI/CD**
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
@@ -163,7 +218,7 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white)
 
-**Scripting & Programming**
+**Scripting and Programming**
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
@@ -177,7 +232,7 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white)
 
-**ML & Data (Academic)**
+**ML and Data (Academic)**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
@@ -185,7 +240,7 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
 
-**Collaboration & Support Tools**
+**Collaboration and Support Tools**
 
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white)
 ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=flat-square&logo=confluence&logoColor=white)
@@ -199,9 +254,9 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 
 | Project | What it demonstrates |
 |---|---|
-| 🏗️ [**Enterprise IT Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) *(coming soon)* | Simulated company IT environment - identity, helpdesk, servers, monitoring, automation, security - all integrated |
-| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform built local-first then scaled to cloud: Dockerized Flask app → Kubernetes (Minikube + GKE) with HPA that auto-scaled from 2→6 replicas under real CPU load → Terraform-provisioned GKE cluster on GCP → Prometheus & Grafana via Helm with custom `/metrics` endpoint and ServiceMonitor → GitHub Actions CI/CD pipeline → load-tested and fully documented with incident response runbooks |
-| ⚙️ [**DevOps Projects - K8s · Terraform · Helm · GCP · CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Real DevOps problem-solving: GitHub Actions CI/CD pipelines, Kubernetes deployments with Helm chart templating, Terraform GCP bucket provisioning, Dockerfile builds, feature branch workflows - 128 commits of working infrastructure code |
+| 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
+| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app on Kubernetes with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster on GCP, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
+| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Problem-solving across GitHub Actions pipelines, Kubernetes with Helm chart templating, Terraform GCP provisioning, Dockerfile builds and feature branch workflows. 128 commits of working infrastructure code |
 | 🎓 [**Master's Projects at German University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from my M.Sc. |
 | 📄 [**All Certifications**](https://github.com/rubak714/All-Certifications) | Cloud, networking and IT certifications with proof |
 
@@ -209,41 +264,6 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 
 <!-- ACTIVITY:START -->
 <!-- ACTIVITY:END -->
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=rubak714&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=rubak714&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-![](https://github-profile-trophy.vercel.app/?username=rubak714&theme=tokyonight&no-frame=true&margin-w=6&column=6)
-
-</div>
-
----
-
-### 🔗 Connect
-
-<a href="https://www.linkedin.com/in/rubk/">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
 
 ---
 
