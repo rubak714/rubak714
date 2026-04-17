@@ -22,7 +22,7 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 
 - Notice period: 2 weeks
 - Relocation: possible within Germany
-- German: B1 certified, actively working towards B2
+- German: professional working proficiency at B1, actively working towards B2
 - English: professional working proficiency
 
 ---
@@ -34,7 +34,7 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 </a>
 &nbsp;
 <a href="https://tryhackme.com/p/Birdybird00">
-  <img src="https://img.shields.io/badge/TryHackMe-Active-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TryHackMe-Birdybird00-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://www.credly.com/users/rubaiya110/badges">
@@ -51,12 +51,29 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 
 ---
 
+### 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=rubak714&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,smarty,mustache,html&langs_count=6" height="160"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=rubak714&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
 ### 🏆 Achievements and Profiles
 
 **Academic Awards**
 
-- DAAD Scholar: received the DAAD scholarship during my Master's thesis research in Germany
-- Dean's List: awarded during my Bachelor's in Electrical and Electronics Engineering (EECE) in Bangladesh
+- DAAD Scholar: received the DAAD scholarship during Master's thesis research in Germany
+- Dean's List: awarded during Bachelor's in Electrical and Electronics Engineering (EECE) in Bangladesh
 - Talentplus Scholarships: received multiple Talentplus scholarships throughout undergraduate studies in Bangladesh
 
 **GitHub Badges** earned through real activity on the platform:
@@ -68,13 +85,13 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 | 🎯 YOLO | Pull request merged without a code review |
 | 👥 Pair Extraordinaire | Co-authored commits on a merged pull request |
 
-**TryHackMe** — active cybersecurity learning and CTF practice
+**TryHackMe** > active cybersecurity learning and CTF challenges
 
 <a href="https://tryhackme.com/p/Birdybird00">
   <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00.png" alt="TryHackMe" height="80"/>
 </a>
 
-**Credly** — verified cloud and IT certifications
+**Credly** > verified cloud and IT certifications
 
 <a href="https://www.credly.com/users/rubaiya110/badges">
   <img src="https://img.shields.io/badge/View%20verified%20badges%20on%20Credly-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
@@ -90,14 +107,16 @@ Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpde
 
 | Module | Covers |
 |---|---|
-| Module 1: Identity and Access | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
-| Module 2: Helpdesk and Incident Management | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
-| Module 3: On-Premise Infrastructure | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
-| Module 4: Monitoring and Alerting | Prometheus and Grafana, ELK stack, alert-to-ticket integration |
-| Module 5: Automation | Ansible playbooks, Bash and Python scripts for user management and patching |
-| Module 6: Security Layer | Failed login detection, firewall rules, log correlation, SOC workflow |
+| **Module 1: Identity and Access** | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
+| **Module 2: Helpdesk and Incident Management** | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
+| **Module 3: On-Premise Infrastructure** | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
+| **Module 4: Monitoring and Alerting** | Prometheus and Grafana, ELK stack, *alert-to-ticket integration* |
+| **Module 5: Automation** | Ansible playbooks, Bash and Python scripts for user management and patching |
+| **Module 6: Security Layer** | Failed login detection, firewall rules, log correlation, *SOC workflow* |
 
-The flow this shows: incident detected, alert fires, ticket created, admin resolves, automation prevents recurrence.
+The full flow this demonstrates:
+
+> incident detected > alert fires > ticket created > admin resolves > automation prevents recurrence
 
 ---
 
@@ -135,7 +154,7 @@ The flow this shows: incident detected, alert fires, ticket created, admin resol
   "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
   "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk"],
   "languages": {
-    "German": "B1 certified, actively working towards B2",
+    "German": "professional working proficiency at B1, actively working towards B2",
     "English": "professional working proficiency",
     "Bengali": "native"
   },
@@ -236,7 +255,7 @@ The flow this shows: incident detected, alert fires, ticket created, admin resol
 | Project | What it demonstrates |
 |---|---|
 | 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
-| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app on Kubernetes (Minikube and GKE) with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
+| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app on Kubernetes with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster on GCP, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
 | ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Problem-solving across GitHub Actions pipelines, Kubernetes with Helm chart templating, Terraform GCP provisioning, Dockerfile builds and feature branch workflows. 128 commits of working infrastructure code |
 | 🎓 [**Master's Projects at German University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from my M.Sc. |
 | 📄 [**All Certifications**](https://github.com/rubak714/All-Certifications) | Cloud, networking and IT certifications with proof |
@@ -245,23 +264,6 @@ The flow this shows: incident detected, alert fires, ticket created, admin resol
 
 <!-- ACTIVITY:START -->
 <!-- ACTIVITY:END -->
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=rubak714&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=rubak714&theme=tokyonight&hide_border=true"/>
-
-</div>
 
 ---
 

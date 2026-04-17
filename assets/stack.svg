@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520">
-  <foreignObject width="800" height="520">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="580">
+  <foreignObject width="800" height="580">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         * { margin:0; padding:0; box-sizing:border-box; }
         .wrap {
           background: #0d1117;
           font-family: 'Courier New', monospace;
-          padding: 16px;
+          padding: 14px 16px 18px 16px;
           width: 800px;
           border-radius: 8px;
         }
@@ -16,37 +16,36 @@
           font-size: 12px;
           font-weight: 700;
           letter-spacing: 0.15em;
-          margin-bottom: 12px;
+          margin-bottom: 10px;
           padding-bottom: 8px;
           border-bottom: 1px solid #21262d;
         }
         .row {
           display: flex;
           gap: 8px;
-          margin-bottom: 7px;
+          margin-bottom: 6px;
           opacity: 0;
           animation: fadein 0.6s ease forwards;
         }
-        .row:nth-child(2)  { animation-delay: 0.1s; }
-        .row:nth-child(3)  { animation-delay: 0.5s; }
-        .row:nth-child(4)  { animation-delay: 0.9s; }
-        .row:nth-child(5)  { animation-delay: 1.3s; }
-        .row:nth-child(6)  { animation-delay: 1.7s; }
-        .row:nth-child(7)  { animation-delay: 2.1s; }
-        .row:nth-child(8)  { animation-delay: 2.5s; }
+        .row:nth-child(2) { animation-delay: 0.1s; }
+        .row:nth-child(3) { animation-delay: 0.5s; }
+        .row:nth-child(4) { animation-delay: 0.9s; }
+        .row:nth-child(5) { animation-delay: 1.3s; }
+        .row:nth-child(6) { animation-delay: 1.7s; }
+        .row:nth-child(7) { animation-delay: 2.1s; }
+        .row:nth-child(8) { animation-delay: 2.5s; }
         @keyframes fadein {
-          from { opacity:0; }
-          to   { opacity:1; }
+          from { opacity: 0; }
+          to   { opacity: 1; }
         }
         .num {
           background: #161b22;
           border: 1px solid #21262d;
           border-radius: 6px;
-          color: #30363d;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 700;
-          width: 42px;
-          min-width: 42px;
+          width: 40px;
+          min-width: 40px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -55,46 +54,52 @@
           background: #161b22;
           border: 1px solid #21262d;
           border-radius: 6px;
-          padding: 8px 12px;
+          padding: 7px 11px;
           flex: 1;
         }
-        .card.highlight {
-          border-color: #1f6feb;
-        }
+        .card.c7 { border-color: #1f6feb; }
         .card-top {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin-bottom: 4px;
+          margin-bottom: 3px;
         }
-        .layer-name {
-          font-size: 11.5px;
-          font-weight: 700;
-          color: #58a6ff;
-        }
-        .layer-name.devops {
-          color: #79c0ff;
-        }
-        .pct {
-          font-size: 10.5px;
-          font-weight: 700;
-          color: #58a6ff;
-        }
+        .lname { font-size: 11px; font-weight: 700; }
+        .c1 { color: #79c0ff; }
+        .c2 { color: #56d364; }
+        .c3 { color: #e3b341; }
+        .c4 { color: #f78166; }
+        .c5 { color: #d2a8ff; }
+        .c6 { color: #39d353; }
+        .c7 { color: #388bfd; }
+        .n1 { color: #79c0ff; }
+        .n2 { color: #56d364; }
+        .n3 { color: #e3b341; }
+        .n4 { color: #f78166; }
+        .n5 { color: #d2a8ff; }
+        .n6 { color: #39d353; }
+        .n7 { color: #388bfd; }
+        .pct { font-size: 10px; font-weight: 700; color: #8b949e; }
         .bar-track {
           height: 3px;
           background: #21262d;
           border-radius: 2px;
-          margin-bottom: 5px;
+          margin-bottom: 4px;
           overflow: hidden;
         }
         .bar-fill {
           height: 3px;
           border-radius: 2px;
-          background: #1f6feb;
-          animation: growbar 0.8s ease forwards;
+          animation: growbar 1s ease forwards;
           width: 0%;
         }
-        .bar-fill.devops { background: #388bfd; }
+        .b1 { background: #79c0ff; width: 95%; }
+        .b2 { background: #56d364; width: 90%; }
+        .b3 { background: #e3b341; width: 88%; }
+        .b4 { background: #f78166; width: 85%; }
+        .b5 { background: #d2a8ff; width: 82%; }
+        .b6 { background: #39d353; width: 88%; }
+        .b7 { background: #388bfd; width: 85%; }
         @keyframes growbar {
           from { width: 0%; }
         }
@@ -103,94 +108,92 @@
           color: #6e7681;
           line-height: 1.5;
         }
-        .tools span {
-          color: #8b949e;
-        }
+        .tools span { color: #8b949e; }
       </style>
       <div class="wrap">
         <div class="title">HOW I WORK ACROSS THE STACK</div>
 
         <div class="row">
-          <div class="num">01</div>
+          <div class="num n1">01</div>
           <div class="card">
             <div class="card-top">
-              <span class="layer-name">Identity and Access Management</span>
+              <span class="lname c1">Identity and Access Management</span>
               <span class="pct">95%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill" style="width:95%"></div></div>
+            <div class="bar-track"><div class="bar-fill b1"></div></div>
             <div class="tools"><span>Active Directory, Entra ID, GPO, RBAC, SSO, MFA, PIM, LDAP, Azure AD Connect, Domain Controllers</span></div>
           </div>
         </div>
 
         <div class="row">
-          <div class="num">02</div>
+          <div class="num n2">02</div>
           <div class="card">
             <div class="card-top">
-              <span class="layer-name">Systems and On-Premise Infrastructure</span>
+              <span class="lname c2">Systems and On-Premise Infrastructure</span>
               <span class="pct">90%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
-            <div class="tools"><span>Linux: Ubuntu, RHEL, Debian — Windows Server 2019/2022 — Hyper-V, VMware, IIS, systemd, cron, SCCM, Bash, PowerShell</span></div>
+            <div class="bar-track"><div class="bar-fill b2"></div></div>
+            <div class="tools"><span>Linux: Ubuntu, RHEL, Debian - Windows Server 2019/2022 - Hyper-V, VMware, IIS, systemd, cron, SCCM, Bash, PowerShell</span></div>
           </div>
         </div>
 
         <div class="row">
-          <div class="num">03</div>
+          <div class="num n3">03</div>
           <div class="card">
             <div class="card-top">
-              <span class="layer-name">Networking</span>
+              <span class="lname c3">Networking</span>
               <span class="pct">88%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
+            <div class="bar-track"><div class="bar-fill b3"></div></div>
             <div class="tools"><span>DNS, DHCP, VPN (OpenVPN, IPSec, WireGuard), Firewalls, Cisco IOS, TCP/IP, Subnetting, VLANs, BGP/OSPF basics, Wireshark</span></div>
           </div>
         </div>
 
         <div class="row">
-          <div class="num">04</div>
+          <div class="num n4">04</div>
           <div class="card">
             <div class="card-top">
-              <span class="layer-name">Microsoft 365 and Endpoint Management</span>
+              <span class="lname c4">Microsoft 365 and Endpoint Management</span>
               <span class="pct">85%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+            <div class="bar-track"><div class="bar-fill b4"></div></div>
             <div class="tools"><span>Exchange Online, Teams, SharePoint, OneDrive, Intune MDM/MAM, Defender for Endpoint, SCCM, compliance and retention policies</span></div>
           </div>
         </div>
 
         <div class="row">
-          <div class="num">05</div>
+          <div class="num n5">05</div>
           <div class="card">
             <div class="card-top">
-              <span class="layer-name">Security and SOC</span>
+              <span class="lname c5">Security and SOC</span>
               <span class="pct">82%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill" style="width:82%"></div></div>
-            <div class="tools"><span>SIEM: Splunk, Elastic SIEM, Microsoft Sentinel — log analysis, alert triage, vulnerability management, IAM auditing, incident response</span></div>
+            <div class="bar-track"><div class="bar-fill b5"></div></div>
+            <div class="tools"><span>SIEM: Splunk, Elastic SIEM, Microsoft Sentinel - log analysis, alert triage, vulnerability management, IAM auditing, incident response</span></div>
           </div>
         </div>
 
         <div class="row">
-          <div class="num">06</div>
+          <div class="num n6">06</div>
           <div class="card">
             <div class="card-top">
-              <span class="layer-name">Cloud and Hybrid Infrastructure</span>
+              <span class="lname c6">Cloud and Hybrid Infrastructure</span>
               <span class="pct">88%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
-            <div class="tools"><span>Azure, AWS, GCP — Terraform, Ansible, Vagrant — AKS, Azure Monitor, Log Analytics, GKE, EC2, VPC, Cloud IAM</span></div>
+            <div class="bar-track"><div class="bar-fill b6"></div></div>
+            <div class="tools"><span>Azure, AWS, GCP - Terraform, Ansible, Vagrant - AKS, Azure Monitor, Log Analytics, GKE, EC2, VPC, Cloud IAM</span></div>
           </div>
         </div>
 
         <div class="row">
-          <div class="num" style="color:#388bfd;">07</div>
-          <div class="card highlight">
+          <div class="num n7">07</div>
+          <div class="card c7">
             <div class="card-top">
-              <span class="layer-name devops">Automation, DevOps and Observability</span>
+              <span class="lname c7">Automation, DevOps and Observability</span>
               <span class="pct">85%</span>
             </div>
-            <div class="bar-track"><div class="bar-fill devops" style="width:85%"></div></div>
-            <div class="tools"><span>Docker, Kubernetes, Helm, ArgoCD — GitHub Actions, Jenkins, GitLab CI — Grafana, Prometheus, ELK Stack, Datadog, Zabbix, HPA, ServiceMonitor</span></div>
+            <div class="bar-track"><div class="bar-fill b7"></div></div>
+            <div class="tools"><span>Docker, Kubernetes, Helm, ArgoCD - GitHub Actions, Jenkins, GitLab CI - Grafana, Prometheus, ELK Stack, Datadog, Zabbix, HPA, ServiceMonitor</span></div>
           </div>
         </div>
 
