@@ -1,105 +1,101 @@
-<svg viewBox="0 0 740 420" xmlns="http://www.w3.org/2000/svg" width="740">
+<svg viewBox="0 0 740 430" xmlns="http://www.w3.org/2000/svg" width="740">
   <defs>
     <style>
-      .win  { fill: #1e1e2e; }
-      .bar  { fill: #313244; }
-      .t    { font-family: 'Courier New', Courier, monospace; font-size: 12.5px; }
-      .dim  { fill: #585b70; }
-      .wht  { fill: #cdd6f4; }
-      .blu  { fill: #89b4fa; }
-      .grn  { fill: #a6e3a1; }
-      .yel  { fill: #f9e2af; }
-      .pnk  { fill: #f38ba8; }
-      .cur  { fill: #cdd6f4; animation: blink 1s step-end infinite; }
+      .win { fill:#0d1117; }
+      .bar { fill:#161b22; }
+      .t   { font-family:'Courier New',Courier,monospace; font-size:12.5px; }
+      .dim { fill:#484f58; }
+      .wht { fill:#c9d1d9; }
+      .blu { fill:#58a6ff; }
+      .grn { fill:#3fb950; }
+      .yel { fill:#e3b341; }
+      .nvy { fill:#79c0ff; }
+      .cyn { fill:#56d364; }
+      .cur { fill:#58a6ff; animation:blink 1s step-end infinite; }
 
       .l01{opacity:0;animation:f .05s  0.3s forwards;}
-      .l02{opacity:0;animation:f .05s  1.1s forwards;}
-      .l03{opacity:0;animation:f .05s  1.3s forwards;}
-      .l04{opacity:0;animation:f .05s  1.5s forwards;}
-      .l05{opacity:0;animation:f .05s  1.7s forwards;}
-      .l06{opacity:0;animation:f .05s  1.9s forwards;}
-      .l07{opacity:0;animation:f .05s  2.1s forwards;}
-      .l08{opacity:0;animation:f .05s  2.3s forwards;}
-      .l09{opacity:0;animation:f .05s  3.1s forwards;}
-      .l10{opacity:0;animation:f .05s  3.3s forwards;}
-      .l11{opacity:0;animation:f .05s  3.5s forwards;}
-      .l12{opacity:0;animation:f .05s  3.7s forwards;}
-      .l13{opacity:0;animation:f .05s  3.9s forwards;}
-      .l14{opacity:0;animation:f .05s  4.7s forwards;}
-      .l15{opacity:0;animation:f .05s  4.9s forwards;}
-      .l16{opacity:0;animation:f .05s  5.1s forwards;}
-      .l17{opacity:0;animation:f .05s  5.3s forwards;}
-      .l18{opacity:0;animation:f .05s  5.5s forwards;}
-      .l19{opacity:0;animation:f .05s  6.3s forwards;}
-      .l20{opacity:0;animation:f .05s  6.5s forwards;}
-      .l21{opacity:0;animation:f .05s  6.7s forwards;}
-      .l22{opacity:0;animation:f .05s  6.9s forwards;}
-      .l23{opacity:0;animation:f .05s  7.7s forwards;}
-      .l24{opacity:0;animation:f .05s  7.9s forwards;}
+      .l02{opacity:0;animation:f .05s  1.0s forwards;}
+      .l03{opacity:0;animation:f .05s  1.2s forwards;}
+      .l04{opacity:0;animation:f .05s  1.4s forwards;}
+      .l05{opacity:0;animation:f .05s  1.6s forwards;}
+      .l06{opacity:0;animation:f .05s  2.4s forwards;}
+      .l07{opacity:0;animation:f .05s  2.6s forwards;}
+      .l08{opacity:0;animation:f .05s  2.8s forwards;}
+      .l09{opacity:0;animation:f .05s  3.0s forwards;}
+      .l10{opacity:0;animation:f .05s  3.2s forwards;}
+      .l11{opacity:0;animation:f .05s  3.4s forwards;}
+      .l12{opacity:0;animation:f .05s  3.6s forwards;}
+      .l13{opacity:0;animation:f .05s  4.4s forwards;}
+      .l14{opacity:0;animation:f .05s  4.6s forwards;}
+      .l15{opacity:0;animation:f .05s  4.8s forwards;}
+      .l16{opacity:0;animation:f .05s  5.0s forwards;}
+      .l17{opacity:0;animation:f .05s  5.8s forwards;}
+      .l18{opacity:0;animation:f .05s  6.0s forwards;}
+      .l19{opacity:0;animation:f .05s  6.2s forwards;}
+      .l20{opacity:0;animation:f .05s  6.4s forwards;}
 
-      @keyframes f   { to { opacity:1; } }
+      @keyframes f    { to { opacity:1; } }
       @keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:0;} }
     </style>
   </defs>
 
-  <!-- window chrome -->
-  <rect width="740" height="420" rx="10" class="win"/>
+  <!-- window -->
+  <rect width="740" height="430" rx="10" class="win"/>
   <rect width="740" height="34" rx="10" class="bar"/>
   <rect y="17" width="740" height="17" class="bar"/>
-  <circle cx="22" cy="17" r="6" fill="#f38ba8"/>
-  <circle cx="44" cy="17" r="6" fill="#f9e2af"/>
-  <circle cx="66" cy="17" r="6" fill="#a6e3a1"/>
-  <text x="370" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#585b70">rubak714@workstation — bash — 96×32</text>
+  <circle cx="22" cy="17" r="6" fill="#f78166"/>
+  <circle cx="44" cy="17" r="6" fill="#e3b341"/>
+  <circle cx="66" cy="17" r="6" fill="#3fb950"/>
+  <text x="370" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#484f58">rubak714@enterprise-stack -- bash -- 96x34</text>
 
-  <!-- ══ CMD 1: roles ══ -->
+  <!-- CMD 1 whoami -->
   <g class="l01">
     <text x="18" y="58" class="t">
-      <tspan class="blu">rubak714@workstation</tspan><tspan class="dim">:</tspan><tspan class="yel">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">cat roles_i_can_fill.txt</tspan>
+      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">whoami --full</tspan>
     </text>
   </g>
-  <g class="l02"><text x="18" y="75"  class="t"><tspan class="grn">✔  </tspan><tspan class="yel">IT Support Specialist     </tspan><tspan class="dim">L1/L2/L3 · helpdesk · ticketing · user onboarding</tspan></text></g>
-  <g class="l03"><text x="18" y="91"  class="t"><tspan class="grn">✔  </tspan><tspan class="yel">On-Premise SysAdmin       </tspan><tspan class="dim">Linux · Windows Server · GPO · patch mgmt · backups</tspan></text></g>
-  <g class="l04"><text x="18" y="107" class="t"><tspan class="grn">✔  </tspan><tspan class="yel">Network Administrator     </tspan><tspan class="dim">DNS · DHCP · VPN · firewall · Cisco · TCP/IP</tspan></text></g>
-  <g class="l05"><text x="18" y="123" class="t"><tspan class="grn">✔  </tspan><tspan class="yel">SOC Analyst               </tspan><tspan class="dim">SIEM · log analysis · threat detection · Splunk · ELK</tspan></text></g>
-  <g class="l06"><text x="18" y="139" class="t"><tspan class="grn">✔  </tspan><tspan class="yel">Microsoft 365 Admin       </tspan><tspan class="dim">Exchange · Teams · SharePoint · licences · policies</tspan></text></g>
-  <g class="l07"><text x="18" y="155" class="t"><tspan class="grn">✔  </tspan><tspan class="yel">Active Directory Admin    </tspan><tspan class="dim">AD DS · GPO · OU design · RBAC · domain control</tspan></text></g>
-  <g class="l08"><text x="18" y="171" class="t"><tspan class="grn">✔  </tspan><tspan class="yel">Azure / Cloud Admin       </tspan><tspan class="dim">Entra ID · AKS · VMs · IaC · multi-cloud (AWS · GCP)</tspan></text></g>
+  <g class="l02"><text x="18" y="75"  class="t"><tspan class="dim">  name       </tspan><tspan class="grn">Rubaiya</tspan><tspan class="dim"> -- M.Sc. Communication, Networks and Systems -- Cologne, DE</tspan></text></g>
+  <g class="l03"><text x="18" y="91"  class="t"><tspan class="dim">  focus      </tspan><tspan class="grn">Full-stack IT infrastructure -- every layer, end to end</tspan></text></g>
+  <g class="l04"><text x="18" y="107" class="t"><tspan class="dim">  passion    </tspan><tspan class="yel">DevOps and emerging DevOps/SRE engineering</tspan></text></g>
+  <g class="l05"><text x="18" y="123" class="t"><tspan class="dim">  available  </tspan><tspan class="grn">notice period 2 weeks -- relocation possible within Germany</tspan></text></g>
 
-  <!-- ══ CMD 2: stack check ══ -->
-  <g class="l09">
-    <text x="18" y="197" class="t">
-      <tspan class="blu">rubak714@workstation</tspan><tspan class="dim">:</tspan><tspan class="yel">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">systemctl list-units --type=skill --state=active</tspan>
+  <!-- CMD 2 stack -->
+  <g class="l06">
+    <text x="18" y="147" class="t">
+      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">systemctl list-units --type=skill --state=active</tspan>
     </text>
   </g>
-  <g class="l10"><text x="18" y="214" class="t dim">UNIT                         DESCRIPTION                        STATE</text></g>
-  <g class="l11"><text x="18" y="230" class="t"><tspan class="grn">●  </tspan><tspan class="wht">identity.service             </tspan><tspan class="dim">AD · Entra ID · SSO · MFA · RBAC        </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l12"><text x="18" y="246" class="t"><tspan class="grn">●  </tspan><tspan class="wht">endpoint.service             </tspan><tspan class="dim">Intune · SCCM · MDM · patch automation  </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l13"><text x="18" y="262" class="t"><tspan class="grn">●  </tspan><tspan class="wht">observability.service        </tspan><tspan class="dim">Grafana · Prometheus · ELK · Datadog    </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l07"><text x="18" y="164" class="t dim">  LAYER                           STACK                                           STATUS</text></g>
+  <g class="l08"><text x="18" y="180" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">identity.service            </tspan><tspan class="dim">AD, Entra ID, GPO, RBAC, SSO, MFA              </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l09"><text x="18" y="196" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">systems.service             </tspan><tspan class="dim">Linux, Windows Server, Bash, PowerShell, VMs   </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l10"><text x="18" y="212" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">networking.service          </tspan><tspan class="dim">DNS, DHCP, VPN, Firewall, Cisco, TCP/IP        </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l11"><text x="18" y="228" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">microsoft365.service        </tspan><tspan class="dim">Exchange, Teams, SharePoint, Intune, Defender  </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l12"><text x="18" y="244" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">security-soc.service        </tspan><tspan class="dim">Splunk, ELK, Sentinel, log analysis, triage    </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l13"><text x="18" y="260" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">cloud.service               </tspan><tspan class="dim">Azure, AWS, GCP, Terraform, Ansible             </tspan><tspan class="grn">active</tspan></text></g>
+  <g class="l14"><text x="18" y="276" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">devops-sre.service          </tspan><tspan class="dim">Docker, K8s, Helm, Grafana, Prometheus, CI/CD  </tspan><tspan class="grn">active</tspan></text></g>
 
-  <!-- ══ CMD 3: az login ══ -->
-  <g class="l14">
-    <text x="18" y="288" class="t">
-      <tspan class="blu">rubak714@workstation</tspan><tspan class="dim">:</tspan><tspan class="yel">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">az login --tenant germany.de --show-profile</tspan>
+  <!-- CMD 3 interest -->
+  <g class="l15">
+    <text x="18" y="300" class="t">
+      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">cat career_goal.txt</tspan>
     </text>
   </g>
-  <g class="l15"><text x="18" y="305" class="t"><tspan class="dim">Signed in as  : </tspan><tspan class="grn">Rubaiya · M.Sc. IT · Cologne, Germany</tspan></text></g>
-  <g class="l16"><text x="18" y="321" class="t"><tspan class="dim">Experience    : </tspan><tspan class="grn">3+ years across IT · cloud · security · networking</tspan></text></g>
-  <g class="l17"><text x="18" y="337" class="t"><tspan class="dim">Availability  : </tspan><tspan class="grn">immediately · open to relocation in Germany</tspan></text></g>
-  <g class="l18"><text x="18" y="353" class="t"><tspan class="dim">Fit score     : </tspan><tspan class="yel">████████████████████</tspan><tspan class="grn"> 100 %</tspan></text></g>
+  <g class="l16"><text x="18" y="317" class="t"><tspan class="yel">  Deeply interested in DevOps and growing into DevOps/SRE engineering.</tspan></text></g>
+  <g class="l17"><text x="18" y="333" class="t"><tspan class="yel">  I bring the full IT stack as my foundation and automation as my direction.</tspan></text></g>
 
-  <!-- ══ CMD 4: ping ══ -->
-  <g class="l19">
-    <text x="18" y="379" class="t">
-      <tspan class="blu">rubak714@workstation</tspan><tspan class="dim">:</tspan><tspan class="yel">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">ping -c1 linkedin.com/in/rubk</tspan>
+  <!-- CMD 4 ping -->
+  <g class="l18">
+    <text x="18" y="357" class="t">
+      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">curl -s https://linkedin.com/in/rubkp110 | grep status</tspan>
     </text>
   </g>
-  <g class="l20"><text x="18" y="396" class="t"><tspan class="dim">64 bytes from rubk: </tspan><tspan class="grn">status=AVAILABLE </tspan><tspan class="dim">ttl=64 time=</tspan><tspan class="grn">instant</tspan></text></g>
+  <g class="l19"><text x="18" y="374" class="t"><tspan class="dim">  notice_period  </tspan><tspan class="grn">2 weeks</tspan><tspan class="dim">  |  relocation  </tspan><tspan class="grn">within Germany</tspan><tspan class="dim">  |  status  </tspan><tspan class="grn">AVAILABLE</tspan></text></g>
 
-  <!-- final prompt + cursor -->
-  <g class="l21">
-    <text x="18" y="413" class="t">
-      <tspan class="blu">rubak714@workstation</tspan><tspan class="dim">:</tspan><tspan class="yel">~</tspan><tspan class="dim"> $ </tspan>
+  <!-- final prompt -->
+  <g class="l20">
+    <text x="18" y="398" class="t">
+      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan>
     </text>
-    <rect x="230" y="401" width="8" height="14" class="cur"/>
+    <rect x="230" y="386" width="8" height="14" class="cur"/>
   </g>
 </svg>

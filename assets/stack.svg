@@ -1,0 +1,130 @@
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" width="720">
+  <defs>
+    <style>
+      .t   { font-family:'Courier New',Courier,monospace; }
+      .lbl { font-size:12px; fill:#58a6ff; font-weight:600; }
+      .val { font-size:11.5px; fill:#8b949e; }
+      .hdr { font-size:11px; fill:#30363d; font-weight:600; letter-spacing:0.08em; }
+      .box { fill:#161b22; stroke:#21262d; stroke-width:1; rx:6; }
+      .bar { fill:#1f6feb; }
+      .num { font-size:11px; fill:#58a6ff; font-weight:700; }
+
+      .r1{opacity:0;animation:rise .4s  0.2s forwards;}
+      .r2{opacity:0;animation:rise .4s  0.7s forwards;}
+      .r3{opacity:0;animation:rise .4s  1.2s forwards;}
+      .r4{opacity:0;animation:rise .4s  1.7s forwards;}
+      .r5{opacity:0;animation:rise .4s  2.2s forwards;}
+      .r6{opacity:0;animation:rise .4s  2.7s forwards;}
+      .r7{opacity:0;animation:rise .4s  3.2s forwards;}
+      .b1{opacity:0;animation:grow .5s  0.4s forwards;}
+      .b2{opacity:0;animation:grow .5s  0.9s forwards;}
+      .b3{opacity:0;animation:grow .5s  1.4s forwards;}
+      .b4{opacity:0;animation:grow .5s  1.9s forwards;}
+      .b5{opacity:0;animation:grow .5s  2.4s forwards;}
+      .b6{opacity:0;animation:grow .5s  2.9s forwards;}
+      .b7{opacity:0;animation:grow .5s  3.4s forwards;}
+
+      @keyframes rise { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes grow { from{opacity:0;} to{opacity:1;} }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="720" height="420" rx="8" fill="#0d1117"/>
+
+  <!-- title -->
+  <text x="360" y="30" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#58a6ff" font-weight="700" letter-spacing="0.12em">HOW I WORK ACROSS THE STACK</text>
+  <line x1="40" y1="40" x2="680" y2="40" stroke="#21262d" stroke-width="1"/>
+
+  <!-- column headers -->
+  <text x="46"  y="58" class="hdr">LAYER</text>
+  <text x="230" y="58" class="hdr">DOMAIN</text>
+  <text x="430" y="58" class="hdr">TOOLS</text>
+  <text x="668" y="58" class="hdr" text-anchor="end">DEPTH</text>
+
+  <!-- row height = 50, start y = 68 -->
+
+  <!-- LAYER 1 -->
+  <g class="r1">
+    <rect x="20" y="63" width="680" height="46" rx="5" class="box"/>
+    <text x="46"  y="82" class="num">01</text>
+    <text x="46"  y="97" class="lbl">Identity and Access</text>
+    <text x="230" y="82" class="val">Active Directory, Entra ID</text>
+    <text x="230" y="97" class="val">GPO, RBAC, SSO, MFA, PIM</text>
+    <text x="430" y="82" class="val">AD DS, Azure AD Connect</text>
+    <text x="430" y="97" class="val">Conditional Access, LDAP</text>
+  </g>
+  <g class="b1"><rect x="648" y="72" width="46" height="6" rx="3" class="bar"/><text x="671" y="95" class="num" text-anchor="middle">95%</text></g>
+
+  <!-- LAYER 2 -->
+  <g class="r2">
+    <rect x="20" y="114" width="680" height="46" rx="5" class="box"/>
+    <text x="46"  y="133" class="num">02</text>
+    <text x="46"  y="148" class="lbl">Systems and On-Premise</text>
+    <text x="230" y="133" class="val">Linux (Ubuntu, RHEL, Debian)</text>
+    <text x="230" y="148" class="val">Windows Server 2019/2022</text>
+    <text x="430" y="133" class="val">systemd, cron, Hyper-V</text>
+    <text x="430" y="148" class="val">Bash, PowerShell, IIS</text>
+  </g>
+  <g class="b2"><rect x="636" y="123" width="58" height="6" rx="3" class="bar"/><text x="671" y="146" class="num" text-anchor="middle">90%</text></g>
+
+  <!-- LAYER 3 -->
+  <g class="r3">
+    <rect x="20" y="165" width="680" height="46" rx="5" class="box"/>
+    <text x="46"  y="184" class="num">03</text>
+    <text x="46"  y="199" class="lbl">Networking</text>
+    <text x="230" y="184" class="val">DNS, DHCP, VPN, Firewalls</text>
+    <text x="230" y="199" class="val">Cisco IOS, TCP/IP, VLANs</text>
+    <text x="430" y="184" class="val">Subnetting, BGP/OSPF basics</text>
+    <text x="430" y="199" class="val">Wireshark, pfSense, NSG</text>
+  </g>
+  <g class="b3"><rect x="642" y="174" width="52" height="6" rx="3" class="bar"/><text x="671" y="197" class="num" text-anchor="middle">88%</text></g>
+
+  <!-- LAYER 4 -->
+  <g class="r4">
+    <rect x="20" y="216" width="680" height="46" rx="5" class="box"/>
+    <text x="46"  y="235" class="num">04</text>
+    <text x="46"  y="250" class="lbl">Microsoft 365 and Endpoint</text>
+    <text x="230" y="235" class="val">Exchange Online, Teams</text>
+    <text x="230" y="250" class="val">SharePoint, OneDrive, Intune</text>
+    <text x="430" y="235" class="val">Defender for Endpoint, SCCM</text>
+    <text x="430" y="250" class="val">MDM/MAM, compliance policies</text>
+  </g>
+  <g class="b4"><rect x="642" y="225" width="52" height="6" rx="3" class="bar"/><text x="671" y="248" class="num" text-anchor="middle">85%</text></g>
+
+  <!-- LAYER 5 -->
+  <g class="r5">
+    <rect x="20" y="267" width="680" height="46" rx="5" class="box"/>
+    <text x="46"  y="286" class="num">05</text>
+    <text x="46"  y="301" class="lbl">Security and SOC</text>
+    <text x="230" y="286" class="val">SIEM: Splunk, Elastic, Sentinel</text>
+    <text x="230" y="301" class="val">Log analysis, alert triage</text>
+    <text x="430" y="286" class="val">Vulnerability management</text>
+    <text x="430" y="301" class="val">IAM auditing, incident response</text>
+  </g>
+  <g class="b5"><rect x="648" y="276" width="46" height="6" rx="3" class="bar"/><text x="671" y="299" class="num" text-anchor="middle">82%</text></g>
+
+  <!-- LAYER 6 -->
+  <g class="r6">
+    <rect x="20" y="318" width="680" height="46" rx="5" class="box"/>
+    <text x="46"  y="337" class="num">06</text>
+    <text x="46"  y="352" class="lbl">Cloud and Hybrid Infrastructure</text>
+    <text x="230" y="337" class="val">Azure, AWS, GCP</text>
+    <text x="230" y="352" class="val">Terraform, Ansible, Vagrant</text>
+    <text x="430" y="337" class="val">AKS, Azure Monitor, Entra ID</text>
+    <text x="430" y="352" class="val">GKE, EC2, VPC, IAM</text>
+  </g>
+  <g class="b6"><rect x="642" y="327" width="52" height="6" rx="3" class="bar"/><text x="671" y="350" class="num" text-anchor="middle">88%</text></g>
+
+  <!-- LAYER 7 -->
+  <g class="r7">
+    <rect x="20" y="369" width="680" height="46" rx="5" class="box" stroke="#1f6feb" stroke-width="1.5"/>
+    <text x="46"  y="388" class="num">07</text>
+    <text x="46"  y="403" font-family="'Courier New',monospace" font-size="12px" fill="#79c0ff" font-weight="700">DevOps and SRE</text>
+    <text x="230" y="388" class="val">Docker, Kubernetes, Helm</text>
+    <text x="230" y="403" class="val">GitHub Actions, Jenkins, GitLab CI</text>
+    <text x="430" y="388" class="val">Grafana, Prometheus, ELK, Datadog</text>
+    <text x="430" y="403" class="val">HPA, ServiceMonitor, ArgoCD</text>
+  </g>
+  <g class="b7"><rect x="642" y="378" width="52" height="6" rx="3" fill="#1f6feb"/><text x="671" y="401" class="num" text-anchor="middle">85%</text></g>
+</svg>
