@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "version": "2.0.0",
+    "last_updated": "2025-07-01",
+    "author": "Rubaiya",
+    "github": "https://github.com/rubak714",
+    "linkedin": "https://linkedin.com/in/rubk"
+  },
+  "identity": {
+    "name": "Rubaiya",
+    "education": "M.Sc. Information Technology, Germany — 2025",
+    "experience_years": 3,
+    "location": "Cologne, Germany",
+    "open_to_relocation_within_germany": true,
+    "available": true,
+    "languages_spoken": ["English", "German (B2)", "Bengali"]
+  },
+  "roles_i_can_fill": [
+    {
+      "title": "IT Support Specialist",
+      "level": ["L1", "L2", "L3"],
+      "skills": [
+        "Helpdesk & ticketing (Jira, Confluence, Freshdesk)",
+        "User onboarding & offboarding",
+        "Hardware & software troubleshooting",
+        "Remote desktop support (RDP, TeamViewer)",
+        "Printer, VPN & peripheral setup",
+        "ITIL-aware incident & change management",
+        "Asset management & documentation"
+      ]
+    },
+    {
+      "title": "On-Premise Systems Administrator",
+      "skills": [
+        "Linux server administration (Ubuntu, RHEL, Debian)",
+        "Windows Server 2016 / 2019 / 2022",
+        "Group Policy Objects (GPO) design & enforcement",
+        "Patch management & update cycles",
+        "Backup & disaster recovery (Veeam, rsync)",
+        "Cron, systemd, task scheduling",
+        "Hyper-V & VMware virtualisation",
+        "Bash & PowerShell scripting for automation"
+      ]
+    },
+    {
+      "title": "Network Administrator",
+      "skills": [
+        "TCP/IP, DNS, DHCP, subnetting, VLANs",
+        "VPN configuration (OpenVPN, IPSec, WireGuard)",
+        "Firewall rules (pfSense, Windows Firewall, NSG)",
+        "Cisco IOS basics (routing, switching, ACLs)",
+        "BGP / OSPF fundamentals",
+        "Network monitoring (Zabbix, PRTG, Prometheus)",
+        "Wireless network administration",
+        "Packet analysis (Wireshark)"
+      ]
+    },
+    {
+      "title": "SOC Analyst",
+      "skills": [
+        "SIEM: Splunk, Elastic SIEM, Microsoft Sentinel",
+        "Log analysis & correlation",
+        "Alert triage & incident response",
+        "Threat detection & hunt basics",
+        "Vulnerability management (Nessus, OpenVAS)",
+        "IAM auditing & access reviews",
+        "Endpoint security monitoring (Defender, Datadog)",
+        "Security documentation & reporting"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Administrator",
+      "skills": [
+        "Exchange Online — mailboxes, routing, shared mailboxes, DLs",
+        "Microsoft Teams — governance, channels, policies, guest access",
+        "SharePoint Online & OneDrive administration",
+        "Licence assignment & cost optimisation",
+        "Conditional Access & MFA policies",
+        "Microsoft Intune (MDM/MAM)",
+        "Defender for Endpoint & Microsoft Purview basics",
+        "Compliance & retention policies"
+      ]
+    },
+    {
+      "title": "Active Directory Administrator",
+      "skills": [
+        "AD DS design, OU structure & delegation",
+        "Group Policy (GPO) creation and troubleshooting",
+        "Domain Controller management & replication",
+        "RBAC — role assignment, least privilege",
+        "Azure AD Connect (hybrid identity sync)",
+        "LDAP & Kerberos fundamentals",
+        "Password policies, fine-grained password policies",
+        "AD auditing & health monitoring"
+      ]
+    },
+    {
+      "title": "Azure / Cloud Administrator",
+      "skills": [
+        "Azure AD / Entra ID — SSO, MFA, PIM, Conditional Access",
+        "Azure Virtual Machines, scale sets & availability zones",
+        "Azure Networking — VNet, NSG, Load Balancer, DNS zones",
+        "Azure Kubernetes Service (AKS) & container workloads",
+        "Azure Monitor, Log Analytics & Alerts",
+        "IaC with Terraform & Ansible",
+        "AWS (EC2, S3, IAM, VPC, CloudWatch)",
+        "GCP (Compute Engine, GKE, Cloud IAM)"
+      ]
+    }
+  ],
+  "scripting_and_automation": {
+    "languages": ["Python", "Bash", "PowerShell", "Go"],
+    "uses": [
+      "Server provisioning scripts",
+      "AD user bulk management",
+      "Log parsing & alerting",
+      "Health-check automation",
+      "REST API integrations"
+    ]
+  },
+  "monitoring_and_observability": ["Grafana", "Prometheus", "ELK Stack", "Datadog", "Splunk", "Zabbix"],
+  "containers_and_cicd": {
+    "containers": ["Docker", "Kubernetes", "Helm"],
+    "cicd": ["GitHub Actions", "Jenkins", "GitLab CI"]
+  },
+  "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
+  "certifications_repo": "https://github.com/rubak714/All-Certifications"
+}

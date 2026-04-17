@@ -1,0 +1,34 @@
+name: 🏥 Infrastructure Health Check
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run health check
+        run: python scripts/health_check.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: health-report-${{ github.run_number }}
+          path: docs/health_report.json
+          retention-days: 7
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: health check #${{ github.run_number }} [skip ci]"
+          file_pattern: docs/health_report.json assets/health_badge.svg
