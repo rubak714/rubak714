@@ -208,6 +208,14 @@ The lab is structured as a **single integrated system** - not isolated demos - m
 ---
 
 <!-- ACTIVITY:START -->
+#### ⚡ Recent Activity
+
+<!-- last refreshed: 2026-04-17 15:14 UTC -->
+- 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-04-17`
+- ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
+- ⭐ Starred **[NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop](https://github.com/NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop)** `2026-04-17`
+- ⭐ Starred **[tramcar/awesome-job-boards](https://github.com/tramcar/awesome-job-boards)** `2026-04-17`
+- ⭐ Starred **[ambicuity/New-Grad-Jobs](https://github.com/ambicuity/New-Grad-Jobs)** `2026-04-17`
 <!-- ACTIVITY:END -->
 
 ---
