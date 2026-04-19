@@ -275,12 +275,12 @@ The full flow this demonstrates:
 <!-- ACTIVITY:START -->
 #### ⚡ Recent Activity
 
-<!-- last refreshed: 2026-04-18 07:14 UTC -->
-- 📦 Pushed to **[rubak714/academic-journey-research-internships-training-learning-projects](https://github.com/rubak714/academic-journey-research-internships-training-learning-projects)** `2026-04-18`
-- 🌿 Created branch/tag in **[rubak714/academic-journey-research-internships-training-learning-projects](https://github.com/rubak714/academic-journey-research-internships-training-learning-projects)** `2026-04-17`
+<!-- last refreshed: 2026-04-19 07:25 UTC -->
 - 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-04-17`
 - ⭐ Starred **[lowlighter/metrics](https://github.com/lowlighter/metrics)** `2026-04-17`
 - ⭐ Starred **[anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)** `2026-04-17`
+- ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
+- ⭐ Starred **[NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop](https://github.com/NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop)** `2026-04-17`
 <!-- ACTIVITY:END -->
 
 ---
