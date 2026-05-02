@@ -275,12 +275,12 @@ The full flow this demonstrates:
 <!-- ACTIVITY:START -->
 #### ⚡ Recent Activity
 
-<!-- last refreshed: 2026-05-01 08:17 UTC -->
+<!-- last refreshed: 2026-05-02 07:49 UTC -->
+- ⭐ Starred **[TheDevOpsHub/AZ-104](https://github.com/TheDevOpsHub/AZ-104)** `2026-05-01`
 - 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-04-17`
 - ⭐ Starred **[lowlighter/metrics](https://github.com/lowlighter/metrics)** `2026-04-17`
 - ⭐ Starred **[anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)** `2026-04-17`
 - ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
-- ⭐ Starred **[NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop](https://github.com/NotHarshhaa/AWS-GCP-Azure-Cloud-Projects-Workshop)** `2026-04-17`
 <!-- ACTIVITY:END -->
 
 ---
