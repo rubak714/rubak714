@@ -1,186 +1,163 @@
-<svg width="700" height="360" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg">
+<svg width="720" height="380" viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16121e"/>
+      <stop offset="100%" stop-color="#12101a"/>
+    </linearGradient>
+    <linearGradient id="tbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e1a28"/>
+      <stop offset="100%" stop-color="#1a1824"/>
+    </linearGradient>
     <style>
-      .mono { font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
-      .a0  { animation: f .2s .05s  both; }
-      .a1  { animation: f .2s .25s  both; }
-      .a2  { animation: f .2s .50s  both; }
-      .a3  { animation: f .2s .75s  both; }
-      .a4  { animation: f .2s 1.00s both; }
-      .a5  { animation: f .2s 1.30s both; }
-      .a6  { animation: f .2s 1.50s both; }
-      .a7  { animation: f .2s 1.70s both; }
-      .a8  { animation: f .2s 1.90s both; }
-      .a9  { animation: f .2s 2.10s both; }
-      .a10 { animation: f .2s 2.40s both; }
-      .a11 { animation: f .2s 2.60s both; }
-      .a12 { animation: f .2s 2.80s both; }
-      .a13 { animation: f .2s 3.00s both; }
-      .a14 { animation: f .2s 3.20s both; }
-      .a15 { animation: f .2s 3.45s both; }
-      .cur { animation: f .2s 3.65s both, bl 1s 3.9s step-end infinite; }
-      @keyframes f  { from{opacity:0} to{opacity:1} }
-      @keyframes bl { 0%,100%{opacity:1} 50%{opacity:0} }
+      .m{font-family:'Cascadia Code','Fira Code','JetBrains Mono','Consolas',monospace;}
+      .a0{animation:f .2s .00s both;} .a1{animation:f .2s .20s both;}
+      .a2{animation:f .2s .38s both;} .a3{animation:f .2s .54s both;}
+      .a4{animation:f .2s .70s both;} .a5{animation:f .2s .88s both;}
+      .a6{animation:f .2s 1.08s both;} .a7{animation:f .2s 1.26s both;}
+      .a8{animation:f .2s 1.44s both;} .a9{animation:f .2s 1.62s both;}
+      .a10{animation:f .2s 1.82s both;} .a11{animation:f .2s 2.00s both;}
+      .a12{animation:f .2s 2.20s both;} .a13{animation:f .2s 2.38s both;}
+      .a14{animation:f .2s 2.56s both;}
+      .cur{animation:f .2s 2.75s both,bl 1.1s 3.0s step-end infinite;}
+      @keyframes f{from{opacity:0}to{opacity:1}}
+      @keyframes bl{0%,100%{opacity:1}50%{opacity:0}}
     </style>
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="700" height="360" rx="8" fill="#1b1f2b"/>
-  <rect width="700" height="360" rx="8" fill="none" stroke="#2e3954" stroke-width="1"/>
+  <!-- body: deep obsidian purple-black -->
+  <rect width="720" height="380" rx="10" fill="url(#tbg)"/>
+  <rect width="720" height="380" rx="10" fill="none" stroke="#2d2840" stroke-width="1.2"/>
 
-  <!-- Subtle grid lines -->
-  <g stroke="#252c3f" stroke-width="0.5" opacity="0.7">
-    <line x1="0" y1="90"  x2="700" y2="90"/>
-    <line x1="0" y1="180" x2="700" y2="180"/>
-    <line x1="0" y1="270" x2="700" y2="270"/>
-    <line x1="233" y1="46" x2="233" y2="360"/>
-    <line x1="467" y1="46" x2="467" y2="360"/>
+  <!-- topbar -->
+  <rect width="720" height="42" rx="10" fill="url(#tbar)"/>
+  <rect y="30" width="720" height="12" fill="#1e1a28"/>
+  <rect y="41" width="720" height="1" fill="#2d2840"/>
+
+  <!-- traffic dots -->
+  <circle cx="22" cy="21" r="5" fill="#ff6b6b" opacity="0.7"/>
+  <circle cx="40" cy="21" r="5" fill="#ffd93d" opacity="0.7"/>
+  <circle cx="58" cy="21" r="5" fill="#6bcb77" opacity="0.7"/>
+
+  <!-- active tab -->
+  <rect x="80" y="10" width="155" height="24" rx="4" fill="#12101a"/>
+  <rect x="80" y="33" width="155" height="2" fill="#d4a0ff" opacity="0.8"/>
+  <text x="157" y="26" text-anchor="middle" class="m" font-size="10.5" font-weight="700" fill="#d4a0ff">rubak714 ~ bash</text>
+  <text x="326" y="26" class="m" font-size="10.5" font-weight="400" fill="#3a3350">  OUTPUT</text>
+  <text x="408" y="26" class="m" font-size="10.5" font-weight="400" fill="#3a3350">  HISTORY</text>
+  <text x="706" y="26" text-anchor="end" class="m" font-size="9.5" font-weight="500" fill="#3a3350">Cologne · 2026-05-17</text>
+
+  <!-- accent rule -->
+  <rect y="42" width="720" height="1" fill="#d4a0ff" opacity="0.08"/>
+
+  <!-- status row -->
+  <g class="a0 m">
+    <circle cx="18" cy="57" r="3" fill="#a0d4a0" opacity="0.8"/>
+    <text x="28" y="61" font-size="10" font-weight="600" fill="#a0d4a0">ONLINE</text>
+    <text x="80" y="61" font-size="10" font-weight="400" fill="#3a3350"> · </text>
+    <text x="92" y="61" font-size="10" font-weight="500" fill="#7a8a9a">AZ-900 certified  ·  open to work  ·  DE B1  EN C1  ·  2 weeks notice</text>
   </g>
+  <rect x="0" y="67" width="720" height="0.5" fill="#2d2840" class="a0"/>
 
-  <!-- TOPBAR -->
-  <rect width="700" height="44" rx="8" fill="#1f2438"/>
-  <rect y="32" width="700" height="12" fill="#1f2438"/>
-  <rect y="42" width="700" height="2" fill="#2e3954"/>
-
-  <!-- Active tab -->
-  <rect x="12" y="12" width="120" height="26" rx="4" fill="#1b1f2b"/>
-  <rect x="12" y="36" width="120" height="2" fill="#00b4d8"/>
-  <text x="72" y="30" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#00b4d8">TERMINAL</text>
-  <text x="190" y="30" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#5a6480">METRICS</text>
-  <text x="298" y="30" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#5a6480">MONITOR</text>
-  <text x="660" y="28" class="mono" font-size="11" font-weight="400" fill="#5a6480">─  □  ✕</text>
-
-  <!-- Cyan accent bar -->
-  <rect x="0" y="44" width="700" height="1.5" fill="#00b4d8" opacity="0.35"/>
-
-  <!-- STATUS BAR -->
-  <g class="a0 mono">
-    <rect x="12" y="54" width="98" height="17" rx="3" fill="#252c3f"/>
-    <text x="61" y="66" text-anchor="middle" font-size="10" font-weight="600" fill="#5a6480">SUB: rubak714-lab</text>
-    <rect x="116" y="54" width="82" height="17" rx="3" fill="#252c3f"/>
-    <text x="157" y="66" text-anchor="middle" font-size="10" font-weight="600" fill="#5a6480">West Europe</text>
-    <rect x="204" y="54" width="66" height="17" rx="3" fill="#00c8a81a" stroke="#00c8a840" stroke-width="0.5"/>
-    <circle cx="215" cy="63" r="3" fill="#00c8a8"/>
-    <text x="232" y="67" font-size="10" font-weight="700" fill="#00c8a8">ACTIVE</text>
-    <text x="278" y="66" font-size="10" font-weight="600" fill="#5a6480">uptime: </text>
-    <text x="320" y="66" font-size="10" font-weight="700" fill="#00b4d8">99.9%</text>
-    <rect x="362" y="54" width="108" height="17" rx="3" fill="#4a88d01a" stroke="#4a88d040" stroke-width="0.5"/>
-    <text x="416" y="66" text-anchor="middle" font-size="10" font-weight="700" fill="#4a88d0">AZ-900 certified</text>
-    <text x="688" y="66" text-anchor="end" font-size="10" font-weight="500" fill="#5a6480">2026-05-17T18:46Z</text>
+  <!-- BLOCK 1: whoami -->
+  <g class="a1 m">
+    <text x="16" y="87" font-size="13" font-weight="700" fill="#d4a0ff">$</text>
+    <text x="30" y="87" font-size="13" font-weight="600" fill="#e8e0f0"> whoami</text>
   </g>
-
-  <rect x="0" y="75" width="700" height="0.5" fill="#2e3954" class="a0"/>
-
-  <!-- CONTENT -->
-
-  <!-- cmd 1 -->
-  <g class="a1 mono">
-    <text x="16" y="95" font-size="14" font-weight="700" fill="#00c8a8">az</text>
-    <text x="34" y="95" font-size="14" font-weight="400" fill="#5a6480"> › </text>
-    <text x="52" y="95" font-size="14" font-weight="700" fill="#00b4d8">profile</text>
-    <text x="120" y="95" font-size="14" font-weight="500" fill="#5a6480"> --show</text>
+  <g class="a2 m">
+    <text x="20" y="103" font-size="11.5" font-weight="500" fill="#3a3350">  name      </text>
+    <text x="116" y="103" font-size="11.5" font-weight="700" fill="#f0ece8">Rubaiya Kabir Pranti</text>
   </g>
-
-  <!-- profile block -->
-  <g class="a2 mono">
-    <text x="16" y="113" font-size="13" font-weight="500" fill="#5a6480">┌─ </text>
-    <text x="38" y="113" font-size="13" font-weight="700" fill="#00b4d8">IDENTITY</text>
+  <g class="a3 m">
+    <text x="20" y="118" font-size="11.5" font-weight="500" fill="#3a3350">  degree    </text>
+    <text x="116" y="118" font-size="11.5" font-weight="700" fill="#f5c842">M.Sc. Communication Systems and Networks</text>
+    <text x="498" y="118" font-size="11.5" font-weight="600" fill="#c8b8d8">  TH Koeln · GPA 1.7</text>
   </g>
-  <g class="a3 mono">
-    <text x="16" y="129" font-size="13" font-weight="500" fill="#5a6480">│  name          </text>
-    <text x="160" y="129" font-size="13" font-weight="700" fill="#c8d4e8">Rubaiya Kabir Pranti</text>
+  <g class="a4 m">
+    <text x="20" y="133" font-size="11.5" font-weight="500" fill="#3a3350">  scholar   </text>
+    <text x="116" y="133" font-size="11.5" font-weight="700" fill="#f5c842">DAAD STIBET Scholarship</text>
+    <text x="318" y="133" font-size="11.5" font-weight="500" fill="#c8b8d8">  · Dean's List · Talentplus Scholar</text>
   </g>
-  <g class="a4 mono">
-    <text x="16" y="145" font-size="13" font-weight="500" fill="#5a6480">│  location      </text>
-    <text x="160" y="145" font-size="13" font-weight="600" fill="#8892aa">Cologne, Germany</text>
-    <text x="310" y="145" font-size="13" font-weight="500" fill="#5a6480">  ·  notice </text>
-    <text x="385" y="145" font-size="13" font-weight="700" fill="#00c8a8">2 weeks</text>
+  <g class="a5 m">
+    <text x="20" y="148" font-size="11.5" font-weight="500" fill="#3a3350">  published </text>
+    <text x="116" y="148" font-size="11.5" font-weight="700" fill="#f5c842">Elsevier 2025</text>
+    <text x="218" y="148" font-size="11.5" font-weight="500" fill="#c8b8d8">  · CECAD Research Center · Detecon (Deutsche Telekom)</text>
   </g>
-  <g class="a5 mono">
-    <text x="16" y="161" font-size="13" font-weight="500" fill="#5a6480">│  education     </text>
-    <text x="160" y="161" font-size="13" font-weight="700" fill="#f0b429">M.Sc. Comm. Systems &amp; Networks</text>
-    <text x="420" y="161" font-size="13" font-weight="500" fill="#5a6480">  TH Köln · GPA 1.7</text>
-  </g>
-  <g class="a6 mono">
-    <text x="16" y="177" font-size="13" font-weight="500" fill="#5a6480">└─ available     </text>
-    <text x="160" y="177" font-size="13" font-weight="700" fill="#00c8a8">yes</text>
-    <text x="185" y="177" font-size="13" font-weight="500" fill="#5a6480">   ·   relocation within DE </text>
-    <text x="420" y="177" font-size="13" font-weight="700" fill="#00c8a8">✓</text>
+  <g class="a6 m">
+    <text x="20" y="163" font-size="11.5" font-weight="500" fill="#3a3350">  certs     </text>
+    <text x="116" y="163" font-size="11.5" font-weight="700" fill="#f5c842">AZ-900</text>
+    <text x="162" y="163" font-size="11.5" font-weight="500" fill="#3a3350">  · preparing </text>
+    <text x="268" y="163" font-size="11.5" font-weight="600" fill="#c8b8d8">AZ-104 · CompTIA Security+</text>
   </g>
 
-  <!-- cmd 2 -->
-  <g class="a7 mono">
-    <text x="16" y="197" font-size="14" font-weight="700" fill="#00c8a8">az</text>
-    <text x="34" y="197" font-size="14" font-weight="400" fill="#5a6480"> › </text>
-    <text x="52" y="197" font-size="14" font-weight="700" fill="#00b4d8">skills</text>
-    <text x="108" y="197" font-size="14" font-weight="500" fill="#5a6480"> list --category infrastructure</text>
+  <!-- BLOCK 2: skills -->
+  <g class="a7 m">
+    <text x="16" y="184" font-size="13" font-weight="700" fill="#d4a0ff">$</text>
+    <text x="30" y="184" font-size="13" font-weight="600" fill="#e8e0f0"> cat skills.txt</text>
+  </g>
+  <g class="a8 m">
+    <text x="20" y="200" font-size="11" font-weight="500" fill="#3a3350">  identity  </text>
+    <text x="116" y="200" font-size="11" font-weight="700" fill="#9ec8e8">Active Directory · Azure AD / Entra ID · GPO · Windows Server · Linux</text>
+  </g>
+  <g class="a9 m">
+    <text x="20" y="215" font-size="11" font-weight="500" fill="#3a3350">  cloud     </text>
+    <text x="116" y="215" font-size="11" font-weight="700" fill="#9ec8e8">Azure · AWS · GCP · Terraform · Bicep · Ansible · Helm · Kubernetes</text>
+  </g>
+  <g class="a10 m">
+    <text x="20" y="230" font-size="11" font-weight="500" fill="#3a3350">  security  </text>
+    <text x="116" y="230" font-size="11" font-weight="700" fill="#9ec8e8">Splunk · Sentinel · ELK · Defender · Prometheus · Grafana</text>
+  </g>
+  <g class="a11 m">
+    <text x="20" y="245" font-size="11" font-weight="500" fill="#3a3350">  code      </text>
+    <text x="116" y="245" font-size="11" font-weight="700" fill="#9ec8e8">Python · Bash · PowerShell · Go · Docker · GitHub Actions</text>
   </g>
 
-  <!-- skills -->
-  <g class="a8 mono">
-    <text x="16" y="214" font-size="13" font-weight="600" fill="#5a6480">  [0]  </text>
-    <text x="68" y="214" font-size="13" font-weight="600" fill="#8892aa">identity    </text>
-    <text x="166" y="214" font-size="13" font-weight="700" fill="#00b4d8">Active Directory · Azure AD / Entra ID · GPO · MFA · PIM</text>
+  <!-- BLOCK 3: target -->
+  <g class="a12 m">
+    <text x="16" y="267" font-size="13" font-weight="700" fill="#d4a0ff">$</text>
+    <text x="30" y="267" font-size="13" font-weight="600" fill="#e8e0f0"> grep target career.json</text>
   </g>
-  <g class="a9 mono">
-    <text x="16" y="229" font-size="13" font-weight="600" fill="#5a6480">  [1]  </text>
-    <text x="68" y="229" font-size="13" font-weight="600" fill="#8892aa">cloud       </text>
-    <text x="166" y="229" font-size="13" font-weight="700" fill="#00b4d8">Azure</text>
-    <text x="205" y="229" font-size="13" font-weight="700" fill="#f0b429"> (AZ-900)</text>
-    <text x="277" y="229" font-size="13" font-weight="700" fill="#00b4d8"> · Terraform · Ansible · AWS · GCP</text>
+  <g class="a13 m">
+    <text x="20" y="283" font-size="11" font-weight="500" fill="#3a3350">  roles     </text>
+    <text x="116" y="283" font-size="11" font-weight="700" fill="#f0ece8">Cloud Admin · Cloud Engineer · IT Admin · SysAdmin · DevOps · IT Infrastructure</text>
   </g>
-  <g class="a10 mono">
-    <text x="16" y="244" font-size="13" font-weight="600" fill="#5a6480">  [2]  </text>
-    <text x="68" y="244" font-size="13" font-weight="600" fill="#8892aa">systems     </text>
-    <text x="166" y="244" font-size="13" font-weight="700" fill="#00b4d8">Linux (RHEL · Ubuntu) · Windows Server · PowerShell · Bash</text>
-  </g>
-  <g class="a11 mono">
-    <text x="16" y="259" font-size="13" font-weight="600" fill="#5a6480">  [3]  </text>
-    <text x="68" y="259" font-size="13" font-weight="600" fill="#8892aa">containers  </text>
-    <text x="166" y="259" font-size="13" font-weight="700" fill="#00b4d8">Docker · Kubernetes (AKS) · Helm · GitHub Actions CI/CD</text>
-  </g>
-  <g class="a12 mono">
-    <text x="16" y="274" font-size="13" font-weight="600" fill="#5a6480">  [4]  </text>
-    <text x="68" y="274" font-size="13" font-weight="600" fill="#8892aa">observ.     </text>
-    <text x="166" y="274" font-size="13" font-weight="700" fill="#00b4d8">Prometheus · Grafana · ELK Stack · Splunk · Sentinel</text>
+  <g class="a14 m">
+    <text x="20" y="298" font-size="11" font-weight="500" fill="#3a3350">  location  </text>
+    <text x="116" y="298" font-size="11" font-weight="600" fill="#c8b8d8">Cologne, Germany · relocation within DE · remote</text>
   </g>
 
-  <!-- cmd 3 -->
-  <g class="a13 mono">
-    <text x="16" y="295" font-size="14" font-weight="700" fill="#00c8a8">az</text>
-    <text x="34" y="295" font-size="14" font-weight="400" fill="#5a6480"> › </text>
-    <text x="52" y="295" font-size="14" font-weight="700" fill="#00b4d8">career</text>
-    <text x="116" y="295" font-size="14" font-weight="500" fill="#5a6480"> show --target roles</text>
-  </g>
-
-  <g class="a14 mono">
-    <text x="16" y="312" font-size="13" font-weight="500" fill="#5a6480">  target   </text>
-    <text x="100" y="312" font-size="13" font-weight="700" fill="#00c8a8">Cloud Admin · SysAdmin · IT Admin · DevOps · Cloud Support</text>
-  </g>
-  <g class="a15 mono">
-    <text x="16" y="328" font-size="13" font-weight="500" fill="#5a6480">  certs    </text>
-    <text x="100" y="328" font-size="13" font-weight="700" fill="#f0b429">AZ-900 ✓</text>
-    <text x="168" y="328" font-size="13" font-weight="500" fill="#5a6480">  · preparing </text>
-    <text x="264" y="328" font-size="13" font-weight="600" fill="#8892aa">AZ-104 · Security+</text>
-    <text x="390" y="328" font-size="13" font-weight="500" fill="#5a6480">  · lang </text>
-    <text x="438" y="328" font-size="13" font-weight="600" fill="#8892aa">DE B1  EN C1</text>
-  </g>
-
-  <!-- Cursor -->
+  <!-- cursor -->
   <g class="cur">
-    <rect x="16" y="341" width="9" height="14" rx="1" fill="#00b4d8" opacity="0.85"/>
+    <text x="16" y="318" font-size="13" font-weight="700" fill="#d4a0ff">$</text>
+    <rect x="30" y="307" width="9" height="14" rx="1" fill="#d4a0ff" opacity="0.75"/>
   </g>
 
-  <!-- Mini metric bars -->
-  <g class="a0" opacity="0.55">
-    <text x="688" y="307" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#5a6480">cpu</text>
-    <rect x="650" y="298" width="30" height="5" rx="1" fill="#252c3f"/>
-    <rect x="650" y="298" width="18" height="5" rx="1" fill="#00b4d8"/>
-    <text x="688" y="322" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#5a6480">mem</text>
-    <rect x="650" y="313" width="30" height="5" rx="1" fill="#252c3f"/>
-    <rect x="650" y="313" width="22" height="5" rx="1" fill="#00c8a8"/>
-    <text x="688" y="337" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#5a6480">net</text>
-    <rect x="650" y="328" width="30" height="5" rx="1" fill="#252c3f"/>
-    <rect x="650" y="328" width="12" height="5" rx="1" fill="#4a88d0"/>
+  <!-- decorative: right-side dot matrix -->
+  <g class="a0" opacity="0.18">
+    <circle cx="620" cy="100" r="1.5" fill="#d4a0ff"/>
+    <circle cx="636" cy="100" r="1.5" fill="#d4a0ff"/>
+    <circle cx="652" cy="100" r="1.5" fill="#d4a0ff"/>
+    <circle cx="668" cy="100" r="1.5" fill="#d4a0ff"/>
+    <circle cx="684" cy="100" r="1.5" fill="#d4a0ff"/>
+    <circle cx="700" cy="100" r="1.5" fill="#d4a0ff"/>
+    <circle cx="620" cy="116" r="1.5" fill="#9ec8e8"/>
+    <circle cx="636" cy="116" r="1.5" fill="#9ec8e8"/>
+    <circle cx="652" cy="116" r="1.5" fill="#9ec8e8"/>
+    <circle cx="668" cy="116" r="1.5" fill="#9ec8e8"/>
+    <circle cx="684" cy="116" r="1.5" fill="#9ec8e8"/>
+    <circle cx="700" cy="116" r="1.5" fill="#9ec8e8"/>
+    <circle cx="620" cy="132" r="1.5" fill="#f5c842"/>
+    <circle cx="636" cy="132" r="1.5" fill="#f5c842"/>
+    <circle cx="652" cy="132" r="1.5" fill="#f5c842"/>
+    <circle cx="668" cy="132" r="1.5" fill="#f5c842"/>
+    <circle cx="684" cy="132" r="1.5" fill="#f5c842"/>
+    <circle cx="700" cy="132" r="1.5" fill="#f5c842"/>
+    <circle cx="620" cy="148" r="1.5" fill="#d4a0ff"/>
+    <circle cx="636" cy="148" r="1.5" fill="#d4a0ff"/>
+    <circle cx="652" cy="148" r="1.5" fill="#9ec8e8"/>
+    <circle cx="668" cy="148" r="1.5" fill="#9ec8e8"/>
+    <circle cx="684" cy="148" r="1.5" fill="#f5c842"/>
+    <circle cx="700" cy="148" r="1.5" fill="#f5c842"/>
   </g>
+
+  <text x="706" y="368" text-anchor="end" class="m" font-size="9" font-weight="400" fill="#2d2840">v2026.05 · rubak714</text>
 </svg>

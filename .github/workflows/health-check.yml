@@ -1,40 +1,42 @@
-name: 🏥 Infrastructure Health Check
+name: Profile Health Check
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 6 * * *"   # once daily at 06:00 UTC
   workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+permissions:
+  contents: write
 
 jobs:
   health:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
       - name: Run health check
         run: python scripts/health_check.py
-        continue-on-error: true   # ← health degradation is informational, not a CI failure
+        continue-on-error: true
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
         with:
           name: health-report-${{ github.run_number }}
           path: docs/health_report.json
-          retention-days: 7
-        continue-on-error: true   # ← don't fail if report wasn't written
+          retention-days: 14
+        continue-on-error: true
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit report
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: health check #${{ github.run_number }} [skip ci]"
-          file_pattern: docs/health_report.json assets/health_badge.svg
+          commit_message: "chore: health check run #${{ github.run_number }} [skip ci]"
+          file_pattern: docs/health_report.json
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+        continue-on-error: true

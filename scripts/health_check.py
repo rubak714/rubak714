@@ -1,84 +1,50 @@
 #!/usr/bin/env python3
 """
-Infrastructure Health Check
-Checks availability of key profile endpoints and writes a JSON report.
-Always exits with code 0 so the GitHub Actions workflow never fails.
+Profile Health Check — stdlib only, always exits 0.
+Writes docs/health_report.json so the workflow can upload it as an artifact.
 """
-
-import json
-import os
-import sys
-import datetime
-import urllib.request
-import urllib.error
+import json, os, sys, datetime, urllib.request, urllib.error
 
 CHECKS = [
-    {"name": "GitHub Profile",        "url": "https://github.com/rubak714"},
-    {"name": "LinkedIn",              "url": "https://www.linkedin.com/in/rubkp110/"},
-    {"name": "TryHackMe",            "url": "https://tryhackme.com/p/Birdybird00"},
-    {"name": "Credly",               "url": "https://www.credly.com/users/rubaiya110/badges"},
-    {"name": "Enterprise AD Lab",    "url": "https://github.com/rubak714/enterprise-helpdesk-ad-lab"},
-    {"name": "DevOps Platform",      "url": "https://github.com/rubak714/devops-production-platform"},
+    {"name": "GitHub Profile",      "url": "https://github.com/rubak714"},
+    {"name": "Azure IaC Foundation","url": "https://github.com/rubak714/azure-iac-foundation"},
+    {"name": "Enterprise AD Lab",   "url": "https://github.com/rubak714/enterprise-helpdesk-ad-lab"},
+    {"name": "DevOps Platform",     "url": "https://github.com/rubak714/devops-production-platform"},
+    {"name": "TryHackMe Profile",   "url": "https://tryhackme.com/p/Birdybird00"},
 ]
+TIMEOUT = 12
 
-TIMEOUT = 10
-
-
-def check_url(name: str, url: str) -> dict:
+def check_url(name, url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-            status = resp.status
-            ok = status < 400
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            return {"name": name, "url": url, "status": r.status,
+                    "healthy": r.status < 400,
+                    "checked_at": datetime.datetime.utcnow().isoformat() + "Z"}
     except urllib.error.HTTPError as e:
-        status = e.code
-        ok = status < 400
-    except Exception as e:
-        status = 0
-        ok = False
-
-    return {
-        "name": name,
-        "url": url,
-        "status": status,
-        "healthy": ok,
-        "checked_at": datetime.datetime.utcnow().isoformat() + "Z",
-    }
-
+        return {"name": name, "url": url, "status": e.code,
+                "healthy": e.code < 400,
+                "checked_at": datetime.datetime.utcnow().isoformat() + "Z"}
+    except Exception:
+        return {"name": name, "url": url, "status": 0, "healthy": False,
+                "checked_at": datetime.datetime.utcnow().isoformat() + "Z"}
 
 def main():
     results = [check_url(c["name"], c["url"]) for c in CHECKS]
-
-    healthy = sum(1 for r in results if r["healthy"])
-    total = len(results)
-
+    ok = sum(1 for r in results if r["healthy"])
     report = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "summary": {
-            "healthy": healthy,
-            "total": total,
-            "status": "healthy" if healthy == total else "degraded" if healthy > 0 else "down",
-        },
+        "summary": {"healthy": ok, "total": len(results),
+                    "status": "healthy" if ok == len(results) else "degraded" if ok else "down"},
         "checks": results,
     }
-
     os.makedirs("docs", exist_ok=True)
     with open("docs/health_report.json", "w") as f:
         json.dump(report, f, indent=2)
-
-    # Print summary
-    print(f"\n{'='*50}")
-    print(f"  Infrastructure Health Check — {report['summary']['status'].upper()}")
-    print(f"  {healthy}/{total} endpoints reachable")
-    print(f"{'='*50}")
+    print(f"\nHealth Check: {report['summary']['status'].upper()}  ({ok}/{len(results)} reachable)")
     for r in results:
-        icon = "✅" if r["healthy"] else "⚠️ "
-        print(f"  {icon}  {r['name']} ({r['status']})")
-    print()
-
-    # Always exit 0 — health degradation is informational, not a workflow failure
-    sys.exit(0)
-
+        print(f"  {'OK' if r['healthy'] else '--'}  {r['name']}  [{r['status']}]")
+    sys.exit(0)   # always 0 — degradation is informational
 
 if __name__ == "__main__":
     main()
