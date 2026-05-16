@@ -1,195 +1,179 @@
 <svg width="720" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="ebg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#08111e"/>
-      <stop offset="100%" stop-color="#060d18"/>
+      <stop offset="0%" stop-color="#0e1520"/>
+      <stop offset="100%" stop-color="#0b1018"/>
     </linearGradient>
     <linearGradient id="flow-bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#0d1a2a"/>
-      <stop offset="100%" stop-color="#081422"/>
+      <stop offset="0%"   stop-color="#0d1826"/>
+      <stop offset="100%" stop-color="#0b1420"/>
     </linearGradient>
-    <pattern id="grid" patternUnits="userSpaceOnUse" width="24" height="24">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0d1e30" stroke-width="0.6"/>
+    <!-- same stripe pattern as stack top band -->
+    <pattern id="stripes" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="transparent"/>
+      <rect width="1" height="10" fill="#1a2535" opacity="0.5"/>
     </pattern>
     <style>
       .m { font-family: 'Cascadia Code','Fira Code','JetBrains Mono','Consolas',monospace; }
 
-      /* ── each class fades from invisible to visible ── */
-      /* header pieces */
-      .h0 { animation: fi 0.5s 0.1s  both; }
-      .h1 { animation: fi 0.5s 0.5s  both; }
-      .h2 { animation: fi 0.4s 0.9s  both; }
+      /* header */
+      .h0 { animation: fi 0.4s 0.1s  both; }
+      .h1 { animation: fi 0.4s 0.4s  both; }
+      .h2 { animation: fi 0.3s 0.75s both; }
 
-      /* module cards — card bg first, then badge, then title, then skills, then detail */
-      .m1bg { animation: fi 0.5s 1.1s  both; }
-      .m1b  { animation: fi 0.4s 1.5s  both; }
-      .m1t  { animation: fi 0.4s 1.7s  both; }
-      .m1s  { animation: fi 0.4s 1.9s  both; }
-      .m1d  { animation: fi 0.4s 2.1s  both; }
+      /* each module: bg/border → number badge → title → skills → detail */
+      .m1bg { animation: fi 0.45s 0.9s  both; }
+      .m1n  { animation: fi 0.35s 1.25s both; }
+      .m1t  { animation: fi 0.35s 1.50s both; }
+      .m1s  { animation: fi 0.35s 1.72s both; }
+      .m1d  { animation: fi 0.35s 1.95s both; }
 
-      .m2bg { animation: fi 0.5s 2.3s  both; }
-      .m2b  { animation: fi 0.4s 2.65s both; }
-      .m2t  { animation: fi 0.4s 2.85s both; }
-      .m2s  { animation: fi 0.4s 3.05s both; }
-      .m2d  { animation: fi 0.4s 3.25s both; }
+      .m2bg { animation: fi 0.45s 2.15s both; }
+      .m2n  { animation: fi 0.35s 2.50s both; }
+      .m2t  { animation: fi 0.35s 2.72s both; }
+      .m2s  { animation: fi 0.35s 2.95s both; }
+      .m2d  { animation: fi 0.35s 3.18s both; }
 
-      .m3bg { animation: fi 0.5s 3.5s  both; }
-      .m3b  { animation: fi 0.4s 3.85s both; }
-      .m3t  { animation: fi 0.4s 4.05s both; }
-      .m3s  { animation: fi 0.4s 4.25s both; }
-      .m3d  { animation: fi 0.4s 4.45s both; }
+      .m3bg { animation: fi 0.45s 3.40s both; }
+      .m3n  { animation: fi 0.35s 3.75s both; }
+      .m3t  { animation: fi 0.35s 3.98s both; }
+      .m3s  { animation: fi 0.35s 4.20s both; }
+      .m3d  { animation: fi 0.35s 4.42s both; }
 
-      .m4bg { animation: fi 0.5s 4.7s  both; }
-      .m4b  { animation: fi 0.4s 5.05s both; }
-      .m4t  { animation: fi 0.4s 5.25s both; }
-      .m4s  { animation: fi 0.4s 5.45s both; }
-      .m4d  { animation: fi 0.4s 5.65s both; }
+      .m4bg { animation: fi 0.45s 4.65s both; }
+      .m4n  { animation: fi 0.35s 5.00s both; }
+      .m4t  { animation: fi 0.35s 5.22s both; }
+      .m4s  { animation: fi 0.35s 5.45s both; }
+      .m4d  { animation: fi 0.35s 5.67s both; }
 
-      /* flow section: label, then each pill+arrow one by one */
-      .flbg  { animation: fi 0.5s 5.9s  both; }
-      .fll   { animation: fi 0.4s 6.2s  both; }
-      .fp1   { animation: fi 0.35s 6.5s  both; }
-      .fa1   { animation: fi 0.3s  6.8s  both; }
-      .fp2   { animation: fi 0.35s 7.0s  both; }
-      .fa2   { animation: fi 0.3s  7.3s  both; }
-      .fp3   { animation: fi 0.35s 7.5s  both; }
-      .fa3   { animation: fi 0.3s  7.8s  both; }
-      .fp4   { animation: fi 0.35s 8.0s  both; }
-      .fa4   { animation: fi 0.3s  8.3s  both; }
-      .fp5   { animation: fi 0.4s  8.5s  both; }
-      .flink { animation: fi 0.4s  8.9s  both; }
+      /* flow: bg → label → pill1 → arrow → pill2 → arrow → ... → link */
+      .flbg { animation: fi 0.45s 5.9s  both; }
+      .fll  { animation: fi 0.35s 6.2s  both; }
+      .fp1  { animation: fi 0.32s 6.5s  both; }
+      .fa1  { animation: fi 0.25s 6.80s both; }
+      .fp2  { animation: fi 0.32s 7.00s both; }
+      .fa2  { animation: fi 0.25s 7.30s both; }
+      .fp3  { animation: fi 0.32s 7.50s both; }
+      .fa3  { animation: fi 0.25s 7.80s both; }
+      .fp4  { animation: fi 0.32s 8.00s both; }
+      .fa4  { animation: fi 0.25s 8.30s both; }
+      .fp5  { animation: fi 0.35s 8.50s both; }
+      .flink{ animation: fi 0.35s 8.85s both; }
 
       @keyframes fi { from { opacity: 0; } to { opacity: 1; } }
     </style>
   </defs>
 
-  <!-- body -->
+  <!-- body: same deep nordic navy as stack -->
   <rect width="720" height="420" rx="10" fill="url(#ebg)"/>
-  <rect width="720" height="420" rx="10" fill="url(#grid)"/>
-  <rect width="720" height="420" rx="10" fill="none" stroke="#0d1e30" stroke-width="1.5"/>
+  <!-- stripe texture top band -->
+  <rect width="720" height="50" rx="10" fill="url(#stripes)" opacity="0.8"/>
+  <rect y="38" width="720" height="12" fill="url(#ebg)"/>
+  <rect width="720" height="420" rx="10" fill="none" stroke="#1a2535" stroke-width="1.2"/>
 
-  <!-- top cyan stripe -->
-  <rect width="720" height="3" rx="10" fill="#5ab4d4" opacity="0.6"/>
+  <!-- topbar: same as stack -->
+  <rect width="720" height="42" rx="10" fill="#111c2a"/>
+  <rect y="30" width="720" height="12" fill="#111c2a"/>
+  <rect y="41" width="720" height="2" fill="#4a90d4" opacity="0.5"/>
 
-  <!-- topbar -->
-  <rect width="720" height="42" rx="10" fill="#0a1828"/>
-  <rect y="30" width="720" height="12" fill="#0a1828"/>
-  <rect y="42"  width="720" height="1"  fill="#0d1e30"/>
-
-  <!-- breadcrumb — appears first -->
+  <!-- breadcrumb -->
   <g class="h0 m">
-    <text x="16"  y="26" font-size="11" font-weight="500" fill="#2a4a6a">github.com /</text>
-    <text x="104" y="26" font-size="11" font-weight="700" fill="#5ab4d4">rubak714</text>
-    <text x="161" y="26" font-size="11" font-weight="500" fill="#2a4a6a"> / </text>
-    <text x="175" y="26" font-size="11" font-weight="700" fill="#a0c8e0">enterprise-helpdesk-ad-lab</text>
-    <text x="706" y="26" text-anchor="end" font-size="10" font-weight="500" fill="#1e3a54">Simulated Enterprise · IT Lab</text>
+    <text x="16"  y="26" font-size="11" font-weight="500" fill="#2a3a50">github.com /</text>
+    <text x="104" y="26" font-size="11" font-weight="700" fill="#7ab8e8">rubak714</text>
+    <text x="161" y="26" font-size="11" font-weight="500" fill="#2a3a50"> / </text>
+    <text x="175" y="26" font-size="11" font-weight="700" fill="#c8dff0">enterprise-helpdesk-ad-lab</text>
+    <text x="706" y="26" text-anchor="end" font-size="10" font-weight="500" fill="#2a3a50">Simulated Enterprise · IT Lab</text>
   </g>
 
-  <!-- page title — appears second -->
+  <!-- page title -->
   <g class="h1 m">
-    <text x="16" y="62" font-size="14" font-weight="700" fill="#d0e8f8">Enterprise Helpdesk and Active Directory Lab</text>
-    <text x="16" y="78" font-size="11" font-weight="500" fill="#2a5070">All layers connected · End-to-end · Modelled after a real SME setup</text>
+    <text x="16" y="62" font-size="14" font-weight="700" fill="#c8dff0">Enterprise Helpdesk and Active Directory Lab</text>
+    <text x="16" y="78" font-size="11" font-weight="500" fill="#4a6a8a">All layers connected · End-to-end · Modelled after a real SME setup</text>
   </g>
+  <rect x="16" y="85" width="688" height="1" fill="#1a2535" class="h2"/>
 
-  <!-- divider — appears third -->
-  <rect x="16" y="85" width="688" height="1" fill="#0d2035" class="h2"/>
-
-  <!-- ══ MODULE 1 ══ each sub-element staggered -->
-  <rect x="12" y="90" width="696" height="58" rx="5" fill="#081420" stroke="#0d2035" stroke-width="0.8" class="m1bg"/>
-  <rect x="12" y="90" width="4"   height="58" rx="2" fill="#5ab4d4" class="m1bg"/>
-
-  <g class="m1b">
-    <rect x="24" y="98" width="22" height="22" rx="4" fill="#5ab4d41a" stroke="#5ab4d440" stroke-width="0.8"/>
-    <text x="35" y="113" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#5ab4d4">01</text>
+  <!-- MODULE 1: Identity — ice blue (same as stack card 1) -->
+  <rect x="12" y="90"  width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m1bg"/>
+  <rect x="12" y="90"  width="4"   height="58" rx="2" fill="#7ab8e8"                                     class="m1bg"/>
+  <g class="m1n">
+    <rect x="24" y="98" width="22" height="22" rx="4" fill="#7ab8e81a" stroke="#7ab8e840" stroke-width="0.8"/>
+    <text x="35" y="113" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#7ab8e8">01</text>
   </g>
-  <text x="56" y="108" class="m m1t" font-size="12" font-weight="700" fill="#d0e8f8">Identity and Access</text>
-  <text x="56" y="124" class="m m1s" font-size="11.5" font-weight="700" fill="#5ab4d4">Active Directory DS · OU Design · GPO · User Lifecycle · Azure AD Connect · RBAC</text>
-  <text x="56" y="140" class="m m1d" font-size="10.5" font-weight="500" fill="#2a6080">Hybrid identity with Entra Connect · MFA · Conditional Access · Domain Controllers</text>
+  <text x="56" y="108" class="m m1t" font-size="12"   font-weight="700" fill="#c8dff0">Identity and Access</text>
+  <text x="56" y="124" class="m m1s" font-size="11.5" font-weight="700" fill="#7ab8e8">Active Directory DS · OU Design · GPO · User Lifecycle · Azure AD Connect · RBAC</text>
+  <text x="56" y="140" class="m m1d" font-size="10.5" font-weight="500" fill="#3a5a7a">Hybrid identity with Entra Connect · MFA · Conditional Access · Domain Controllers</text>
 
-  <!-- ══ MODULE 2 ══ -->
-  <rect x="12" y="156" width="696" height="58" rx="5" fill="#081420" stroke="#0d2035" stroke-width="0.8" class="m2bg"/>
-  <rect x="12" y="156" width="4"   height="58" rx="2" fill="#78c8f0" class="m2bg"/>
-
-  <g class="m2b">
-    <rect x="24" y="164" width="22" height="22" rx="4" fill="#78c8f01a" stroke="#78c8f040" stroke-width="0.8"/>
-    <text x="35" y="179" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#78c8f0">02</text>
+  <!-- MODULE 2: Helpdesk — steel blue (stack card 2) -->
+  <rect x="12" y="156" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m2bg"/>
+  <rect x="12" y="156" width="4"   height="58" rx="2" fill="#4a90d4"                                     class="m2bg"/>
+  <g class="m2n">
+    <rect x="24" y="164" width="22" height="22" rx="4" fill="#4a90d41a" stroke="#4a90d440" stroke-width="0.8"/>
+    <text x="35" y="179" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#4a90d4">02</text>
   </g>
-  <text x="56" y="174" class="m m2t" font-size="12" font-weight="700" fill="#d0e8f8">Helpdesk and Incident Management</text>
-  <text x="56" y="190" class="m m2s" font-size="11.5" font-weight="700" fill="#78c8f0">osTicket · L1/L2 Ticket Simulations · Resolution Workflows · SLA Tracking</text>
-  <text x="56" y="206" class="m m2d" font-size="10.5" font-weight="500" fill="#2a6080">Realistic escalation paths · Documentation · End-to-end resolution workflows</text>
+  <text x="56" y="174" class="m m2t" font-size="12"   font-weight="700" fill="#c8dff0">Helpdesk and Incident Management</text>
+  <text x="56" y="190" class="m m2s" font-size="11.5" font-weight="700" fill="#4a90d4">osTicket · L1/L2 Ticket Simulations · Resolution Workflows · SLA Tracking</text>
+  <text x="56" y="206" class="m m2d" font-size="10.5" font-weight="500" fill="#3a5a7a">Realistic escalation paths · Documentation · End-to-end resolution workflows</text>
 
-  <!-- ══ MODULE 3 ══ -->
-  <rect x="12" y="222" width="696" height="58" rx="5" fill="#081420" stroke="#0d2035" stroke-width="0.8" class="m3bg"/>
-  <rect x="12" y="222" width="4"   height="58" rx="2" fill="#50c8b0" class="m3bg"/>
-
-  <g class="m3b">
-    <rect x="24" y="230" width="22" height="22" rx="4" fill="#50c8b01a" stroke="#50c8b040" stroke-width="0.8"/>
-    <text x="35" y="245" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#50c8b0">03</text>
+  <!-- MODULE 3: Infrastructure — teal (stack card 3) -->
+  <rect x="12" y="222" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m3bg"/>
+  <rect x="12" y="222" width="4"   height="58" rx="2" fill="#5ab4a0"                                     class="m3bg"/>
+  <g class="m3n">
+    <rect x="24" y="230" width="22" height="22" rx="4" fill="#5ab4a01a" stroke="#5ab4a040" stroke-width="0.8"/>
+    <text x="35" y="245" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#5ab4a0">03</text>
   </g>
-  <text x="56" y="240" class="m m3t" font-size="12" font-weight="700" fill="#d0e8f8">On-Premise Infrastructure</text>
-  <text x="56" y="256" class="m m3s" font-size="11.5" font-weight="700" fill="#50c8b0">Linux and Windows Server · File/Web/SSH Servers · Bash Automation · Backups</text>
-  <text x="56" y="272" class="m m3d" font-size="10.5" font-weight="500" fill="#2a6080">Ubuntu · RHEL · Windows Server 2022 · systemd · cron · IIS · Nginx · Hyper-V</text>
+  <text x="56" y="240" class="m m3t" font-size="12"   font-weight="700" fill="#c8dff0">On-Premise Infrastructure</text>
+  <text x="56" y="256" class="m m3s" font-size="11.5" font-weight="700" fill="#5ab4a0">Linux and Windows Server · File/Web/SSH Servers · Bash Automation · Backups</text>
+  <text x="56" y="272" class="m m3d" font-size="10.5" font-weight="500" fill="#3a5a7a">Ubuntu · RHEL · Windows Server 2022 · systemd · cron · IIS · Nginx · Hyper-V</text>
 
-  <!-- ══ MODULE 4 ══ -->
-  <rect x="12" y="288" width="696" height="58" rx="5" fill="#081420" stroke="#0d2035" stroke-width="0.8" class="m4bg"/>
-  <rect x="12" y="288" width="4"   height="58" rx="2" fill="#8ab0e0" class="m4bg"/>
-
-  <g class="m4b">
-    <rect x="24" y="296" width="22" height="22" rx="4" fill="#8ab0e01a" stroke="#8ab0e040" stroke-width="0.8"/>
-    <text x="35" y="311" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#8ab0e0">04</text>
+  <!-- MODULE 4: Monitoring — amber (stack card 4) -->
+  <rect x="12" y="288" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m4bg"/>
+  <rect x="12" y="288" width="4"   height="58" rx="2" fill="#d4905a"                                     class="m4bg"/>
+  <g class="m4n">
+    <rect x="24" y="296" width="22" height="22" rx="4" fill="#d4905a1a" stroke="#d4905a40" stroke-width="0.8"/>
+    <text x="35" y="311" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#d4905a">04</text>
   </g>
-  <text x="56" y="306" class="m m4t" font-size="12" font-weight="700" fill="#d0e8f8">Monitoring, Automation and Security</text>
-  <text x="56" y="322" class="m m4s" font-size="11.5" font-weight="700" fill="#8ab0e0">Prometheus · Grafana · ELK Stack · Ansible Playbooks · Python Scripts</text>
-  <text x="56" y="338" class="m m4d" font-size="10.5" font-weight="500" fill="#2a6080">Alert-to-ticket integration · Failed login detection · Firewall rules · SOC workflow</text>
+  <text x="56" y="306" class="m m4t" font-size="12"   font-weight="700" fill="#c8dff0">Monitoring, Automation and Security</text>
+  <text x="56" y="322" class="m m4s" font-size="11.5" font-weight="700" fill="#d4905a">Prometheus · Grafana · ELK Stack · Ansible Playbooks · Python Scripts</text>
+  <text x="56" y="338" class="m m4d" font-size="10.5" font-weight="500" fill="#3a5a7a">Alert-to-ticket integration · Failed login detection · Firewall rules · SOC workflow</text>
 
-  <!-- ══ FLOW PIPELINE ══ -->
-  <rect x="12" y="355" width="696" height="52" rx="6" fill="url(#flow-bg)" stroke="#0d2035" stroke-width="1" class="flbg"/>
+  <!-- FLOW PIPELINE -->
+  <rect x="12" y="355" width="696" height="52" rx="6" fill="url(#flow-bg)" stroke="#1a2535" stroke-width="1" class="flbg"/>
 
-  <!-- section label -->
-  <text x="28" y="374" class="m fll" font-size="9.5" font-weight="700" fill="#2a5878">INCIDENT FLOW</text>
+  <text x="28" y="374" class="m fll" font-size="9.5" font-weight="700" fill="#4a6a8a">INCIDENT FLOW</text>
 
-  <!-- pill 1: incident -->
+  <!-- pill 1 -->
   <g class="fp1">
-    <rect x="28"  y="382" width="86"  height="16" rx="8" fill="#1a3a54"/>
-    <text x="71"  y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#a0c8e0">incident</text>
+    <rect x="28"  y="382" width="86"  height="16" rx="8" fill="#1a2d42"/>
+    <text x="71"  y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#c8dff0">incident</text>
   </g>
+  <text x="118" y="395" class="m fa1" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
 
-  <!-- arrow 1 -->
-  <text x="118" y="394" class="m fa1" font-size="13" font-weight="700" fill="#1e4a6a"> ›</text>
-
-  <!-- pill 2: alert fires -->
+  <!-- pill 2 -->
   <g class="fp2">
-    <rect x="134" y="382" width="84"  height="16" rx="8" fill="#1a3a54"/>
-    <text x="176" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#5ab4d4">alert fires</text>
+    <rect x="134" y="382" width="84"  height="16" rx="8" fill="#1a2d42"/>
+    <text x="176" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#7ab8e8">alert fires</text>
   </g>
+  <text x="222" y="395" class="m fa2" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
 
-  <!-- arrow 2 -->
-  <text x="222" y="394" class="m fa2" font-size="13" font-weight="700" fill="#1e4a6a"> ›</text>
-
-  <!-- pill 3: ticket created -->
+  <!-- pill 3 -->
   <g class="fp3">
-    <rect x="238" y="382" width="108" height="16" rx="8" fill="#15304a"/>
-    <text x="292" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#78c8f0">ticket created</text>
+    <rect x="238" y="382" width="108" height="16" rx="8" fill="#1a2d42"/>
+    <text x="292" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#4a90d4">ticket created</text>
   </g>
+  <text x="350" y="395" class="m fa3" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
 
-  <!-- arrow 3 -->
-  <text x="350" y="394" class="m fa3" font-size="13" font-weight="700" fill="#1e4a6a"> ›</text>
-
-  <!-- pill 4: admin resolves -->
+  <!-- pill 4 -->
   <g class="fp4">
-    <rect x="366" y="382" width="114" height="16" rx="8" fill="#103828"/>
-    <text x="423" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#50c8b0">admin resolves</text>
+    <rect x="366" y="382" width="114" height="16" rx="8" fill="#1a2d42"/>
+    <text x="423" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#5ab4a0">admin resolves</text>
   </g>
+  <text x="484" y="395" class="m fa4" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
 
-  <!-- arrow 4 -->
-  <text x="484" y="394" class="m fa4" font-size="13" font-weight="700" fill="#1e4a6a"> ›</text>
-
-  <!-- pill 5: automation -->
+  <!-- pill 5 -->
   <g class="fp5">
-    <rect x="500" y="382" width="196" height="16" rx="8" fill="#162038"/>
-    <text x="598" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#8ab0e0">automation prevents recurrence</text>
+    <rect x="500" y="382" width="196" height="16" rx="8" fill="#1a2d42"/>
+    <text x="598" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#d4905a">automation prevents recurrence</text>
   </g>
 
-  <!-- repo link -->
-  <text x="700" y="374" text-anchor="end" class="m flink" font-size="9.5" font-weight="500" fill="#1e4060">github.com/rubak714/enterprise-helpdesk-ad-lab</text>
+  <text x="700" y="374" text-anchor="end" class="m flink" font-size="9.5" font-weight="500" fill="#2a3a50">github.com/rubak714/enterprise-helpdesk-ad-lab</text>
 </svg>

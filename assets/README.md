@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=2FFFB4&center=true&vCenter=true&width=720&lines=Cloud+%26+IT+Infrastructure+%7C+Cologne%2C+Germany;M.Sc.+Communication+Systems+%26+Networks+%C2%B7+TH+Koeln+%C2%B7+GPA+1.7;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;AZ-900+Certified+%C2%B7+Preparing+AZ-104+%26+Security%2B;Open+to+Cloud+%2F+IT+%2F+SysAdmin+%2F+DevOps+%2F+Cloud+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=Cloud+%26+IT+Infrastructure+%7C+Cologne%2C+Germany;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform;AZ-900+Certified+%7C+Preparing+AZ-104+%26+Security%2B;Open+to+Cloud+%2F+IT+%2F+SysAdmin+%2F+DevOps)](https://git.io/typing-svg)
 
 ![terminal](assets/terminal.svg)
 
@@ -42,12 +42,12 @@ Actively building hands-on projects and studying for AZ-104 and CompTIA Security
 
 ### 📊 My Current Status
 
-![Status](https://img.shields.io/badge/Status-Open_to_Work-2fffb4?style=flat-square)
-![Location](https://img.shields.io/badge/Location-Cologne_Germany-lightgrey?style=flat-square)
-![AZ-900](https://img.shields.io/badge/AZ--900-Certified_May_2026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AZ-104](https://img.shields.io/badge/Preparing-AZ--104-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Security+](https://img.shields.io/badge/Preparing-CompTIA_Security%2B-e8c87a?style=flat-square)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-212C42?style=flat-square&logo=tryhackme&logoColor=white)
+![Status](https://img.shields.io/badge/Open_to_Work-Available-4a90d4?style=flat-square&logoColor=white)
+![Location](https://img.shields.io/badge/Location-Cologne%2C_Germany-4a6a8a?style=flat-square)
+![AZ-900](https://img.shields.io/badge/AZ--900-Certified_May_2026-7ab8e8?style=flat-square&logo=microsoftazure&logoColor=white)
+![AZ-104](https://img.shields.io/badge/Studying-AZ--104-4a90d4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Security+](https://img.shields.io/badge/Studying-CompTIA_Security%2B-d4905a?style=flat-square)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-3a5a7a?style=flat-square&logo=tryhackme&logoColor=white)
 
 Building hands-on projects continuously. Each repo has a troubleshooting document because nothing works the first time, and writing it down is part of the learning.
 
