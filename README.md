@@ -42,12 +42,12 @@ Actively building hands-on projects and studying for AZ-104 and CompTIA Security
 
 ### 📊 My Current Status
 
-![Status](https://img.shields.io/badge/Open_to_Work-Available-4a90d4?style=flat-square&logoColor=white)
-![Location](https://img.shields.io/badge/Location-Cologne%2C_Germany-4a6a8a?style=flat-square)
-![AZ-900](https://img.shields.io/badge/AZ--900-Certified_May_2026-7ab8e8?style=flat-square&logo=microsoftazure&logoColor=white)
-![AZ-104](https://img.shields.io/badge/Studying-AZ--104-4a90d4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Security+](https://img.shields.io/badge/Studying-CompTIA_Security%2B-d4905a?style=flat-square)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-3a5a7a?style=flat-square&logo=tryhackme&logoColor=white)
+[![Open to Work](https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20Work-Available%20Now-1a7a3a?style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
+[![Location](https://img.shields.io/badge/%F0%9F%93%8D%20Location-Cologne%2C%20Germany-1a3a5a?style=for-the-badge)](https://www.linkedin.com/in/rubkp110/)
+[![AZ-900](https://img.shields.io/badge/%E2%9C%85%20AZ--900-Certified%20May%202026-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
+[![AZ-104](https://img.shields.io/badge/%F0%9F%93%96%20AZ--104-Studying%20Now-2355a4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://github.com/rubak714/azure-iac-foundation)
+[![Security+](https://img.shields.io/badge/%F0%9F%94%90%20Security%2B-Studying%20Now-c05020?style=for-the-badge)](https://tryhackme.com/p/Birdybird00)
+[![TryHackMe](https://img.shields.io/badge/%F0%9F%8E%AF%20TryHackMe-Birdybird00-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
 
 Building hands-on projects continuously. Each repo has a troubleshooting document because nothing works the first time, and writing it down is part of the learning.
 
@@ -75,10 +75,10 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 #### 🎮 GitHub Badges
 
-![Pull Shark](https://img.shields.io/badge/Pull_Shark-PRs_merged_by_others-24292f?style=flat-square&logo=github)
-![Quickdraw](https://img.shields.io/badge/Quickdraw-Issue_closed_within_5min-24292f?style=flat-square&logo=github)
-![YOLO](https://img.shields.io/badge/YOLO-Merged_without_review-24292f?style=flat-square&logo=github)
-![Pair Extraordinaire](https://img.shields.io/badge/Pair_Extraordinaire-Co--authored_commits-24292f?style=flat-square&logo=github)
+[![Pull Shark](https://img.shields.io/badge/%F0%9F%A6%88%20Pull%20Shark-PRs%20merged%20by%20others-1a4a7a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
+[![Quickdraw](https://img.shields.io/badge/%E2%9A%A1%20Quickdraw-Closed%20within%205%20min-1a5a3a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
+[![YOLO](https://img.shields.io/badge/%F0%9F%8E%AF%20YOLO-Merged%20without%20review-5a1a5a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
+[![Pair Extraordinaire](https://img.shields.io/badge/%F0%9F%91%A5%20Pair%20Extraordinaire-Co--authored%20commits-5a3a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
 
 ---
 
@@ -90,7 +90,7 @@ Hands-on with multi-cloud environments and Terraform across GCP, AWS, and Azure.
 
 #### 🔬 CECAD Research Center, University of Cologne - Student Research Assistant
 
-Computer vision project for mitochondria segmentation from microscopy images. Built a Python GUI for the analysis workflow. Work led to a peer-reviewed Elsevier publication (2025).
+Computer vision project for mitochondria segmentation from microscopy images. Built a Python GUI for the analysis workflow. Work led to a peer-reviewed Elsevier publication (2025). [View paper](https://www.sciencedirect.com/science/article/pii/S1746809425002733)
 
 ---
 
@@ -109,7 +109,7 @@ Computer vision project for mitochondria segmentation from microscopy images. Bu
 
 ---
 
-### 🏭 Enterprise IT Lab
+### 🏭 Recent Project: Enterprise IT Lab
 
 ![enterprise lab](assets/enterprise.svg)
 

@@ -4,11 +4,10 @@
       <stop offset="0%" stop-color="#0e1520"/>
       <stop offset="100%" stop-color="#0b1018"/>
     </linearGradient>
-    <linearGradient id="flow-bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#0d1826"/>
+    <linearGradient id="flbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1826"/>
       <stop offset="100%" stop-color="#0b1420"/>
     </linearGradient>
-    <!-- same stripe pattern as stack top band -->
     <pattern id="stripes" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
       <rect width="10" height="10" fill="transparent"/>
       <rect width="1" height="10" fill="#1a2535" opacity="0.5"/>
@@ -16,164 +15,162 @@
     <style>
       .m { font-family: 'Cascadia Code','Fira Code','JetBrains Mono','Consolas',monospace; }
 
-      /* header */
-      .h0 { animation: fi 0.4s 0.1s  both; }
-      .h1 { animation: fi 0.4s 0.4s  both; }
-      .h2 { animation: fi 0.3s 0.75s both; }
+      /* Every element gets its own animation — this is what makes GitHub animate them */
 
-      /* each module: bg/border → number badge → title → skills → detail */
-      .m1bg { animation: fi 0.45s 0.9s  both; }
-      .m1n  { animation: fi 0.35s 1.25s both; }
-      .m1t  { animation: fi 0.35s 1.50s both; }
-      .m1s  { animation: fi 0.35s 1.72s both; }
-      .m1d  { animation: fi 0.35s 1.95s both; }
+      /* Header */
+      .e-bc  { animation: fi 0.4s 0.1s  both; }
+      .e-ti  { animation: fi 0.4s 0.45s both; }
+      .e-sub { animation: fi 0.4s 0.75s both; }
+      .e-div { animation: fi 0.3s 1.00s both; }
 
-      .m2bg { animation: fi 0.45s 2.15s both; }
-      .m2n  { animation: fi 0.35s 2.50s both; }
-      .m2t  { animation: fi 0.35s 2.72s both; }
-      .m2s  { animation: fi 0.35s 2.95s both; }
-      .m2d  { animation: fi 0.35s 3.18s both; }
+      /* Module 1 — card bg, left bar, number badge, title, skills, detail */
+      .e-1bg { animation: fi 0.45s 1.10s both; }
+      .e-1br { animation: fi 0.45s 1.10s both; }
+      .e-1nb { animation: fi 0.35s 1.50s both; }
+      .e-1nt { animation: fi 0.35s 1.50s both; }
+      .e-1t  { animation: fi 0.35s 1.75s both; }
+      .e-1s  { animation: fi 0.35s 2.00s both; }
+      .e-1d  { animation: fi 0.35s 2.25s both; }
 
-      .m3bg { animation: fi 0.45s 3.40s both; }
-      .m3n  { animation: fi 0.35s 3.75s both; }
-      .m3t  { animation: fi 0.35s 3.98s both; }
-      .m3s  { animation: fi 0.35s 4.20s both; }
-      .m3d  { animation: fi 0.35s 4.42s both; }
+      /* Module 2 */
+      .e-2bg { animation: fi 0.45s 2.50s both; }
+      .e-2br { animation: fi 0.45s 2.50s both; }
+      .e-2nb { animation: fi 0.35s 2.90s both; }
+      .e-2nt { animation: fi 0.35s 2.90s both; }
+      .e-2t  { animation: fi 0.35s 3.15s both; }
+      .e-2s  { animation: fi 0.35s 3.40s both; }
+      .e-2d  { animation: fi 0.35s 3.65s both; }
 
-      .m4bg { animation: fi 0.45s 4.65s both; }
-      .m4n  { animation: fi 0.35s 5.00s both; }
-      .m4t  { animation: fi 0.35s 5.22s both; }
-      .m4s  { animation: fi 0.35s 5.45s both; }
-      .m4d  { animation: fi 0.35s 5.67s both; }
+      /* Module 3 */
+      .e-3bg { animation: fi 0.45s 3.90s both; }
+      .e-3br { animation: fi 0.45s 3.90s both; }
+      .e-3nb { animation: fi 0.35s 4.30s both; }
+      .e-3nt { animation: fi 0.35s 4.30s both; }
+      .e-3t  { animation: fi 0.35s 4.55s both; }
+      .e-3s  { animation: fi 0.35s 4.80s both; }
+      .e-3d  { animation: fi 0.35s 5.05s both; }
 
-      /* flow: bg → label → pill1 → arrow → pill2 → arrow → ... → link */
-      .flbg { animation: fi 0.45s 5.9s  both; }
-      .fll  { animation: fi 0.35s 6.2s  both; }
-      .fp1  { animation: fi 0.32s 6.5s  both; }
-      .fa1  { animation: fi 0.25s 6.80s both; }
-      .fp2  { animation: fi 0.32s 7.00s both; }
-      .fa2  { animation: fi 0.25s 7.30s both; }
-      .fp3  { animation: fi 0.32s 7.50s both; }
-      .fa3  { animation: fi 0.25s 7.80s both; }
-      .fp4  { animation: fi 0.32s 8.00s both; }
-      .fa4  { animation: fi 0.25s 8.30s both; }
-      .fp5  { animation: fi 0.35s 8.50s both; }
-      .flink{ animation: fi 0.35s 8.85s both; }
+      /* Module 4 */
+      .e-4bg { animation: fi 0.45s 5.30s both; }
+      .e-4br { animation: fi 0.45s 5.30s both; }
+      .e-4nb { animation: fi 0.35s 5.70s both; }
+      .e-4nt { animation: fi 0.35s 5.70s both; }
+      .e-4t  { animation: fi 0.35s 5.95s both; }
+      .e-4s  { animation: fi 0.35s 6.20s both; }
+      .e-4d  { animation: fi 0.35s 6.45s both; }
+
+      /* Flow pipeline — each element individual */
+      .e-fb  { animation: fi 0.45s 6.70s both; }
+      .e-fl  { animation: fi 0.35s 7.00s both; }
+      .e-p1b { animation: fi 0.32s 7.25s both; }
+      .e-p1t { animation: fi 0.32s 7.25s both; }
+      .e-a1  { animation: fi 0.25s 7.55s both; }
+      .e-p2b { animation: fi 0.32s 7.75s both; }
+      .e-p2t { animation: fi 0.32s 7.75s both; }
+      .e-a2  { animation: fi 0.25s 8.05s both; }
+      .e-p3b { animation: fi 0.32s 8.25s both; }
+      .e-p3t { animation: fi 0.32s 8.25s both; }
+      .e-a3  { animation: fi 0.25s 8.55s both; }
+      .e-p4b { animation: fi 0.32s 8.75s both; }
+      .e-p4t { animation: fi 0.32s 8.75s both; }
+      .e-a4  { animation: fi 0.25s 9.05s both; }
+      .e-p5b { animation: fi 0.35s 9.25s both; }
+      .e-p5t { animation: fi 0.35s 9.25s both; }
+      .e-lnk { animation: fi 0.35s 9.60s both; }
 
       @keyframes fi { from { opacity: 0; } to { opacity: 1; } }
     </style>
   </defs>
 
-  <!-- body: same deep nordic navy as stack -->
+  <!-- body -->
   <rect width="720" height="420" rx="10" fill="url(#ebg)"/>
-  <!-- stripe texture top band -->
-  <rect width="720" height="50" rx="10" fill="url(#stripes)" opacity="0.8"/>
+  <rect width="720" height="50"  rx="10" fill="url(#stripes)" opacity="0.8"/>
   <rect y="38" width="720" height="12" fill="url(#ebg)"/>
   <rect width="720" height="420" rx="10" fill="none" stroke="#1a2535" stroke-width="1.2"/>
 
-  <!-- topbar: same as stack -->
+  <!-- topbar -->
   <rect width="720" height="42" rx="10" fill="#111c2a"/>
   <rect y="30" width="720" height="12" fill="#111c2a"/>
-  <rect y="41" width="720" height="2" fill="#4a90d4" opacity="0.5"/>
+  <rect y="41" width="720" height="2"  fill="#4a90d4" opacity="0.5"/>
 
   <!-- breadcrumb -->
-  <g class="h0 m">
-    <text x="16"  y="26" font-size="11" font-weight="500" fill="#2a3a50">github.com /</text>
-    <text x="104" y="26" font-size="11" font-weight="700" fill="#7ab8e8">rubak714</text>
-    <text x="161" y="26" font-size="11" font-weight="500" fill="#2a3a50"> / </text>
-    <text x="175" y="26" font-size="11" font-weight="700" fill="#c8dff0">enterprise-helpdesk-ad-lab</text>
-    <text x="706" y="26" text-anchor="end" font-size="10" font-weight="500" fill="#2a3a50">Simulated Enterprise · IT Lab</text>
-  </g>
+  <text x="16"  y="26" class="m e-bc" font-size="11" font-weight="500" fill="#2a3a50">github.com /</text>
+  <text x="104" y="26" class="m e-bc" font-size="11" font-weight="700" fill="#7ab8e8">rubak714</text>
+  <text x="161" y="26" class="m e-bc" font-size="11" font-weight="500" fill="#2a3a50"> / </text>
+  <text x="175" y="26" class="m e-bc" font-size="11" font-weight="700" fill="#c8dff0">enterprise-helpdesk-ad-lab</text>
+  <text x="706" y="26" class="m e-bc" text-anchor="end" font-size="10" font-weight="500" fill="#2a3a50">Simulated Enterprise · IT Lab</text>
 
-  <!-- page title -->
-  <g class="h1 m">
-    <text x="16" y="62" font-size="14" font-weight="700" fill="#c8dff0">Enterprise Helpdesk and Active Directory Lab</text>
-    <text x="16" y="78" font-size="11" font-weight="500" fill="#4a6a8a">All layers connected · End-to-end · Modelled after a real SME setup</text>
-  </g>
-  <rect x="16" y="85" width="688" height="1" fill="#1a2535" class="h2"/>
+  <!-- title -->
+  <text x="16" y="62" class="m e-ti"  font-size="14" font-weight="700" fill="#c8dff0">Enterprise Helpdesk and Active Directory Lab</text>
+  <text x="16" y="78" class="m e-sub" font-size="11" font-weight="500" fill="#4a6a8a">All layers connected · End-to-end · Modelled after a real SME setup</text>
+  <rect x="16" y="85" width="688" height="1" fill="#1a2535" class="e-div"/>
 
-  <!-- MODULE 1: Identity — ice blue (same as stack card 1) -->
-  <rect x="12" y="90"  width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m1bg"/>
-  <rect x="12" y="90"  width="4"   height="58" rx="2" fill="#7ab8e8"                                     class="m1bg"/>
-  <g class="m1n">
-    <rect x="24" y="98" width="22" height="22" rx="4" fill="#7ab8e81a" stroke="#7ab8e840" stroke-width="0.8"/>
-    <text x="35" y="113" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#7ab8e8">01</text>
-  </g>
-  <text x="56" y="108" class="m m1t" font-size="12"   font-weight="700" fill="#c8dff0">Identity and Access</text>
-  <text x="56" y="124" class="m m1s" font-size="11.5" font-weight="700" fill="#7ab8e8">Active Directory DS · OU Design · GPO · User Lifecycle · Azure AD Connect · RBAC</text>
-  <text x="56" y="140" class="m m1d" font-size="10.5" font-weight="500" fill="#3a5a7a">Hybrid identity with Entra Connect · MFA · Conditional Access · Domain Controllers</text>
+  <!-- ══ MODULE 1: Identity — ice blue ══ -->
+  <rect x="12" y="90"  width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="e-1bg"/>
+  <rect x="12" y="90"  width="4"   height="58" rx="2" fill="#7ab8e8"                                     class="e-1br"/>
+  <rect x="24" y="98"  width="22"  height="22" rx="4" fill="#7ab8e81a" stroke="#7ab8e840" stroke-width="0.8" class="e-1nb"/>
+  <text x="35" y="113" class="m e-1nt" text-anchor="middle" font-size="11" font-weight="700" fill="#7ab8e8">01</text>
+  <text x="56" y="108" class="m e-1t"  font-size="12"   font-weight="700" fill="#c8dff0">Identity and Access</text>
+  <text x="56" y="124" class="m e-1s"  font-size="11.5" font-weight="700" fill="#7ab8e8">Active Directory DS · OU Design · GPO · User Lifecycle · Azure AD Connect · RBAC</text>
+  <text x="56" y="140" class="m e-1d"  font-size="10.5" font-weight="500" fill="#3a5a7a">Hybrid identity · MFA · Conditional Access · Domain Controllers · Entra Connect</text>
 
-  <!-- MODULE 2: Helpdesk — steel blue (stack card 2) -->
-  <rect x="12" y="156" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m2bg"/>
-  <rect x="12" y="156" width="4"   height="58" rx="2" fill="#4a90d4"                                     class="m2bg"/>
-  <g class="m2n">
-    <rect x="24" y="164" width="22" height="22" rx="4" fill="#4a90d41a" stroke="#4a90d440" stroke-width="0.8"/>
-    <text x="35" y="179" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#4a90d4">02</text>
-  </g>
-  <text x="56" y="174" class="m m2t" font-size="12"   font-weight="700" fill="#c8dff0">Helpdesk and Incident Management</text>
-  <text x="56" y="190" class="m m2s" font-size="11.5" font-weight="700" fill="#4a90d4">osTicket · L1/L2 Ticket Simulations · Resolution Workflows · SLA Tracking</text>
-  <text x="56" y="206" class="m m2d" font-size="10.5" font-weight="500" fill="#3a5a7a">Realistic escalation paths · Documentation · End-to-end resolution workflows</text>
+  <!-- ══ MODULE 2: Helpdesk — steel blue ══ -->
+  <rect x="12" y="156" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="e-2bg"/>
+  <rect x="12" y="156" width="4"   height="58" rx="2" fill="#4a90d4"                                     class="e-2br"/>
+  <rect x="24" y="164" width="22"  height="22" rx="4" fill="#4a90d41a" stroke="#4a90d440" stroke-width="0.8" class="e-2nb"/>
+  <text x="35" y="179" class="m e-2nt" text-anchor="middle" font-size="11" font-weight="700" fill="#4a90d4">02</text>
+  <text x="56" y="174" class="m e-2t"  font-size="12"   font-weight="700" fill="#c8dff0">Helpdesk and Incident Management</text>
+  <text x="56" y="190" class="m e-2s"  font-size="11.5" font-weight="700" fill="#4a90d4">osTicket · L1/L2 Ticket Simulations · Resolution Workflows · SLA Tracking</text>
+  <text x="56" y="206" class="m e-2d"  font-size="10.5" font-weight="500" fill="#3a5a7a">Realistic escalation paths · End-to-end resolution · Documentation</text>
 
-  <!-- MODULE 3: Infrastructure — teal (stack card 3) -->
-  <rect x="12" y="222" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m3bg"/>
-  <rect x="12" y="222" width="4"   height="58" rx="2" fill="#5ab4a0"                                     class="m3bg"/>
-  <g class="m3n">
-    <rect x="24" y="230" width="22" height="22" rx="4" fill="#5ab4a01a" stroke="#5ab4a040" stroke-width="0.8"/>
-    <text x="35" y="245" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#5ab4a0">03</text>
-  </g>
-  <text x="56" y="240" class="m m3t" font-size="12"   font-weight="700" fill="#c8dff0">On-Premise Infrastructure</text>
-  <text x="56" y="256" class="m m3s" font-size="11.5" font-weight="700" fill="#5ab4a0">Linux and Windows Server · File/Web/SSH Servers · Bash Automation · Backups</text>
-  <text x="56" y="272" class="m m3d" font-size="10.5" font-weight="500" fill="#3a5a7a">Ubuntu · RHEL · Windows Server 2022 · systemd · cron · IIS · Nginx · Hyper-V</text>
+  <!-- ══ MODULE 3: Infrastructure — teal ══ -->
+  <rect x="12" y="222" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="e-3bg"/>
+  <rect x="12" y="222" width="4"   height="58" rx="2" fill="#5ab4a0"                                     class="e-3br"/>
+  <rect x="24" y="230" width="22"  height="22" rx="4" fill="#5ab4a01a" stroke="#5ab4a040" stroke-width="0.8" class="e-3nb"/>
+  <text x="35" y="245" class="m e-3nt" text-anchor="middle" font-size="11" font-weight="700" fill="#5ab4a0">03</text>
+  <text x="56" y="240" class="m e-3t"  font-size="12"   font-weight="700" fill="#c8dff0">On-Premise Infrastructure</text>
+  <text x="56" y="256" class="m e-3s"  font-size="11.5" font-weight="700" fill="#5ab4a0">Linux and Windows Server · File/Web/SSH Servers · Bash Automation · Backups</text>
+  <text x="56" y="272" class="m e-3d"  font-size="10.5" font-weight="500" fill="#3a5a7a">Ubuntu · RHEL · Windows Server 2022 · systemd · cron · IIS · Nginx · Hyper-V</text>
 
-  <!-- MODULE 4: Monitoring — amber (stack card 4) -->
-  <rect x="12" y="288" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="m4bg"/>
-  <rect x="12" y="288" width="4"   height="58" rx="2" fill="#d4905a"                                     class="m4bg"/>
-  <g class="m4n">
-    <rect x="24" y="296" width="22" height="22" rx="4" fill="#d4905a1a" stroke="#d4905a40" stroke-width="0.8"/>
-    <text x="35" y="311" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#d4905a">04</text>
-  </g>
-  <text x="56" y="306" class="m m4t" font-size="12"   font-weight="700" fill="#c8dff0">Monitoring, Automation and Security</text>
-  <text x="56" y="322" class="m m4s" font-size="11.5" font-weight="700" fill="#d4905a">Prometheus · Grafana · ELK Stack · Ansible Playbooks · Python Scripts</text>
-  <text x="56" y="338" class="m m4d" font-size="10.5" font-weight="500" fill="#3a5a7a">Alert-to-ticket integration · Failed login detection · Firewall rules · SOC workflow</text>
+  <!-- ══ MODULE 4: Monitoring — amber ══ -->
+  <rect x="12" y="288" width="696" height="58" rx="5" fill="#0c1520" stroke="#1a2535" stroke-width="0.8" class="e-4bg"/>
+  <rect x="12" y="288" width="4"   height="58" rx="2" fill="#d4905a"                                     class="e-4br"/>
+  <rect x="24" y="296" width="22"  height="22" rx="4" fill="#d4905a1a" stroke="#d4905a40" stroke-width="0.8" class="e-4nb"/>
+  <text x="35" y="311" class="m e-4nt" text-anchor="middle" font-size="11" font-weight="700" fill="#d4905a">04</text>
+  <text x="56" y="306" class="m e-4t"  font-size="12"   font-weight="700" fill="#c8dff0">Monitoring, Automation and Security</text>
+  <text x="56" y="322" class="m e-4s"  font-size="11.5" font-weight="700" fill="#d4905a">Prometheus · Grafana · ELK Stack · Ansible Playbooks · Python Scripts</text>
+  <text x="56" y="338" class="m e-4d"  font-size="10.5" font-weight="500" fill="#3a5a7a">Alert-to-ticket integration · Failed login detection · Firewall rules · SOC workflow</text>
 
-  <!-- FLOW PIPELINE -->
-  <rect x="12" y="355" width="696" height="52" rx="6" fill="url(#flow-bg)" stroke="#1a2535" stroke-width="1" class="flbg"/>
-
-  <text x="28" y="374" class="m fll" font-size="9.5" font-weight="700" fill="#4a6a8a">INCIDENT FLOW</text>
+  <!-- ══ FLOW PIPELINE ══ -->
+  <rect x="12" y="355" width="696" height="52" rx="6" fill="url(#flbg)" stroke="#1a2535" stroke-width="1" class="e-fb"/>
+  <text x="28"  y="374" class="m e-fl"  font-size="9.5" font-weight="700" fill="#4a6a8a">INCIDENT FLOW</text>
+  <text x="700" y="374" class="m e-lnk" text-anchor="end" font-size="9.5" font-weight="500" fill="#2a3a50">github.com/rubak714/enterprise-helpdesk-ad-lab</text>
 
   <!-- pill 1 -->
-  <g class="fp1">
-    <rect x="28"  y="382" width="86"  height="16" rx="8" fill="#1a2d42"/>
-    <text x="71"  y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#c8dff0">incident</text>
-  </g>
-  <text x="118" y="395" class="m fa1" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
+  <rect x="28"  y="382" width="86"  height="16" rx="8" fill="#1a2d42" class="e-p1b"/>
+  <text x="71"  y="394" class="m e-p1t" text-anchor="middle" font-size="9.5" font-weight="700" fill="#c8dff0">incident</text>
+
+  <text x="118" y="395" class="m e-a1" font-size="13" font-weight="700" fill="#2a4a6a"> ›</text>
 
   <!-- pill 2 -->
-  <g class="fp2">
-    <rect x="134" y="382" width="84"  height="16" rx="8" fill="#1a2d42"/>
-    <text x="176" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#7ab8e8">alert fires</text>
-  </g>
-  <text x="222" y="395" class="m fa2" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
+  <rect x="134" y="382" width="84"  height="16" rx="8" fill="#1a2d42" class="e-p2b"/>
+  <text x="176" y="394" class="m e-p2t" text-anchor="middle" font-size="9.5" font-weight="700" fill="#7ab8e8">alert fires</text>
+
+  <text x="222" y="395" class="m e-a2" font-size="13" font-weight="700" fill="#2a4a6a"> ›</text>
 
   <!-- pill 3 -->
-  <g class="fp3">
-    <rect x="238" y="382" width="108" height="16" rx="8" fill="#1a2d42"/>
-    <text x="292" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#4a90d4">ticket created</text>
-  </g>
-  <text x="350" y="395" class="m fa3" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
+  <rect x="238" y="382" width="108" height="16" rx="8" fill="#1a2d42" class="e-p3b"/>
+  <text x="292" y="394" class="m e-p3t" text-anchor="middle" font-size="9.5" font-weight="700" fill="#4a90d4">ticket created</text>
+
+  <text x="350" y="395" class="m e-a3" font-size="13" font-weight="700" fill="#2a4a6a"> ›</text>
 
   <!-- pill 4 -->
-  <g class="fp4">
-    <rect x="366" y="382" width="114" height="16" rx="8" fill="#1a2d42"/>
-    <text x="423" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#5ab4a0">admin resolves</text>
-  </g>
-  <text x="484" y="395" class="m fa4" font-size="13" font-weight="700" fill="#2a3a50"> ›</text>
+  <rect x="366" y="382" width="114" height="16" rx="8" fill="#1a2d42" class="e-p4b"/>
+  <text x="423" y="394" class="m e-p4t" text-anchor="middle" font-size="9.5" font-weight="700" fill="#5ab4a0">admin resolves</text>
+
+  <text x="484" y="395" class="m e-a4" font-size="13" font-weight="700" fill="#2a4a6a"> ›</text>
 
   <!-- pill 5 -->
-  <g class="fp5">
-    <rect x="500" y="382" width="196" height="16" rx="8" fill="#1a2d42"/>
-    <text x="598" y="394" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#d4905a">automation prevents recurrence</text>
-  </g>
-
-  <text x="700" y="374" text-anchor="end" class="m flink" font-size="9.5" font-weight="500" fill="#2a3a50">github.com/rubak714/enterprise-helpdesk-ad-lab</text>
+  <rect x="500" y="382" width="196" height="16" rx="8" fill="#1a2d42" class="e-p5b"/>
+  <text x="598" y="394" class="m e-p5t" text-anchor="middle" font-size="9.5" font-weight="700" fill="#d4905a">automation prevents recurrence</text>
 </svg>
