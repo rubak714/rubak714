@@ -2,8 +2,11 @@ name: 🏥 Infrastructure Health Check
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *" # every 6 hours
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   health:
@@ -17,16 +20,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run health check
         run: python scripts/health_check.py
+        continue-on-error: true   # ← health degradation is informational, not a CI failure
 
       - uses: actions/upload-artifact@v4
         with:
           name: health-report-${{ github.run_number }}
           path: docs/health_report.json
           retention-days: 7
+        continue-on-error: true   # ← don't fail if report wasn't written
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

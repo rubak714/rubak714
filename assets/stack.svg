@@ -1,203 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="580">
-  <foreignObject width="800" height="580">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        * { margin:0; padding:0; box-sizing:border-box; }
-        .wrap {
-          background: #0d1117;
-          font-family: 'Courier New', monospace;
-          padding: 14px 16px 18px 16px;
-          width: 800px;
-          border-radius: 8px;
-        }
-        .title {
-          text-align: center;
-          color: #58a6ff;
-          font-size: 12px;
-          font-weight: 700;
-          letter-spacing: 0.15em;
-          margin-bottom: 10px;
-          padding-bottom: 8px;
-          border-bottom: 1px solid #21262d;
-        }
-        .row {
-          display: flex;
-          gap: 8px;
-          margin-bottom: 6px;
-          opacity: 0;
-          animation: fadein 0.6s ease forwards;
-        }
-        .row:nth-child(2) { animation-delay: 0.1s; }
-        .row:nth-child(3) { animation-delay: 0.5s; }
-        .row:nth-child(4) { animation-delay: 0.9s; }
-        .row:nth-child(5) { animation-delay: 1.3s; }
-        .row:nth-child(6) { animation-delay: 1.7s; }
-        .row:nth-child(7) { animation-delay: 2.1s; }
-        .row:nth-child(8) { animation-delay: 2.5s; }
-        @keyframes fadein {
-          from { opacity: 0; }
-          to   { opacity: 1; }
-        }
-        .num {
-          background: #161b22;
-          border: 1px solid #21262d;
-          border-radius: 6px;
-          font-size: 16px;
-          font-weight: 700;
-          width: 40px;
-          min-width: 40px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .card {
-          background: #161b22;
-          border: 1px solid #21262d;
-          border-radius: 6px;
-          padding: 7px 11px;
-          flex: 1;
-        }
-        .card.c7 { border-color: #1f6feb; }
-        .card-top {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 3px;
-        }
-        .lname { font-size: 11px; font-weight: 700; }
-        .c1 { color: #79c0ff; }
-        .c2 { color: #56d364; }
-        .c3 { color: #e3b341; }
-        .c4 { color: #f78166; }
-        .c5 { color: #d2a8ff; }
-        .c6 { color: #39d353; }
-        .c7 { color: #388bfd; }
-        .n1 { color: #79c0ff; }
-        .n2 { color: #56d364; }
-        .n3 { color: #e3b341; }
-        .n4 { color: #f78166; }
-        .n5 { color: #d2a8ff; }
-        .n6 { color: #39d353; }
-        .n7 { color: #388bfd; }
-        .pct { font-size: 10px; font-weight: 700; color: #8b949e; }
-        .bar-track {
-          height: 3px;
-          background: #21262d;
-          border-radius: 2px;
-          margin-bottom: 4px;
-          overflow: hidden;
-        }
-        .bar-fill {
-          height: 3px;
-          border-radius: 2px;
-          animation: growbar 1s ease forwards;
-          width: 0%;
-        }
-        .b1 { background: #79c0ff; width: 95%; }
-        .b2 { background: #56d364; width: 90%; }
-        .b3 { background: #e3b341; width: 88%; }
-        .b4 { background: #f78166; width: 85%; }
-        .b5 { background: #d2a8ff; width: 82%; }
-        .b6 { background: #39d353; width: 88%; }
-        .b7 { background: #388bfd; width: 85%; }
-        @keyframes growbar {
-          from { width: 0%; }
-        }
-        .tools {
-          font-size: 10px;
-          color: #6e7681;
-          line-height: 1.5;
-        }
-        .tools span { color: #8b949e; }
-      </style>
-      <div class="wrap">
-        <div class="title">HOW I WORK ACROSS THE STACK</div>
+<svg width="700" height="590" viewBox="0 0 700 590" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .r0 { animation: fi .25s .05s both; }
+      .r1 { animation: fi .25s .20s both; }
+      .r2 { animation: fi .25s .45s both; }
+      .r3 { animation: fi .25s .70s both; }
+      .r4 { animation: fi .25s .95s both; }
+      .r5 { animation: fi .25s 1.20s both; }
+      .r6 { animation: fi .25s 1.45s both; }
+      .r7 { animation: fi .25s 1.70s both; }
+      @keyframes fi { from{opacity:0} to{opacity:1} }
+    </style>
+  </defs>
 
-        <div class="row">
-          <div class="num n1">01</div>
-          <div class="card">
-            <div class="card-top">
-              <span class="lname c1">Identity and Access Management</span>
-              <span class="pct">95%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b1"></div></div>
-            <div class="tools"><span>Active Directory, Entra ID, GPO, RBAC, SSO, MFA, PIM, LDAP, Azure AD Connect, Domain Controllers</span></div>
-          </div>
-        </div>
+  <!-- Background -->
+  <rect width="700" height="590" rx="8" fill="#1b1f2b"/>
+  <rect width="700" height="590" rx="8" fill="none" stroke="#2e3954" stroke-width="1"/>
 
-        <div class="row">
-          <div class="num n2">02</div>
-          <div class="card">
-            <div class="card-top">
-              <span class="lname c2">Systems and On-Premise Infrastructure</span>
-              <span class="pct">90%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b2"></div></div>
-            <div class="tools"><span>Linux: Ubuntu, RHEL, Debian - Windows Server 2019/2022 - Hyper-V, VMware, IIS, systemd, cron, SCCM, Bash, PowerShell</span></div>
-          </div>
-        </div>
+  <!-- Horizontal grid lines -->
+  <g stroke="#252c3f" stroke-width="0.5" opacity="0.6">
+    <line x1="0" y1="146" x2="700" y2="146"/>
+    <line x1="0" y1="220" x2="700" y2="220"/>
+    <line x1="0" y1="294" x2="700" y2="294"/>
+    <line x1="0" y1="368" x2="700" y2="368"/>
+    <line x1="0" y1="442" x2="700" y2="442"/>
+    <line x1="0" y1="516" x2="700" y2="516"/>
+  </g>
 
-        <div class="row">
-          <div class="num n3">03</div>
-          <div class="card">
-            <div class="card-top">
-              <span class="lname c3">Networking</span>
-              <span class="pct">88%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b3"></div></div>
-            <div class="tools"><span>DNS, DHCP, VPN (OpenVPN, IPSec, WireGuard), Firewalls, Cisco IOS, TCP/IP, Subnetting, VLANs, BGP/OSPF basics, Wireshark</span></div>
-          </div>
-        </div>
+  <!-- Nav bar -->
+  <rect width="700" height="40" rx="8" fill="#1f2438"/>
+  <rect y="28" width="700" height="12" fill="#1f2438"/>
+  <rect y="40" width="700" height="1.5" fill="#00b4d8" opacity="0.3"/>
 
-        <div class="row">
-          <div class="num n4">04</div>
-          <div class="card">
-            <div class="card-top">
-              <span class="lname c4">Microsoft 365 and Endpoint Management</span>
-              <span class="pct">85%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b4"></div></div>
-            <div class="tools"><span>Exchange Online, Teams, SharePoint, OneDrive, Intune MDM/MAM, Defender for Endpoint, SCCM, compliance and retention policies</span></div>
-          </div>
-        </div>
+  <g class="r0 mono">
+    <text x="16" y="25" font-size="11" font-weight="700" fill="#00b4d8">Azure Portal</text>
+    <text x="92"  y="25" font-size="11" font-weight="400" fill="#5a6480"> › </text>
+    <text x="108" y="25" font-size="11" font-weight="600" fill="#8892aa">rubak714</text>
+    <text x="168" y="25" font-size="11" font-weight="400" fill="#5a6480"> › </text>
+    <text x="184" y="25" font-size="11" font-weight="600" fill="#8892aa">Infrastructure Stack</text>
+    <text x="688" y="25" text-anchor="end" font-size="10" font-weight="500" fill="#5a6480">Cologne, DE  ·  West Europe</text>
+  </g>
 
-        <div class="row">
-          <div class="num n5">05</div>
-          <div class="card">
-            <div class="card-top">
-              <span class="lname c5">Security and SOC</span>
-              <span class="pct">82%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b5"></div></div>
-            <div class="tools"><span>SIEM: Splunk, Elastic SIEM, Microsoft Sentinel - log analysis, alert triage, vulnerability management, IAM auditing, incident response</span></div>
-          </div>
-        </div>
+  <!-- Page title -->
+  <g class="r1 mono">
+    <text x="16" y="60" font-size="14" font-weight="700" fill="#e4ecf7">Infrastructure &amp; Cloud Skills Overview</text>
+    <text x="16" y="76" font-size="11" font-weight="500" fill="#5a6480">Hands-on labs, academic projects and Detecon internship  ·  Open to Cloud / IT / SysAdmin / DevOps roles</text>
+  </g>
+  <rect x="16" y="83" width="668" height="0.5" fill="#2e3954" class="r1"/>
 
-        <div class="row">
-          <div class="num n6">06</div>
-          <div class="card">
-            <div class="card-top">
-              <span class="lname c6">Cloud and Hybrid Infrastructure</span>
-              <span class="pct">88%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b6"></div></div>
-            <div class="tools"><span>Azure, AWS, GCP - Terraform, Ansible, Vagrant - AKS, Azure Monitor, Log Analytics, GKE, EC2, VPC, Cloud IAM</span></div>
-          </div>
-        </div>
+  <!-- AZ-900 CERT CARD -->
+  <g class="r2">
+    <rect x="12" y="90" width="676" height="50" rx="5" fill="#1e2d42" stroke="#2e4a6e" stroke-width="0.8"/>
+    <rect x="12" y="90" width="4"  height="50" rx="2" fill="#4a88d0"/>
+    <!-- MS logo 2x2 -->
+    <rect x="26" y="100" width="8" height="8" rx="1" fill="#f25022" opacity="0.9"/>
+    <rect x="36" y="100" width="8" height="8" rx="1" fill="#7fba00" opacity="0.9"/>
+    <rect x="26" y="110" width="8" height="8" rx="1" fill="#00a4ef" opacity="0.9"/>
+    <rect x="36" y="110" width="8" height="8" rx="1" fill="#ffb900" opacity="0.9"/>
+    <!-- cert text -->
+    <text x="54" y="104" class="mono" font-size="13" font-weight="700" fill="#4a88d0">Microsoft Certified: Azure Fundamentals</text>
+    <text x="54" y="120" class="mono" font-size="11" font-weight="700" fill="#f0b429">AZ-900</text>
+    <text x="97" y="120" class="mono" font-size="11" font-weight="500" fill="#5a6480">  ·  Earned May 13, 2026  ·  Credential D7BB95205F89A886  ·  </text>
+    <text x="500" y="120" class="mono" font-size="11" font-weight="700" fill="#00c8a8">Online Verifiable ✓</text>
+    <text x="54" y="134" class="mono" font-size="10" font-weight="600" fill="#5a6480">Preparing next: AZ-104 (Azure Administrator)  ·  CompTIA Security+</text>
+    <!-- badge -->
+    <circle cx="672" cy="115" r="18" fill="none" stroke="#2e4a6e" stroke-width="0.8"/>
+    <circle cx="672" cy="115" r="13" fill="#1b2d42"/>
+    <text x="672" y="113" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#4a88d0">AZ</text>
+    <text x="672" y="124" text-anchor="middle" class="mono" font-size="8"  font-weight="600" fill="#5a6480">900</text>
+  </g>
 
-        <div class="row">
-          <div class="num n7">07</div>
-          <div class="card c7">
-            <div class="card-top">
-              <span class="lname c7">Automation, DevOps and Observability</span>
-              <span class="pct">85%</span>
-            </div>
-            <div class="bar-track"><div class="bar-fill b7"></div></div>
-            <div class="tools"><span>Docker, Kubernetes, Helm, ArgoCD - GitHub Actions, Jenkins, GitLab CI - Grafana, Prometheus, ELK Stack, Datadog, Zabbix, HPA, ServiceMonitor</span></div>
-          </div>
-        </div>
+  <!-- CARD 1: Identity & Directory — cyan accent -->
+  <g class="r3">
+    <rect x="12" y="148" width="676" height="66" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="148" width="3"   height="66" rx="1" fill="#00b4d8"/>
+    <text x="24" y="167" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Identity &amp; Directory</text>
+    <text x="24" y="183" class="mono" font-size="12" font-weight="700" fill="#00b4d8">Active Directory DS  ·  Azure AD / Entra ID  ·  Azure AD Connect</text>
+    <text x="24" y="183">
+      <tspan class="mono" font-size="12" font-weight="700" fill="#00b4d8">Active Directory DS  ·  Azure AD / Entra ID  ·  Azure AD Connect  ·  GPO  ·  OU Design  ·  RBAC  ·  LDAP</tspan>
+    </text>
+    <text x="24" y="199" class="mono" font-size="11" font-weight="600" fill="#8892aa">SSO  ·  MFA  ·  Conditional Access  ·  PIM  ·  Domain Controllers  ·  User Lifecycle</text>
+    <text x="24" y="211" class="mono" font-size="10" font-weight="500" fill="#5a6480">Lab: hybrid identity with Entra Connect  ·  Relevant: Cloud Admin, SysAdmin, IT Admin</text>
+  </g>
 
-      </div>
-    </div>
-  </foreignObject>
+  <!-- CARD 2: Cloud Platforms & IaC — blue accent -->
+  <g class="r4">
+    <rect x="12" y="222" width="676" height="66" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="222" width="3"   height="66" rx="1" fill="#4a88d0"/>
+    <text x="24" y="241" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Cloud Platforms &amp; Infrastructure as Code</text>
+    <text x="24" y="257" class="mono" font-size="12" font-weight="700" fill="#4a88d0">Azure  ·  AWS  ·  GCP  ·  Terraform  ·  Ansible  ·  Vagrant  ·  Helm  ·  ArgoCD</text>
+    <text x="24" y="273" class="mono" font-size="11" font-weight="600" fill="#8892aa">Docker  ·  Kubernetes (AKS)  ·  GitHub Actions  ·  Azure DevOps  ·  GitLab CI  ·  Jenkins</text>
+    <text x="24" y="285" class="mono" font-size="10" font-weight="500" fill="#5a6480">Internship: Detecon International (Deutsche Telekom) — multi-cloud Terraform across GCP, AWS, Azure</text>
+  </g>
+
+  <!-- CARD 3: Systems & Networking — teal accent -->
+  <g class="r5">
+    <rect x="12" y="296" width="676" height="66" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="296" width="3"   height="66" rx="1" fill="#00c8a8"/>
+    <text x="24" y="315" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Systems &amp; Networking</text>
+    <text x="24" y="331" class="mono" font-size="12" font-weight="700" fill="#00c8a8">Linux (RHEL · Ubuntu · Debian)  ·  Windows Server 2016/2019/2022  ·  PowerShell  ·  Bash</text>
+    <text x="24" y="347" class="mono" font-size="11" font-weight="600" fill="#8892aa">DNS · DHCP · VPN · Firewall Rules · Cisco IOS · TCP/IP · VLANs · Wireshark · Nginx · Apache</text>
+    <text x="24" y="359" class="mono" font-size="10" font-weight="500" fill="#5a6480">Lab: Linux monitoring stack — Prometheus + Grafana  ·  Relevant: SysAdmin, IT Admin, App Support</text>
+  </g>
+
+  <!-- CARD 4: Security & Monitoring — red accent -->
+  <g class="r6">
+    <rect x="12" y="370" width="676" height="66" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="370" width="3"   height="66" rx="1" fill="#e05c5c"/>
+    <text x="24" y="389" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Security &amp; Monitoring</text>
+    <text x="24" y="405" class="mono" font-size="12" font-weight="700" fill="#e05c5c">Splunk  ·  Microsoft Sentinel  ·  Elastic SIEM  ·  Defender for Endpoint</text>
+    <text x="24" y="421" class="mono" font-size="11" font-weight="600" fill="#8892aa">Grafana  ·  Prometheus  ·  ELK Stack  ·  Datadog  ·  Zabbix  ·  Log Analysis  ·  Alert Triage</text>
+    <text x="24" y="433" class="mono" font-size="10" font-weight="500" fill="#5a6480">TryHackMe active — log analysis, SIEM, network traffic, IR basics  ·  Preparing: CompTIA Security+</text>
+  </g>
+
+  <!-- CARD 5: Microsoft 365 & Scripting — amber accent -->
+  <g class="r7">
+    <rect x="12" y="444" width="676" height="66" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="444" width="3"   height="66" rx="1" fill="#f0b429"/>
+    <text x="24" y="463" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Microsoft 365 &amp; Scripting</text>
+    <text x="24" y="479" class="mono" font-size="12" font-weight="700" fill="#f0b429">Exchange Online  ·  Intune  ·  Teams  ·  SharePoint  ·  OneDrive  ·  Defender</text>
+    <text x="24" y="495" class="mono" font-size="11" font-weight="600" fill="#8892aa">Python  ·  Bash  ·  PowerShell  ·  Go  ·  PostgreSQL  ·  MySQL  ·  MongoDB  ·  MSSQL</text>
+    <text x="24" y="507" class="mono" font-size="10" font-weight="500" fill="#5a6480">M.Sc. thesis: ML benchmarking (GAIN, VAEs, Autoencoders) · Python + TensorFlow · 2 publications</text>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="12" y="518" width="676" height="0.5" fill="#2e3954"/>
+  <g class="mono r0">
+    <text x="16" y="536" font-size="11" font-weight="600" fill="#5a6480">Languages: </text>
+    <text x="90" y="536" font-size="11" font-weight="600" fill="#8892aa">English C1  ·  Deutsch B1 (→B2)  ·  Bengali native</text>
+    <text x="16" y="552" font-size="11" font-weight="600" fill="#5a6480">Experience:</text>
+    <text x="90" y="552" font-size="11" font-weight="600" fill="#8892aa">Detecon International (Deutsche Telekom) · CECAD Research Center (Elsevier pub. 2025)</text>
+    <text x="16" y="568" font-size="11" font-weight="600" fill="#5a6480">Academia: </text>
+    <text x="90" y="568" font-size="11" font-weight="600" fill="#8892aa">DAAD STIBET Scholarship · GPA 1.7 · Dean's List · Talentplus Scholar</text>
+    <text x="688" y="552" text-anchor="end" font-size="10" font-weight="500" fill="#5a6480">github.com/rubak714</text>
+    <text x="688" y="568" text-anchor="end" font-size="10" font-weight="500" fill="#5a6480">linkedin.com/in/rubkp110</text>
+  </g>
 </svg>

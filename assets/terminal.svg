@@ -1,86 +1,186 @@
-<svg viewBox="0 0 740 420" xmlns="http://www.w3.org/2000/svg" width="740">
+<svg width="700" height="360" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .win { fill:#0d1117; }
-      .bar { fill:#161b22; }
-      .t   { font-family:'Courier New',Courier,monospace; font-size:12.5px; }
-      .dim { fill:#484f58; }
-      .wht { fill:#c9d1d9; }
-      .blu { fill:#58a6ff; }
-      .grn { fill:#3fb950; }
-      .yel { fill:#e3b341; }
-      .nvy { fill:#79c0ff; }
-      .cur { fill:#58a6ff; animation:blink 1s step-end infinite; }
-
-      .l01{opacity:0;animation:f .05s  0.3s forwards;}
-      .l02{opacity:0;animation:f .05s  1.0s forwards;}
-      .l03{opacity:0;animation:f .05s  1.2s forwards;}
-      .l04{opacity:0;animation:f .05s  1.4s forwards;}
-      .l05{opacity:0;animation:f .05s  1.6s forwards;}
-      .l06{opacity:0;animation:f .05s  2.4s forwards;}
-      .l07{opacity:0;animation:f .05s  2.6s forwards;}
-      .l08{opacity:0;animation:f .05s  2.8s forwards;}
-      .l09{opacity:0;animation:f .05s  3.0s forwards;}
-      .l10{opacity:0;animation:f .05s  3.2s forwards;}
-      .l11{opacity:0;animation:f .05s  3.4s forwards;}
-      .l12{opacity:0;animation:f .05s  3.6s forwards;}
-      .l13{opacity:0;animation:f .05s  4.4s forwards;}
-      .l14{opacity:0;animation:f .05s  4.6s forwards;}
-      .l15{opacity:0;animation:f .05s  4.8s forwards;}
-      .l16{opacity:0;animation:f .05s  5.0s forwards;}
-
-      @keyframes f    { to { opacity:1; } }
-      @keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:0;} }
+      .mono { font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .a0  { animation: f .2s .05s  both; }
+      .a1  { animation: f .2s .25s  both; }
+      .a2  { animation: f .2s .50s  both; }
+      .a3  { animation: f .2s .75s  both; }
+      .a4  { animation: f .2s 1.00s both; }
+      .a5  { animation: f .2s 1.30s both; }
+      .a6  { animation: f .2s 1.50s both; }
+      .a7  { animation: f .2s 1.70s both; }
+      .a8  { animation: f .2s 1.90s both; }
+      .a9  { animation: f .2s 2.10s both; }
+      .a10 { animation: f .2s 2.40s both; }
+      .a11 { animation: f .2s 2.60s both; }
+      .a12 { animation: f .2s 2.80s both; }
+      .a13 { animation: f .2s 3.00s both; }
+      .a14 { animation: f .2s 3.20s both; }
+      .a15 { animation: f .2s 3.45s both; }
+      .cur { animation: f .2s 3.65s both, bl 1s 3.9s step-end infinite; }
+      @keyframes f  { from{opacity:0} to{opacity:1} }
+      @keyframes bl { 0%,100%{opacity:1} 50%{opacity:0} }
     </style>
   </defs>
 
-  <rect width="740" height="420" rx="10" class="win"/>
-  <rect width="740" height="34" rx="10" class="bar"/>
-  <rect y="17" width="740" height="17" class="bar"/>
-  <circle cx="22" cy="17" r="6" fill="#f78166"/>
-  <circle cx="44" cy="17" r="6" fill="#e3b341"/>
-  <circle cx="66" cy="17" r="6" fill="#3fb950"/>
-  <text x="370" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#484f58">rubak714@enterprise-stack -- bash -- 96x32</text>
+  <!-- BACKGROUND -->
+  <rect width="700" height="360" rx="8" fill="#1b1f2b"/>
+  <rect width="700" height="360" rx="8" fill="none" stroke="#2e3954" stroke-width="1"/>
 
-  <!-- CMD 1: whoami -->
-  <g class="l01">
-    <text x="18" y="58" class="t">
-      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">whoami --full</tspan>
-    </text>
+  <!-- Subtle grid lines -->
+  <g stroke="#252c3f" stroke-width="0.5" opacity="0.7">
+    <line x1="0" y1="90"  x2="700" y2="90"/>
+    <line x1="0" y1="180" x2="700" y2="180"/>
+    <line x1="0" y1="270" x2="700" y2="270"/>
+    <line x1="233" y1="46" x2="233" y2="360"/>
+    <line x1="467" y1="46" x2="467" y2="360"/>
   </g>
-  <g class="l02"><text x="18" y="75"  class="t"><tspan class="dim">  name       : </tspan><tspan class="grn">Rubaiya -- M.Sc. Communications, Systems and Networks -- Cologne, DE</tspan></text></g>
-  <g class="l03"><text x="18" y="91"  class="t"><tspan class="dim">  experience : </tspan><tspan class="grn">3+ years across IT infrastructure, cloud and security in Germany</tspan></text></g>
-  <g class="l04"><text x="18" y="107" class="t"><tspan class="dim">  notice     : </tspan><tspan class="yel">2 weeks</tspan><tspan class="dim">    relocation : </tspan><tspan class="yel">possible within Germany</tspan></text></g>
 
-  <!-- CMD 2: stack -->
-  <g class="l05">
-    <text x="18" y="131" class="t">
-      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">systemctl list-units --type=skill --state=active</tspan>
-    </text>
+  <!-- TOPBAR -->
+  <rect width="700" height="44" rx="8" fill="#1f2438"/>
+  <rect y="32" width="700" height="12" fill="#1f2438"/>
+  <rect y="42" width="700" height="2" fill="#2e3954"/>
+
+  <!-- Active tab -->
+  <rect x="12" y="12" width="120" height="26" rx="4" fill="#1b1f2b"/>
+  <rect x="12" y="36" width="120" height="2" fill="#00b4d8"/>
+  <text x="72" y="30" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#00b4d8">TERMINAL</text>
+  <text x="190" y="30" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#5a6480">METRICS</text>
+  <text x="298" y="30" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#5a6480">MONITOR</text>
+  <text x="660" y="28" class="mono" font-size="11" font-weight="400" fill="#5a6480">─  □  ✕</text>
+
+  <!-- Cyan accent bar -->
+  <rect x="0" y="44" width="700" height="1.5" fill="#00b4d8" opacity="0.35"/>
+
+  <!-- STATUS BAR -->
+  <g class="a0 mono">
+    <rect x="12" y="54" width="98" height="17" rx="3" fill="#252c3f"/>
+    <text x="61" y="66" text-anchor="middle" font-size="10" font-weight="600" fill="#5a6480">SUB: rubak714-lab</text>
+    <rect x="116" y="54" width="82" height="17" rx="3" fill="#252c3f"/>
+    <text x="157" y="66" text-anchor="middle" font-size="10" font-weight="600" fill="#5a6480">West Europe</text>
+    <rect x="204" y="54" width="66" height="17" rx="3" fill="#00c8a81a" stroke="#00c8a840" stroke-width="0.5"/>
+    <circle cx="215" cy="63" r="3" fill="#00c8a8"/>
+    <text x="232" y="67" font-size="10" font-weight="700" fill="#00c8a8">ACTIVE</text>
+    <text x="278" y="66" font-size="10" font-weight="600" fill="#5a6480">uptime: </text>
+    <text x="320" y="66" font-size="10" font-weight="700" fill="#00b4d8">99.9%</text>
+    <rect x="362" y="54" width="108" height="17" rx="3" fill="#4a88d01a" stroke="#4a88d040" stroke-width="0.5"/>
+    <text x="416" y="66" text-anchor="middle" font-size="10" font-weight="700" fill="#4a88d0">AZ-900 certified</text>
+    <text x="688" y="66" text-anchor="end" font-size="10" font-weight="500" fill="#5a6480">2026-05-17T18:46Z</text>
   </g>
-  <g class="l06"><text x="18" y="148" class="t dim">  LAYER                         STACK                                           STATUS</text></g>
-  <g class="l07"><text x="18" y="164" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">identity.service          </tspan><tspan class="dim">AD, Entra ID, GPO, RBAC, SSO, MFA              </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l08"><text x="18" y="180" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">systems.service           </tspan><tspan class="dim">Linux, Windows Server, Bash, PowerShell         </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l09"><text x="18" y="196" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">networking.service        </tspan><tspan class="dim">DNS, DHCP, VPN, Firewall, Cisco, TCP/IP         </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l10"><text x="18" y="212" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">microsoft365.service      </tspan><tspan class="dim">Exchange, Teams, SharePoint, Intune, Defender   </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l11"><text x="18" y="228" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">security-soc.service      </tspan><tspan class="dim">Splunk, ELK, Sentinel, log analysis, triage     </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l12"><text x="18" y="244" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">cloud.service             </tspan><tspan class="dim">Azure, AWS, GCP, Terraform, Ansible              </tspan><tspan class="grn">active</tspan></text></g>
-  <g class="l13"><text x="18" y="260" class="t"><tspan class="grn">  @ </tspan><tspan class="nvy">automation.service        </tspan><tspan class="dim">Docker, K8s, Helm, Grafana, Prometheus, CI/CD   </tspan><tspan class="grn">active</tspan></text></g>
 
-  <!-- CMD 3: availability -->
-  <g class="l14">
-    <text x="18" y="284" class="t">
-      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan><tspan class="wht">curl -s https://linkedin.com/in/rubkp110 | grep availability</tspan>
-    </text>
+  <rect x="0" y="75" width="700" height="0.5" fill="#2e3954" class="a0"/>
+
+  <!-- CONTENT -->
+
+  <!-- cmd 1 -->
+  <g class="a1 mono">
+    <text x="16" y="95" font-size="14" font-weight="700" fill="#00c8a8">az</text>
+    <text x="34" y="95" font-size="14" font-weight="400" fill="#5a6480"> › </text>
+    <text x="52" y="95" font-size="14" font-weight="700" fill="#00b4d8">profile</text>
+    <text x="120" y="95" font-size="14" font-weight="500" fill="#5a6480"> --show</text>
   </g>
-  <g class="l15"><text x="18" y="301" class="t"><tspan class="dim">  open_to     : </tspan><tspan class="grn">Azure Admin, Cloud Admin, IT Admin, IT Support, SysAdmin, SOC</tspan></text></g>
-  <g class="l16"><text x="18" y="317" class="t"><tspan class="dim">  long_term   : </tspan><tspan class="grn">growing into DevOps and SRE engineering</tspan></text></g>
 
-  <!-- final prompt -->
-  <g>
-    <text x="18" y="350" class="t" style="opacity:0;animation:f .05s 6.0s forwards">
-      <tspan class="blu">rubak714@enterprise-stack</tspan><tspan class="dim">:</tspan><tspan class="nvy">~</tspan><tspan class="dim"> $ </tspan>
-    </text>
-    <rect x="230" y="338" width="8" height="14" class="cur" style="opacity:0;animation:f .05s 6.0s forwards, blink 1s 6.0s step-end infinite"/>
+  <!-- profile block -->
+  <g class="a2 mono">
+    <text x="16" y="113" font-size="13" font-weight="500" fill="#5a6480">┌─ </text>
+    <text x="38" y="113" font-size="13" font-weight="700" fill="#00b4d8">IDENTITY</text>
+  </g>
+  <g class="a3 mono">
+    <text x="16" y="129" font-size="13" font-weight="500" fill="#5a6480">│  name          </text>
+    <text x="160" y="129" font-size="13" font-weight="700" fill="#c8d4e8">Rubaiya Kabir Pranti</text>
+  </g>
+  <g class="a4 mono">
+    <text x="16" y="145" font-size="13" font-weight="500" fill="#5a6480">│  location      </text>
+    <text x="160" y="145" font-size="13" font-weight="600" fill="#8892aa">Cologne, Germany</text>
+    <text x="310" y="145" font-size="13" font-weight="500" fill="#5a6480">  ·  notice </text>
+    <text x="385" y="145" font-size="13" font-weight="700" fill="#00c8a8">2 weeks</text>
+  </g>
+  <g class="a5 mono">
+    <text x="16" y="161" font-size="13" font-weight="500" fill="#5a6480">│  education     </text>
+    <text x="160" y="161" font-size="13" font-weight="700" fill="#f0b429">M.Sc. Comm. Systems &amp; Networks</text>
+    <text x="420" y="161" font-size="13" font-weight="500" fill="#5a6480">  TH Köln · GPA 1.7</text>
+  </g>
+  <g class="a6 mono">
+    <text x="16" y="177" font-size="13" font-weight="500" fill="#5a6480">└─ available     </text>
+    <text x="160" y="177" font-size="13" font-weight="700" fill="#00c8a8">yes</text>
+    <text x="185" y="177" font-size="13" font-weight="500" fill="#5a6480">   ·   relocation within DE </text>
+    <text x="420" y="177" font-size="13" font-weight="700" fill="#00c8a8">✓</text>
+  </g>
+
+  <!-- cmd 2 -->
+  <g class="a7 mono">
+    <text x="16" y="197" font-size="14" font-weight="700" fill="#00c8a8">az</text>
+    <text x="34" y="197" font-size="14" font-weight="400" fill="#5a6480"> › </text>
+    <text x="52" y="197" font-size="14" font-weight="700" fill="#00b4d8">skills</text>
+    <text x="108" y="197" font-size="14" font-weight="500" fill="#5a6480"> list --category infrastructure</text>
+  </g>
+
+  <!-- skills -->
+  <g class="a8 mono">
+    <text x="16" y="214" font-size="13" font-weight="600" fill="#5a6480">  [0]  </text>
+    <text x="68" y="214" font-size="13" font-weight="600" fill="#8892aa">identity    </text>
+    <text x="166" y="214" font-size="13" font-weight="700" fill="#00b4d8">Active Directory · Azure AD / Entra ID · GPO · MFA · PIM</text>
+  </g>
+  <g class="a9 mono">
+    <text x="16" y="229" font-size="13" font-weight="600" fill="#5a6480">  [1]  </text>
+    <text x="68" y="229" font-size="13" font-weight="600" fill="#8892aa">cloud       </text>
+    <text x="166" y="229" font-size="13" font-weight="700" fill="#00b4d8">Azure</text>
+    <text x="205" y="229" font-size="13" font-weight="700" fill="#f0b429"> (AZ-900)</text>
+    <text x="277" y="229" font-size="13" font-weight="700" fill="#00b4d8"> · Terraform · Ansible · AWS · GCP</text>
+  </g>
+  <g class="a10 mono">
+    <text x="16" y="244" font-size="13" font-weight="600" fill="#5a6480">  [2]  </text>
+    <text x="68" y="244" font-size="13" font-weight="600" fill="#8892aa">systems     </text>
+    <text x="166" y="244" font-size="13" font-weight="700" fill="#00b4d8">Linux (RHEL · Ubuntu) · Windows Server · PowerShell · Bash</text>
+  </g>
+  <g class="a11 mono">
+    <text x="16" y="259" font-size="13" font-weight="600" fill="#5a6480">  [3]  </text>
+    <text x="68" y="259" font-size="13" font-weight="600" fill="#8892aa">containers  </text>
+    <text x="166" y="259" font-size="13" font-weight="700" fill="#00b4d8">Docker · Kubernetes (AKS) · Helm · GitHub Actions CI/CD</text>
+  </g>
+  <g class="a12 mono">
+    <text x="16" y="274" font-size="13" font-weight="600" fill="#5a6480">  [4]  </text>
+    <text x="68" y="274" font-size="13" font-weight="600" fill="#8892aa">observ.     </text>
+    <text x="166" y="274" font-size="13" font-weight="700" fill="#00b4d8">Prometheus · Grafana · ELK Stack · Splunk · Sentinel</text>
+  </g>
+
+  <!-- cmd 3 -->
+  <g class="a13 mono">
+    <text x="16" y="295" font-size="14" font-weight="700" fill="#00c8a8">az</text>
+    <text x="34" y="295" font-size="14" font-weight="400" fill="#5a6480"> › </text>
+    <text x="52" y="295" font-size="14" font-weight="700" fill="#00b4d8">career</text>
+    <text x="116" y="295" font-size="14" font-weight="500" fill="#5a6480"> show --target roles</text>
+  </g>
+
+  <g class="a14 mono">
+    <text x="16" y="312" font-size="13" font-weight="500" fill="#5a6480">  target   </text>
+    <text x="100" y="312" font-size="13" font-weight="700" fill="#00c8a8">Cloud Admin · SysAdmin · IT Admin · DevOps · Cloud Support</text>
+  </g>
+  <g class="a15 mono">
+    <text x="16" y="328" font-size="13" font-weight="500" fill="#5a6480">  certs    </text>
+    <text x="100" y="328" font-size="13" font-weight="700" fill="#f0b429">AZ-900 ✓</text>
+    <text x="168" y="328" font-size="13" font-weight="500" fill="#5a6480">  · preparing </text>
+    <text x="264" y="328" font-size="13" font-weight="600" fill="#8892aa">AZ-104 · Security+</text>
+    <text x="390" y="328" font-size="13" font-weight="500" fill="#5a6480">  · lang </text>
+    <text x="438" y="328" font-size="13" font-weight="600" fill="#8892aa">DE B1  EN C1</text>
+  </g>
+
+  <!-- Cursor -->
+  <g class="cur">
+    <rect x="16" y="341" width="9" height="14" rx="1" fill="#00b4d8" opacity="0.85"/>
+  </g>
+
+  <!-- Mini metric bars -->
+  <g class="a0" opacity="0.55">
+    <text x="688" y="307" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#5a6480">cpu</text>
+    <rect x="650" y="298" width="30" height="5" rx="1" fill="#252c3f"/>
+    <rect x="650" y="298" width="18" height="5" rx="1" fill="#00b4d8"/>
+    <text x="688" y="322" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#5a6480">mem</text>
+    <rect x="650" y="313" width="30" height="5" rx="1" fill="#252c3f"/>
+    <rect x="650" y="313" width="22" height="5" rx="1" fill="#00c8a8"/>
+    <text x="688" y="337" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#5a6480">net</text>
+    <rect x="650" y="328" width="30" height="5" rx="1" fill="#252c3f"/>
+    <rect x="650" y="328" width="12" height="5" rx="1" fill="#4a88d0"/>
   </g>
 </svg>

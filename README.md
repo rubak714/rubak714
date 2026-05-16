@@ -1,92 +1,67 @@
-<div align="center">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=00B4D8&center=true&vCenter=true&width=700&lines=Cloud+%26+IT+Infrastructure+%7C+Cologne%2C+Germany;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;M.Sc.+Communication+Systems+%26+Networks+%C2%B7+TH+K%C3%B6ln;AZ-900+Certified+%C2%B7+Preparing+AZ-104+%26+Security%2B;Open+to+Cloud+%2F+IT+%2F+SysAdmin+%2F+DevOps+roles)](https://git.io/typing-svg)
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Rubaiya+%F0%9F%91%8B;M.Sc.+Communications%2C+Systems+and+Networks;IT+Infrastructure+Engineer+based+in+Germany;Azure+Admin+%7C+Cloud+Admin+%7C+IT+Support+%7C+SysAdmin;Full+stack+from+identity+to+cloud." alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="./assets/terminal.svg" alt="terminal" width="100%"/>
-
-</div>
+![terminal](assets/terminal.svg)
 
 ---
 
-### 🧕 About Me
+### About
 
-I am an IT professional based in **Cologne, Germany**, holding a **M.Sc. in Communications, Systems and Networks (2025)** with over 3 years of hands-on experience built through academic projects, open-source contributions, internships and working student roles in Germany.
+M.Sc. graduate in Communication Systems and Networks from TH Köln (GPA 1.7, DAAD STIBET scholarship), based in Cologne. Hands-on with Microsoft Azure, Active Directory, Terraform, Linux, and Kubernetes through labs and an internship at Detecon International (Deutsche Telekom). Master's background includes ML research and two peer-reviewed publications.
 
-I work across every layer of enterprise IT: identity and access management, on-premise server administration, networking, Microsoft 365 and Active Directory, security operations, and cloud infrastructure on Azure, AWS and GCP. I understand how each layer connects to the next and I take responsibility for the full picture rather than just one piece of it.
+Looking for a role in cloud administration, IT infrastructure, systems administration, or DevOps.
 
-Right now I am looking for a role where I can contribute and grow, whether that is Azure administration, cloud infrastructure, IT support, systems administration, or SOC work. Longer term I am interested in moving into DevOps and SRE engineering as a natural next step from my infrastructure background.
-
-- Notice period: 2 weeks
-- Relocation: possible within Germany
-- German: professional working proficiency at B1, actively working towards B2
-- English: professional working proficiency
+- **Notice period:** 2 weeks
+- **Relocation:** possible within Germany
+- **German:** B1, working towards B2
+- **English:** C1
 
 ---
 
 ### 🔗 Connect
 
-<a href="https://www.linkedin.com/in/rubkp110/">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://tryhackme.com/p/Birdybird00Rubai?tab=badges">
-  <img src="https://img.shields.io/badge/TryHackMe-Birdybird00Rubai-%23212C42?style=flat-square&logo=tryhackme&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.credly.com/users/rubaiya110/badges">
-  <img src="https://img.shields.io/badge/Credly-Verified%20Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Birdybird00-%23212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
+[![Credly](https://img.shields.io/badge/Credly-Verified%20Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rubaiya110/badges)
+[![AZ-900](https://img.shields.io/badge/Microsoft-AZ--900%20Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
 
 ---
 
-### 🏗️ How I Work Across the Stack
+### 🏗️ Infrastructure & Cloud Skills
 
-<div align="center">
-<img src="./assets/stack.svg" alt="stack layers" width="100%"/>
-</div>
+![stack layers](assets/stack.svg)
 
 ---
 
 ### 📊 GitHub at a Glance
 
-<div align="center">
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,smarty,mustache,html&langs_count=6)](https://github.com/rubak714)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,smarty,mustache,html&langs_count=6" height="160"/>
-
-</div>
-
-<div align="center">
-
-![Focus](https://img.shields.io/badge/Focus-Infrastructure%20%26%20Cloud%20Automation-blue?style=flat-square)
-![Currently](https://img.shields.io/badge/Currently-Open%20to%20Work-brightgreen?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Cloud%20%26%20IT%20Infrastructure-0078D4?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=flat-square)
 ![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-lightgrey?style=flat-square)
-![Degree](https://img.shields.io/badge/M.Sc.-Communications%2C%20Systems%20%26%20Networks-blueviolet?style=flat-square)
-
-</div>
-
-<div align="center">
-
-![Works With](https://img.shields.io/badge/Works%20With-Linux%20%7C%20Windows%20Server%20%7C%20Azure%20%7C%20AWS%20%7C%20GCP-0078D4?style=flat-square)
-![Automates With](https://img.shields.io/badge/Automates%20With-Terraform%20%7C%20Ansible%20%7C%20Bash%20%7C%20Python-informational?style=flat-square)
-![Secures With](https://img.shields.io/badge/Secures%20With-Splunk%20%7C%20Sentinel%20%7C%20ELK%20%7C%20Defender-red?style=flat-square)
-
-</div>
+![AZ-900](https://img.shields.io/badge/AZ--900-Certified%20May%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 ---
 
-### 🏆 Achievements and Profiles
+### 🏆 Certifications & Achievements
 
-**Academic Awards**
+**Certifications**
 
-- DAAD Scholar: received the DAAD scholarship during Master's thesis research in Germany
-- Dean's List: awarded during Bachelor's in Electrical and Electronics Engineering (EECE) in Bangladesh
-- Talentplus Scholarships: received multiple Talentplus scholarships throughout undergraduate studies in Bangladesh
+| Certification | Issuer | Earned | Verify |
+|---|---|---|---|
+| Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | May 13, 2026 | [View credential ↗](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902) |
 
-**GitHub Badges** earned through real activity on the platform:
+Preparing: AZ-104 (Azure Administrator) · CompTIA Security+
+
+**Academic**
+
+- DAAD STIBET Scholarship — Master's thesis research, TH Köln
+- GPA 1.7 — M.Sc. Communication Systems and Networks
+- Dean's List — B.Sc. Electrical and Electronics Engineering (EECE), Bangladesh
+- Talentplus Scholarships — multiple awards during undergraduate studies
+- Peer-reviewed publication in Elsevier (2025) — computer vision for mitochondria segmentation, CECAD Research Center
+
+**GitHub activity**
 
 | Badge | What it reflects |
 |---|---|
@@ -95,23 +70,39 @@ Right now I am looking for a role where I can contribute and grow, whether that 
 | 🎯 YOLO | Pull request merged without a code review |
 | 👥 Pair Extraordinaire | Co-authored commits on a merged pull request |
 
-**TryHackMe** > active cybersecurity learning and CTF challenges
+**TryHackMe** — log analysis, SIEM (Elastic Stack, Splunk), network traffic, incident response basics
 
-<a href="https://tryhackme.com/p/Birdybird00Rubai?tab=badges">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/Birdybird00Rubai.png" alt="TryHackMe" height="80"/>
-</a>
-
-**Credly** > verified cloud and IT certifications
-
-<a href="https://www.credly.com/users/rubaiya110/badges">
-  <img src="https://img.shields.io/badge/View%20verified%20badges%20on%20Credly-%23FF6B00?style=flat-square&logo=credly&logoColor=white"/>
-</a>
+[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Birdybird00Rubai.png)](https://tryhackme.com/p/Birdybird00)
 
 ---
 
-### 🧪 Enterprise IT Lab
+### 💼 Experience
 
-Currently building a simulated enterprise IT environment to show how all infrastructure layers work together in practice. Modelled after a real company setup, not isolated tutorials.
+**Detecon International (Deutsche Telekom)** — Working Student
+Hands-on with multi-cloud environments and Terraform across GCP, AWS, and Azure. Exposure to real production infrastructure workflows.
+
+**CECAD Research Center, University of Cologne** — Student Research Assistant
+Computer vision project for mitochondria segmentation from microscopy images. Built a Python GUI for the analysis workflow. Work led to a peer-reviewed Elsevier publication (2025).
+
+---
+
+### 🧪 Current Labs
+
+| Lab | Stack |
+|---|---|
+| Active Directory + hybrid identity | AD DS · Entra Connect · GPO |
+| CI/CD pipelines | GitHub Actions · Azure DevOps |
+| Kubernetes deployments | AKS · Helm · Docker |
+| Linux monitoring | Prometheus · Grafana · ELK |
+| Repeatable cloud setups | Terraform · Azure · AWS |
+
+Every lab has a troubleshooting document — nothing works the first time and that is worth writing down.
+
+---
+
+### 🧪 Enterprise IT Lab (GitHub)
+
+Currently building a simulated enterprise IT environment modelled after a real company setup.
 
 Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab)
 
@@ -120,62 +111,59 @@ Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpde
 | **Module 1: Identity and Access** | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
 | **Module 2: Helpdesk and Incident Management** | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
 | **Module 3: On-Premise Infrastructure** | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
-| **Module 4: Monitoring and Alerting** | Prometheus and Grafana, ELK stack, *alert-to-ticket integration* |
+| **Module 4: Monitoring and Alerting** | Prometheus, Grafana, ELK stack, alert-to-ticket integration |
 | **Module 5: Automation** | Ansible playbooks, Bash and Python scripts for user management and patching |
-| **Module 6: Security Layer** | Failed login detection, firewall rules, log correlation, *SOC workflow* |
+| **Module 6: Security Layer** | Failed login detection, firewall rules, log correlation, SOC workflow basics |
 
-The full flow this demonstrates:
-
-> incident detected > alert fires > ticket created > admin resolves > automation prevents recurrence
+> incident detected → alert fires → ticket created → admin resolves → automation prevents recurrence
 
 ---
 
-<details>
-<summary><b>📋 Full skills manifest</b></summary>
+**📋 Full skills manifest**
 
 ```json
 {
   "identity_and_access": {
-    "on_premise": ["Active Directory DS", "Group Policy (GPO)", "OU Design", "RBAC", "Domain Controllers", "LDAP"],
+    "on_premise": ["Active Directory DS", "GPO", "OU Design", "RBAC", "Domain Controllers", "LDAP"],
     "cloud": ["Azure AD / Entra ID", "Azure AD Connect", "SSO", "MFA", "Conditional Access", "PIM"]
   },
   "systems": {
-    "linux": ["Ubuntu", "RHEL", "Debian", "Bash scripting", "cron", "systemd", "user and permission management"],
+    "linux": ["Ubuntu", "RHEL", "Debian", "Bash", "cron", "systemd"],
     "windows": ["Windows Server 2016/2019/2022", "PowerShell", "GPO", "IIS", "Hyper-V", "SCCM"]
   },
   "networking": ["DNS", "DHCP", "VPN (OpenVPN, IPSec, WireGuard)", "Firewall rules", "Cisco IOS", "TCP/IP", "Subnetting", "VLANs", "BGP/OSPF basics", "Wireshark"],
-  "microsoft_365": ["Exchange Online", "Microsoft Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint"],
+  "microsoft_365": ["Exchange Online", "Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint"],
+  "certifications": [
+    { "name": "AZ-900 Azure Fundamentals", "issuer": "Microsoft", "earned": "2026-05-13", "credential": "D7BB95205F89A886" }
+  ],
+  "preparing": ["AZ-104", "CompTIA Security+"],
   "security_and_soc": {
     "siem": ["Splunk", "Elastic SIEM", "Microsoft Sentinel"],
-    "practices": ["Log analysis", "Alert triage", "Vulnerability management", "Threat detection", "IAM auditing", "Incident response"]
+    "practices": ["Log analysis", "Alert triage", "Vulnerability management", "Threat detection", "Incident response"]
   },
   "cloud": {
-    "azure": ["Azure VMs", "Azure Networking", "AKS", "Azure Monitor", "Log Analytics", "Entra ID"],
+    "azure": ["Azure VMs", "AKS", "Azure Monitor", "Log Analytics", "Entra ID", "Azure DevOps"],
     "aws": ["EC2", "S3", "IAM", "VPC", "CloudWatch"],
-    "gcp": ["Compute Engine", "GKE", "Cloud IAM"],
+    "gcp": ["Compute Engine", "GKE"],
     "iac": ["Terraform", "Ansible", "Vagrant"]
   },
-  "automation_and_devops": {
-    "containers": ["Docker", "Kubernetes", "Helm", "ArgoCD"],
-    "cicd": ["GitHub Actions", "Jenkins", "GitLab CI"],
-    "monitoring": ["Grafana", "Prometheus", "ELK Stack", "Datadog", "Splunk", "Zabbix"]
-  },
+  "containers_and_cicd": ["Docker", "Kubernetes", "Helm", "ArgoCD", "GitHub Actions", "Jenkins", "GitLab CI"],
+  "monitoring": ["Grafana", "Prometheus", "ELK Stack", "Datadog", "Zabbix"],
   "scripting": ["Python", "Bash", "PowerShell", "Go"],
   "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
-  "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk"],
+  "ml_background": ["TensorFlow", "PyTorch", "scikit-learn", "Pandas", "NumPy"],
+  "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk", "osTicket"],
   "languages": {
-    "German": "professional working proficiency at B1, actively working towards B2",
-    "English": "professional working proficiency",
+    "German": "B1, working towards B2",
+    "English": "C1",
     "Bengali": "native"
   },
-  "notice_period": "2 weeks",
   "location": "Cologne, Germany",
+  "notice_period": "2 weeks",
   "available": true,
   "open_to_relocation_within_germany": true
 }
 ```
-
-</details>
 
 ---
 
@@ -191,72 +179,73 @@ The full flow this demonstrates:
 
 **Cloud Platforms and IaC**
 
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
+![AZ-900](https://img.shields.io/badge/AZ--900%20Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
-![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=flat-square&logo=vagrant&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
+![Vagrant](https://img.shields.io/badge/Vagrant-%231563FF.svg?style=flat-square&logo=vagrant&logoColor=white)
 
 **Systems and Networking**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
-![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=flat-square&logo=cisco&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-%23049fd9.svg?style=flat-square&logo=cisco&logoColor=black)
 
 **Security and SOC**
 
-![Splunk](https://img.shields.io/badge/splunk-%23000000.svg?style=flat-square&logo=splunk&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=flat-square&logo=elasticsearch)
-![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=flat-square&logo=datadog&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-%23000000.svg?style=flat-square&logo=splunk&logoColor=white)
+![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch)
+![Datadog](https://img.shields.io/badge/Datadog-%23632CA6.svg?style=flat-square&logo=datadog&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=flat-square&logo=sonarqube&logoColor=4E9BCD)
 
 **Monitoring and Observability**
 
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=flat-square&logo=grafana&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=flat-square&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=Prometheus&logoColor=white)
 
 **Containers and CI/CD**
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-%230F1689.svg?style=flat-square&logo=helm&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white)
 
 **Scripting and Programming**
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat-square&logo=powershell&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
 
 **Databases**
 
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white)
+![MSSQL](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white)
 
-**ML and Data (Academic)**
+**ML and Data (Academic background)**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
 
 **Collaboration and Support Tools**
 
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=flat-square&logo=confluence&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-%23172BF4.svg?style=flat-square&logo=confluence&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 ---
 
@@ -264,29 +253,22 @@ The full flow this demonstrates:
 
 | Project | What it demonstrates |
 |---|---|
-| 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
-| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Production-grade platform: Dockerized Flask app on Kubernetes with HPA auto-scaling from 2 to 3 replicas under real load, Terraform-provisioned GKE cluster on GCP, Prometheus and Grafana via Helm with custom /metrics and ServiceMonitor, GitHub Actions CI/CD, load tested and documented with incident response runbooks |
-| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | Problem-solving across GitHub Actions pipelines, Kubernetes with Helm chart templating, Terraform GCP provisioning, Dockerfile builds and feature branch workflows. 128 commits of working infrastructure code |
-| 🎓 [**Master's Projects at German University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from my M.Sc. |
+| 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment: identity, helpdesk, servers, monitoring, automation and security as one integrated system |
+| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Dockerized Flask on Kubernetes with HPA, Terraform GKE on GCP, Prometheus and Grafana via Helm, GitHub Actions CI/CD, load tested with incident response runbooks |
+| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | GitHub Actions pipelines, Kubernetes with Helm, Terraform GCP provisioning, Dockerfile builds. 128 commits |
+| 🎓 [**Master's Projects at TH Köln**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from M.Sc. |
 | 📄 [**All Certifications**](https://github.com/rubak714/All-Certifications) | Cloud, networking and IT certifications with proof |
 
 ---
 
-<!-- ACTIVITY:START -->
 #### ⚡ Recent Activity
 
-<!-- last refreshed: 2026-05-16 08:08 UTC -->
+- 🏅 Earned **Microsoft Certified: Azure Fundamentals (AZ-900)** `2026-05-13`
 - ⭐ Starred **[TheDevOpsHub/AZ-104](https://github.com/TheDevOpsHub/AZ-104)** `2026-05-01`
-- 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-04-17`
+- 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-05-17`
 - ⭐ Starred **[lowlighter/metrics](https://github.com/lowlighter/metrics)** `2026-04-17`
-- ⭐ Starred **[anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)** `2026-04-17`
 - ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
-<!-- ACTIVITY:END -->
 
 ---
 
-<div align="center">
-
 [![](https://visitcount.itsvg.in/api?id=rubak714&icon=0&color=0)](https://visitcount.itsvg.in)
-
-</div>
