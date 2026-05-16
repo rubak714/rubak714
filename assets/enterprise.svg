@@ -1,0 +1,119 @@
+<svg width="700" height="430" viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .r0 { animation: fi .2s .05s both; }
+      .r1 { animation: fi .2s .20s both; }
+      .r2 { animation: fi .2s .40s both; }
+      .r3 { animation: fi .2s .60s both; }
+      .r4 { animation: fi .2s .80s both; }
+      .r5 { animation: fi .2s 1.00s both; }
+      .r6 { animation: fi .2s 1.20s both; }
+      .r7 { animation: fi .2s 1.40s both; }
+      .r8 { animation: fi .2s 1.65s both; }
+      @keyframes fi { from{opacity:0} to{opacity:1} }
+    </style>
+  </defs>
+
+  <rect width="700" height="430" rx="8" fill="#1b1f2b"/>
+  <rect width="700" height="430" rx="8" fill="none" stroke="#2e3954" stroke-width="1"/>
+
+  <!-- grid -->
+  <g stroke="#252c3f" stroke-width="0.5" opacity="0.45">
+    <line x1="0" y1="100" x2="700" y2="100"/>
+    <line x1="0" y1="170" x2="700" y2="170"/>
+    <line x1="0" y1="240" x2="700" y2="240"/>
+    <line x1="0" y1="310" x2="700" y2="310"/>
+    <line x1="0" y1="380" x2="700" y2="380"/>
+  </g>
+
+  <!-- Nav bar -->
+  <rect width="700" height="40" rx="8" fill="#1f2438"/>
+  <rect y="28" width="700" height="12" fill="#1f2438"/>
+  <rect y="40" width="700" height="1.5" fill="#00b4d8" opacity="0.3"/>
+  <g class="r0 mono">
+    <text x="16" y="25" font-size="11" font-weight="700" fill="#00b4d8">Azure Portal</text>
+    <text x="93" y="25" font-size="11" font-weight="400" fill="#5a6480"> › </text>
+    <text x="109" y="25" font-size="11" font-weight="600" fill="#8892aa">rubak714</text>
+    <text x="169" y="25" font-size="11" font-weight="400" fill="#5a6480"> › </text>
+    <text x="185" y="25" font-size="11" font-weight="600" fill="#8892aa">enterprise-helpdesk-ad-lab</text>
+    <text x="688" y="25" text-anchor="end" font-size="10" font-weight="500" fill="#5a6480">Simulated Enterprise Environment</text>
+  </g>
+
+  <!-- Title -->
+  <g class="r1 mono">
+    <text x="16" y="58" font-size="14" font-weight="700" fill="#e4ecf7">Enterprise Helpdesk and Active Directory Lab</text>
+    <text x="16" y="74" font-size="11" font-weight="500" fill="#5a6480">Simulated company IT environment  ·  All layers integrated  ·  Modelled after a real SME setup</text>
+  </g>
+  <rect x="16" y="82" width="668" height="0.5" fill="#2e3954" class="r1"/>
+
+  <!-- Flow line connecting modules -->
+  <g class="r2" opacity="0.3">
+    <line x1="350" y1="105" x2="350" y2="380" stroke="#00b4d8" stroke-width="1" stroke-dasharray="3,4"/>
+  </g>
+
+  <!-- MODULE ROWS — left label + right content -->
+
+  <!-- M1: Identity and Access -->
+  <g class="r3">
+    <rect x="12" y="103" width="676" height="60" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="103" width="3" height="60" rx="1" fill="#00b4d8"/>
+    <!-- module pill -->
+    <rect x="22" y="113" width="58" height="16" rx="3" fill="#00b4d81a" stroke="#00b4d840" stroke-width="0.5"/>
+    <text x="51" y="125" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#00b4d8">MODULE 1</text>
+    <text x="90" y="121" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Identity and Access</text>
+    <text x="90" y="136" class="mono" font-size="11" font-weight="700" fill="#00b4d8">Active Directory DS  ·  OU Design  ·  GPO  ·  User Lifecycle  ·  Azure AD Connect</text>
+    <text x="90" y="155" class="mono" font-size="10" font-weight="600" fill="#5a6480">Status: In progress  ·  Hybrid identity with Entra Connect</text>
+  </g>
+
+  <!-- M2: Helpdesk -->
+  <g class="r4">
+    <rect x="12" y="173" width="676" height="60" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="173" width="3" height="60" rx="1" fill="#4a88d0"/>
+    <rect x="22" y="183" width="58" height="16" rx="3" fill="#4a88d01a" stroke="#4a88d040" stroke-width="0.5"/>
+    <text x="51" y="195" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#4a88d0">MODULE 2</text>
+    <text x="90" y="191" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Helpdesk and Incident Management</text>
+    <text x="90" y="207" class="mono" font-size="11" font-weight="700" fill="#4a88d0">osTicket  ·  L1/L2 Ticket Simulations  ·  Resolution Workflows  ·  SLA Tracking</text>
+    <text x="90" y="225" class="mono" font-size="10" font-weight="600" fill="#5a6480">Realistic ticket scenarios  ·  Escalation paths  ·  End-to-end resolution</text>
+  </g>
+
+  <!-- M3: On-Premise Infrastructure -->
+  <g class="r5">
+    <rect x="12" y="243" width="676" height="60" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="243" width="3" height="60" rx="1" fill="#00c8a8"/>
+    <rect x="22" y="253" width="58" height="16" rx="3" fill="#00c8a81a" stroke="#00c8a840" stroke-width="0.5"/>
+    <text x="51" y="265" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#00c8a8">MODULE 3</text>
+    <text x="90" y="261" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">On-Premise Infrastructure</text>
+    <text x="90" y="277" class="mono" font-size="11" font-weight="700" fill="#00c8a8">Linux and Windows Server  ·  File/Web/SSH Servers  ·  Bash Automation  ·  Backups</text>
+    <text x="90" y="295" class="mono" font-size="10" font-weight="600" fill="#5a6480">Ubuntu · RHEL · Windows Server 2022  ·  systemd  ·  cron  ·  IIS  ·  Nginx</text>
+  </g>
+
+  <!-- M4: Monitoring -->
+  <g class="r6">
+    <rect x="12" y="313" width="676" height="60" rx="5" fill="#1e2535" stroke="#2a3452" stroke-width="0.7"/>
+    <rect x="12" y="313" width="3" height="60" rx="1" fill="#e05c5c"/>
+    <rect x="22" y="323" width="58" height="16" rx="3" fill="#e05c5c1a" stroke="#e05c5c40" stroke-width="0.5"/>
+    <text x="51" y="335" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#e05c5c">MODULE 4</text>
+    <text x="90" y="331" class="mono" font-size="12" font-weight="700" fill="#c8d4e8">Monitoring, Automation and Security</text>
+    <text x="90" y="347" class="mono" font-size="11" font-weight="700" fill="#e05c5c">Prometheus  ·  Grafana  ·  ELK Stack  ·  Ansible Playbooks  ·  Python Scripts</text>
+    <text x="90" y="365" class="mono" font-size="10" font-weight="600" fill="#5a6480">Alert-to-ticket integration  ·  Failed login detection  ·  Firewall rules  ·  SOC workflow</text>
+  </g>
+
+  <!-- Flow caption -->
+  <g class="r8 mono">
+    <rect x="12" y="382" width="676" height="36" rx="5" fill="#1b2535" stroke="#2a3452" stroke-width="0.5"/>
+    <text x="350" y="396" text-anchor="middle" font-size="11" font-weight="600" fill="#5a6480">incident detected</text>
+    <text x="350" y="396">
+      <tspan font-size="11" font-weight="600" fill="#5a6480" x="50" dy="0">incident detected</tspan>
+      <tspan font-size="11" font-weight="400" fill="#2e3954">  ›  </tspan>
+      <tspan font-size="11" font-weight="700" fill="#00b4d8">alert fires</tspan>
+      <tspan font-size="11" font-weight="400" fill="#2e3954">  ›  </tspan>
+      <tspan font-size="11" font-weight="700" fill="#4a88d0">ticket created</tspan>
+      <tspan font-size="11" font-weight="400" fill="#2e3954">  ›  </tspan>
+      <tspan font-size="11" font-weight="700" fill="#00c8a8">admin resolves</tspan>
+      <tspan font-size="11" font-weight="400" fill="#2e3954">  ›  </tspan>
+      <tspan font-size="11" font-weight="700" fill="#e05c5c">automation prevents recurrence</tspan>
+    </text>
+    
+  </g>
+</svg>

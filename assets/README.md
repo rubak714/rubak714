@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=00B4D8&center=true&vCenter=true&width=700&lines=Cloud+%26+IT+Infrastructure+%7C+Cologne%2C+Germany;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;M.Sc.+Communication+Systems+%26+Networks+%C2%B7+TH+K%C3%B6ln;AZ-900+Certified+%C2%B7+Preparing+AZ-104+%26+Security%2B;Open+to+Cloud+%2F+IT+%2F+SysAdmin+%2F+DevOps+roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=00B4D8&center=true&vCenter=true&width=700&lines=Cloud+%26+IT+Infrastructure+%7C+Cologne%2C+Germany;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;M.Sc.+Communication+Systems+%26+Networks+%C2%B7+TH+Koeln;AZ-900+Certified+%C2%B7+Preparing+AZ-104+%26+Security%2B;Open+to+Cloud+%2F+IT+%2F+SysAdmin+%2F+DevOps+%2F+Cloud+Engineer)](https://git.io/typing-svg)
 
 ![terminal](assets/terminal.svg)
 
@@ -6,9 +6,9 @@
 
 ### About
 
-M.Sc. graduate in Communication Systems and Networks from TH Köln (GPA 1.7, DAAD STIBET scholarship), based in Cologne. Hands-on with Microsoft Azure, Active Directory, Terraform, Linux, and Kubernetes through labs and an internship at Detecon International (Deutsche Telekom). Master's background includes ML research and two peer-reviewed publications.
+M.Sc. graduate in Communication Systems and Networks from TH Koeln (GPA 1.7, DAAD STIBET scholarship), based in Cologne. Hands-on with Microsoft Azure, Active Directory, Terraform, Bicep, Linux, and Kubernetes through personal projects and an internship at Detecon International (Deutsche Telekom). Master's background includes ML research and two peer-reviewed publications.
 
-Looking for a role in cloud administration, IT infrastructure, systems administration, or DevOps.
+Looking for a role in cloud administration, IT infrastructure, systems administration, cloud engineering, DevOps, or any IT and infrastructure related position.
 
 - **Notice period:** 2 weeks
 - **Relocation:** possible within Germany
@@ -17,7 +17,7 @@ Looking for a role in cloud administration, IT infrastructure, systems administr
 
 ---
 
-### 🔗 Connect
+### Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Birdybird00-%23212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
@@ -26,148 +26,88 @@ Looking for a role in cloud administration, IT infrastructure, systems administr
 
 ---
 
-### 🏗️ Infrastructure & Cloud Skills
+### Infrastructure, Cloud and Programming Skills
 
 ![stack layers](assets/stack.svg)
 
 ---
 
-### 📊 GitHub at a Glance
+### My Current Status
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rubak714&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,smarty,mustache,html&langs_count=6)](https://github.com/rubak714)
-
-![Focus](https://img.shields.io/badge/Focus-Cloud%20%26%20IT%20Infrastructure-0078D4?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=flat-square)
 ![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-lightgrey?style=flat-square)
 ![AZ-900](https://img.shields.io/badge/AZ--900-Certified%20May%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Cloud%20%26%20IT%20Infrastructure-0078D4?style=flat-square)
+
+Building hands-on projects continuously. Each project has a troubleshooting document, because nothing works the first time and that is worth writing down.
 
 ---
 
-### 🏆 Certifications & Achievements
+### Certifications and Achievements
 
 **Certifications**
 
 | Certification | Issuer | Earned | Verify |
 |---|---|---|---|
-| Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | May 13, 2026 | [View credential ↗](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902) |
+| Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | May 13, 2026 | [View credential](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902) |
 
 Preparing: AZ-104 (Azure Administrator) · CompTIA Security+
 
 **Academic**
 
-- DAAD STIBET Scholarship — Master's thesis research, TH Köln
-- GPA 1.7 — M.Sc. Communication Systems and Networks
-- Dean's List — B.Sc. Electrical and Electronics Engineering (EECE), Bangladesh
-- Talentplus Scholarships — multiple awards during undergraduate studies
-- Peer-reviewed publication in Elsevier (2025) — computer vision for mitochondria segmentation, CECAD Research Center
+- DAAD STIBET Scholarship, Master's thesis research, TH Koeln
+- GPA 1.7, M.Sc. Communication Systems and Networks
+- Dean's List, B.Sc. Electrical and Electronics Engineering (EECE), Bangladesh
+- Talentplus Scholarships, multiple awards during undergraduate studies
+- Peer-reviewed publication in Elsevier (2025), computer vision for mitochondria segmentation, CECAD Research Center, Cologne
 
-**GitHub activity**
+**GitHub Badges**
 
 | Badge | What it reflects |
 |---|---|
-| 🦈 Pull Shark | Pull requests opened and merged by others |
-| ⚡ Quickdraw | Issue or pull request closed within 5 minutes of opening |
-| 🎯 YOLO | Pull request merged without a code review |
-| 👥 Pair Extraordinaire | Co-authored commits on a merged pull request |
+| Pull Shark | Pull requests opened and merged by others |
+| Quickdraw | Issue or pull request closed within 5 minutes of opening |
+| YOLO | Pull request merged without a code review |
+| Pair Extraordinaire | Co-authored commits on a merged pull request |
 
-**TryHackMe** — log analysis, SIEM (Elastic Stack, Splunk), network traffic, incident response basics
+**TryHackMe** - active on log analysis, SIEM (Elastic Stack, Splunk), network traffic, incident response basics
 
 [![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Birdybird00Rubai.png)](https://tryhackme.com/p/Birdybird00)
 
 ---
 
-### 💼 Experience
+### Experience
 
-**Detecon International (Deutsche Telekom)** — Working Student
+**Detecon International (Deutsche Telekom)**, Working Student
+
 Hands-on with multi-cloud environments and Terraform across GCP, AWS, and Azure. Exposure to real production infrastructure workflows.
 
-**CECAD Research Center, University of Cologne** — Student Research Assistant
+**CECAD Research Center, University of Cologne**, Student Research Assistant
+
 Computer vision project for mitochondria segmentation from microscopy images. Built a Python GUI for the analysis workflow. Work led to a peer-reviewed Elsevier publication (2025).
 
 ---
 
-### 🧪 Current Labs
+### Projects and Repositories
 
-| Lab | Stack |
-|---|---|
-| Active Directory + hybrid identity | AD DS · Entra Connect · GPO |
-| CI/CD pipelines | GitHub Actions · Azure DevOps |
-| Kubernetes deployments | AKS · Helm · Docker |
-| Linux monitoring | Prometheus · Grafana · ELK |
-| Repeatable cloud setups | Terraform · Azure · AWS |
-
-Every lab has a troubleshooting document — nothing works the first time and that is worth writing down.
-
----
-
-### 🧪 Enterprise IT Lab (GitHub)
-
-Currently building a simulated enterprise IT environment modelled after a real company setup.
-
-Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab)
-
-| Module | Covers |
-|---|---|
-| **Module 1: Identity and Access** | Active Directory, OU design, GPO, user lifecycle, Azure AD Connect |
-| **Module 2: Helpdesk and Incident Management** | osTicket, L1/L2 ticket simulations, resolution workflows, SLA tracking |
-| **Module 3: On-Premise Infrastructure** | Linux and Windows Server, file/web/SSH servers, Bash automation, backups |
-| **Module 4: Monitoring and Alerting** | Prometheus, Grafana, ELK stack, alert-to-ticket integration |
-| **Module 5: Automation** | Ansible playbooks, Bash and Python scripts for user management and patching |
-| **Module 6: Security Layer** | Failed login detection, firewall rules, log correlation, SOC workflow basics |
-
-> incident detected → alert fires → ticket created → admin resolves → automation prevents recurrence
+| Project | Stack | What it covers |
+|---|---|---|
+| [azure-iac-foundation](https://github.com/rubak714/azure-iac-foundation) | Azure · Bicep · RBAC · Policy · PowerShell | Azure landing zone for a fictional German SME. Naming convention, mandatory tags, RBAC with least privilege, Azure Policy guardrails. AZ-104 aligned. In progress alongside AZ-104 study. |
+| [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | AD DS · osTicket · Linux · Prometheus · Ansible | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
+| [devops-production-platform](https://github.com/rubak714/devops-production-platform) | Docker · Kubernetes · Terraform · GKE · Prometheus | Dockerized Flask on Kubernetes with HPA, Terraform GKE on GCP, Prometheus and Grafana via Helm, GitHub Actions CI/CD, load tested with incident response runbooks |
+| [DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | K8s · Terraform · Helm · GCP · GitHub Actions | GitHub Actions pipelines, Kubernetes with Helm, Terraform GCP provisioning, Dockerfile builds. 128 commits |
+| [Master-s-Projects-at-German-University](https://github.com/rubak714/Master-s-Projects-at-German-University) | Python · TensorFlow · Networking | Applied IT, cloud, networking and multi-tier systems from M.Sc. |
+| [All-Certifications](https://github.com/rubak714/All-Certifications) | | Cloud, networking and IT certifications with proof |
 
 ---
 
-**📋 Full skills manifest**
+### Enterprise IT Lab
 
-```json
-{
-  "identity_and_access": {
-    "on_premise": ["Active Directory DS", "GPO", "OU Design", "RBAC", "Domain Controllers", "LDAP"],
-    "cloud": ["Azure AD / Entra ID", "Azure AD Connect", "SSO", "MFA", "Conditional Access", "PIM"]
-  },
-  "systems": {
-    "linux": ["Ubuntu", "RHEL", "Debian", "Bash", "cron", "systemd"],
-    "windows": ["Windows Server 2016/2019/2022", "PowerShell", "GPO", "IIS", "Hyper-V", "SCCM"]
-  },
-  "networking": ["DNS", "DHCP", "VPN (OpenVPN, IPSec, WireGuard)", "Firewall rules", "Cisco IOS", "TCP/IP", "Subnetting", "VLANs", "BGP/OSPF basics", "Wireshark"],
-  "microsoft_365": ["Exchange Online", "Teams", "SharePoint Online", "OneDrive", "Intune", "Defender for Endpoint"],
-  "certifications": [
-    { "name": "AZ-900 Azure Fundamentals", "issuer": "Microsoft", "earned": "2026-05-13", "credential": "D7BB95205F89A886" }
-  ],
-  "preparing": ["AZ-104", "CompTIA Security+"],
-  "security_and_soc": {
-    "siem": ["Splunk", "Elastic SIEM", "Microsoft Sentinel"],
-    "practices": ["Log analysis", "Alert triage", "Vulnerability management", "Threat detection", "Incident response"]
-  },
-  "cloud": {
-    "azure": ["Azure VMs", "AKS", "Azure Monitor", "Log Analytics", "Entra ID", "Azure DevOps"],
-    "aws": ["EC2", "S3", "IAM", "VPC", "CloudWatch"],
-    "gcp": ["Compute Engine", "GKE"],
-    "iac": ["Terraform", "Ansible", "Vagrant"]
-  },
-  "containers_and_cicd": ["Docker", "Kubernetes", "Helm", "ArgoCD", "GitHub Actions", "Jenkins", "GitLab CI"],
-  "monitoring": ["Grafana", "Prometheus", "ELK Stack", "Datadog", "Zabbix"],
-  "scripting": ["Python", "Bash", "PowerShell", "Go"],
-  "databases": ["PostgreSQL", "MySQL", "Microsoft SQL Server", "MongoDB"],
-  "ml_background": ["TensorFlow", "PyTorch", "scikit-learn", "Pandas", "NumPy"],
-  "support_tools": ["Jira Service Management", "Confluence", "Zendesk", "Freshdesk", "osTicket"],
-  "languages": {
-    "German": "B1, working towards B2",
-    "English": "C1",
-    "Bengali": "native"
-  },
-  "location": "Cologne, Germany",
-  "notice_period": "2 weeks",
-  "available": true,
-  "open_to_relocation_within_germany": true
-}
-```
+![enterprise lab](assets/enterprise.svg)
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Identity, Directory and Microsoft**
 
@@ -184,6 +124,7 @@ Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpde
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
+![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
 ![Vagrant](https://img.shields.io/badge/Vagrant-%231563FF.svg?style=flat-square&logo=vagrant&logoColor=white)
 
@@ -231,7 +172,7 @@ Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpde
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white)
 
-**ML and Data (Academic background)**
+**Machine Learning and AI (Academic Background)**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
@@ -249,25 +190,13 @@ Repo: [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpde
 
 ---
 
-### 📂 Projects
+#### Recent Activity
 
-| Project | What it demonstrates |
-|---|---|
-| 🏗️ [**Enterprise Helpdesk and AD Lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | Simulated company IT environment: identity, helpdesk, servers, monitoring, automation and security as one integrated system |
-| 🚀 [**DevOps Production Platform**](https://github.com/rubak714/devops-production-platform) | Dockerized Flask on Kubernetes with HPA, Terraform GKE on GCP, Prometheus and Grafana via Helm, GitHub Actions CI/CD, load tested with incident response runbooks |
-| ⚙️ [**DevOps Projects: K8s, Terraform, Helm, GCP, CI/CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | GitHub Actions pipelines, Kubernetes with Helm, Terraform GCP provisioning, Dockerfile builds. 128 commits |
-| 🎓 [**Master's Projects at TH Köln**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Applied IT, cloud, networking and multi-tier systems from M.Sc. |
-| 📄 [**All Certifications**](https://github.com/rubak714/All-Certifications) | Cloud, networking and IT certifications with proof |
-
----
-
-#### ⚡ Recent Activity
-
-- 🏅 Earned **Microsoft Certified: Azure Fundamentals (AZ-900)** `2026-05-13`
-- ⭐ Starred **[TheDevOpsHub/AZ-104](https://github.com/TheDevOpsHub/AZ-104)** `2026-05-01`
-- 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-05-17`
-- ⭐ Starred **[lowlighter/metrics](https://github.com/lowlighter/metrics)** `2026-04-17`
-- ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
+- Earned **Microsoft Certified: Azure Fundamentals (AZ-900)** `2026-05-13`
+- Started **[azure-iac-foundation](https://github.com/rubak714/azure-iac-foundation)** `2026-05-17`
+- Starred **[TheDevOpsHub/AZ-104](https://github.com/TheDevOpsHub/AZ-104)** `2026-05-01`
+- Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-05-17`
+- Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
 
 ---
 
