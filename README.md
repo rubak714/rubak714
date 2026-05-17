@@ -42,12 +42,12 @@ Actively building hands-on projects and studying for AZ-104 and CompTIA Security
 
 ### 📊 My Current Status
 
-[![Open to Work](https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20Work-Available%20Now-1a7a3a?style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
-[![Location](https://img.shields.io/badge/%F0%9F%93%8D%20Location-Cologne%2C%20Germany-1a3a5a?style=for-the-badge)](https://www.linkedin.com/in/rubkp110/)
-[![AZ-900](https://img.shields.io/badge/%E2%9C%85%20AZ--900-Certified%20May%202026-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
-[![AZ-104](https://img.shields.io/badge/%F0%9F%93%96%20AZ--104-Studying%20Now-2355a4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://github.com/rubak714/azure-iac-foundation)
-[![Security+](https://img.shields.io/badge/%F0%9F%94%90%20Security%2B-Studying%20Now-c05020?style=for-the-badge)](https://tryhackme.com/p/Birdybird00)
-[![TryHackMe](https://img.shields.io/badge/%F0%9F%8E%AF%20TryHackMe-Birdybird00-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
+[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Available%20Now-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
+[![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-1a3a5a?style=flat-square)](https://www.linkedin.com/in/rubkp110/)
+[![AZ-900](https://img.shields.io/badge/AZ--900-Certified%20May%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
+[![AZ-104](https://img.shields.io/badge/AZ--104-Studying%20Now-2355a4?style=flat-square&logo=microsoftazure&logoColor=white)](https://github.com/rubak714/azure-iac-foundation)
+[![Security+](https://img.shields.io/badge/Security%2B-Studying%20Now-c05020?style=flat-square)](https://tryhackme.com/p/Birdybird00)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
 
 Building hands-on projects continuously. Each repo has a troubleshooting document because nothing works the first time, and writing it down is part of the learning.
 
@@ -75,10 +75,10 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 #### 🎮 GitHub Badges
 
-[![Pull Shark](https://img.shields.io/badge/%F0%9F%A6%88%20Pull%20Shark-PRs%20merged%20by%20others-1a4a7a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
-[![Quickdraw](https://img.shields.io/badge/%E2%9A%A1%20Quickdraw-Closed%20within%205%20min-1a5a3a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
-[![YOLO](https://img.shields.io/badge/%F0%9F%8E%AF%20YOLO-Merged%20without%20review-5a1a5a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
-[![Pair Extraordinaire](https://img.shields.io/badge/%F0%9F%91%A5%20Pair%20Extraordinaire-Co--authored%20commits-5a3a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubak714)
+[![Pull Shark](https://img.shields.io/badge/Pull%20Shark-PRs%20merged%20by%20others-1a4a7a?style=flat-square&logo=github&logoColor=white)](https://github.com/rubak714)
+[![Quickdraw](https://img.shields.io/badge/Quickdraw-Closed%20within%205%20min-1a5a3a?style=flat-square&logo=github&logoColor=white)](https://github.com/rubak714)
+[![YOLO](https://img.shields.io/badge/YOLO-Merged%20without%20review-5a1a5a?style=flat-square&logo=github&logoColor=white)](https://github.com/rubak714)
+[![Pair Extraordinaire](https://img.shields.io/badge/Pair%20Extraordinaire-Co--authored%20commits-5a3a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/rubak714)
 
 ---
 
