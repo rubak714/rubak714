@@ -12,7 +12,7 @@ Master's research background includes generative ML benchmarking with TensorFlow
 
 Actively building hands-on projects and studying for AZ-104 and CompTIA Security+. Every project documented from the start, including failures and fixes.
 
-**Seeking roles in:** Cloud Administration, Cloud Engineering, IT Administration, Systems Administration, DevOps, IT Infrastructure, Application Support, or any related IT position.
+**Seeking roles in:** IT Administration, Systems Administration, Cloud Administration, IT Infrastructure, Application Support, Cloud Engineering, DevOps, or any related IT position.
 
 | | |
 |---|---|
