@@ -6,7 +6,7 @@
 
 ### 👤 About
 
-M.Sc. graduate in Communication Systems and Networks from TH Koeln (GPA 1.7, DAAD STIBET scholarship), based in Cologne, Germany. Background covers cloud infrastructure, on-premise systems administration, Active Directory, network engineering, and security operations, built through academic projects, personal labs, and an internship at Detecon International (Deutsche Telekom).
+M.Sc. graduate in Communication Systems and Networks from TH Köln (GPA 1.7, DAAD STIBET scholarship), based in Cologne, Germany. Background covers cloud infrastructure, on-premise systems administration, Active Directory, network engineering, and security operations, built through academic projects, personal labs, and an internship at Detecon International (Deutsche Telekom).
 
 Master's research background includes generative ML benchmarking with TensorFlow and two peer-reviewed publications. This combination of infrastructure depth and ML research experience is an asset for modern cloud and AI-heavy workloads.
 
@@ -67,8 +67,8 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 | Award | Institution | Detail |
 |---|---|---|
-| 🏆 DAAD STIBET Scholarship | TH Koeln | Master's thesis research funding |
-| 🎯 GPA 1.7 | TH Koeln | M.Sc. Communication Systems and Networks |
+| 🏆 DAAD STIBET Scholarship | TH Köln | Master's thesis research funding |
+| 🎯 GPA 1.7 | TH Köln | M.Sc. Communication Systems and Networks |
 | 🥇 Dean's List | MIST, Bangladesh | B.Sc. Electrical, Electronic and Coomunication Engineering |
 | 🏅 Talentpool Scholarships | Multiple | Awarded across school and college studies |
 | 📄 Elsevier Publication (2025) | CECAD Research Center, Cologne | Computer vision for mitochondria segmentation |
@@ -104,7 +104,7 @@ Computer vision project for mitochondria segmentation from microscopy images. Bu
 | 🏗️ [**enterprise-helpdesk-ad-lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | AD DS · osTicket · Linux · Prometheus · Ansible | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
 | 🚀 [**devops-production-platform**](https://github.com/rubak714/devops-production-platform) | Docker · K8s · Terraform · GKE · Prometheus | Dockerized Flask on Kubernetes with HPA auto-scaling, Terraform GKE on GCP, Prometheus and Grafana via Helm, GitHub Actions CI/CD, load tested with incident response runbooks |
 | ⚙️ [**DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | K8s · Terraform · Helm · GCP · Actions | 128 commits of working infrastructure code across GitHub Actions pipelines, Kubernetes with Helm, Terraform GCP provisioning |
-| 🎓 [**Master-s-Projects-at-German-University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Python · TensorFlow · Networking | Applied IT, cloud, networking and multi-tier systems from M.Sc. at TH Koeln |
+| 🎓 [**Master-s-Projects-at-German-University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Python · TensorFlow · Networking | Applied IT, cloud, networking and multi-tier systems from M.Sc. at TH Köln |
 | 📄 [**All-Certifications**](https://github.com/rubak714/All-Certifications) | | Cloud, networking and IT certifications with proof |
 
 ---
