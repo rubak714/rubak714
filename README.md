@@ -69,8 +69,8 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 |---|---|---|
 | 🏆 DAAD STIBET Scholarship | TH Koeln | Master's thesis research funding |
 | 🎯 GPA 1.7 | TH Koeln | M.Sc. Communication Systems and Networks |
-| 🥇 Dean's List | BRAC University, Bangladesh | B.Sc. Electrical and Electronics Engineering |
-| 🏅 Talentplus Scholarships | Multiple | Awarded across undergraduate studies |
+| 🥇 Dean's List | MIST, Bangladesh | B.Sc. Electrical, Electronic and Coomunication Engineering |
+| 🏅 Talentpool Scholarships | Multiple | Awarded across school and college studies |
 | 📄 Elsevier Publication (2025) | CECAD Research Center, Cologne | Computer vision for mitochondria segmentation |
 
 #### 🎮 GitHub Badges
