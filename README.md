@@ -84,7 +84,7 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 ### 💼 Experience
 
-#### 🏢 Detecon International (Deutsche Telekom) - Working Student
+#### 🏢 Detecon International (Deutsche Telekom) - Internship
 
 Hands-on with multi-cloud environments and Terraform across GCP, AWS, and Azure. Exposure to real production infrastructure workflows at scale inside a Deutsche Telekom subsidiary.
 
