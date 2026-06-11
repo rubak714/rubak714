@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T09:56:15.575621Z",
+  "generated_at": "2026-06-11T10:20:19.366947Z",
   "summary": {
     "healthy": 4,
     "total": 5,
@@ -11,35 +11,35 @@
       "url": "https://github.com/rubak714",
       "status": 200,
       "healthy": true,
-      "checked_at": "2026-06-10T09:56:12.266661Z"
+      "checked_at": "2026-06-11T10:20:15.851142Z"
     },
     {
       "name": "Azure IaC Foundation",
       "url": "https://github.com/rubak714/azure-iac-foundation",
       "status": 200,
       "healthy": true,
-      "checked_at": "2026-06-10T09:56:13.189911Z"
+      "checked_at": "2026-06-11T10:20:16.698685Z"
     },
     {
       "name": "Enterprise AD Lab",
       "url": "https://github.com/rubak714/enterprise-helpdesk-ad-lab",
       "status": 200,
       "healthy": true,
-      "checked_at": "2026-06-10T09:56:14.488214Z"
+      "checked_at": "2026-06-11T10:20:18.128726Z"
     },
     {
       "name": "DevOps Platform",
       "url": "https://github.com/rubak714/devops-production-platform",
       "status": 200,
       "healthy": true,
-      "checked_at": "2026-06-10T09:56:15.519107Z"
+      "checked_at": "2026-06-11T10:20:19.172861Z"
     },
     {
       "name": "TryHackMe Profile",
       "url": "https://tryhackme.com/p/Birdybird00",
       "status": 429,
       "healthy": false,
-      "checked_at": "2026-06-10T09:56:15.575460Z"
+      "checked_at": "2026-06-11T10:20:19.366789Z"
     }
   ]
 }
