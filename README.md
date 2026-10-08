@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=Cloud+%26+IT+Infrastructure+%7C+Cologne%2C+Germany;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform;AZ-900+Certified+%7C+Preparing+AZ-104+%26+Security%2B;Open+to+Cloud+%2F+IT+%2F+SysAdmin+%2F+DevOps)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=Cloud+%26+IT+Infrastructure+%7C+ML+Research+%7C+Cologne%2C+Germany;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;AZ-104+%C2%B7+AZ-900+%C2%B7+Terraform+Associate+certified;Open+to+IT+Admin+%2F+Cloud+%2F+DevOps+roles+and+ML+research)](https://git.io/typing-svg)
 
 ![terminal](assets/terminal.svg)
 
@@ -6,13 +6,24 @@
 
 ### 👤 About
 
-M.Sc. graduate in Communication Systems and Networks from TH Köln (GPA 1.7, DAAD STIBET scholarship), based in Cologne, Germany. Background covers cloud infrastructure, on-premise systems administration, Active Directory, network engineering, and security operations, built through academic projects, personal labs, and an internship at Detecon International (Deutsche Telekom).
+I run IT and cloud infrastructure, and I bring a research background in machine learning.
 
-Master's research background includes generative ML benchmarking with TensorFlow and two peer-reviewed publications. This combination of infrastructure depth and ML research experience is an asset for modern cloud and AI-heavy workloads.
+My M.Sc. in Communication Systems and Networks at TH Köln (final grade 1.7, thesis 1.5, DAAD STIBET scholarship) is the common base: networks, systems and data. On the infrastructure side I hold three certifications (AZ-104, AZ-900, Terraform Associate), completed an internship at Detecon International (Deutsche Telekom), and build labs for Azure administration, Active Directory, helpdesk workflows and cloud automation. On the research side I wrote a thesis and two peer-reviewed publications on evaluating machine learning methods.
 
-Actively building hands-on projects and studying for AZ-104 and CompTIA Security+. Every project documented from the start, including failures and fixes.
+The two sides support each other. Administration work gets more reliable when it is measured, automated and documented the way research is, and machine learning gets more useful when someone understands the systems it runs on. I use AI agents and the Model Context Protocol (MCP) in my daily work, and I document every project from the start, including failures and fixes.
 
-**Seeking roles in:** IT Administration, Systems Administration, Cloud Administration, IT Infrastructure, Application Support, Cloud Engineering, DevOps, or any related IT position.
+| Area | What I do | Evidence |
+|---|---|---|
+| ☁️ **Cloud and systems administration** | Azure administration, identity and access, networking, monitoring and backup, infrastructure as code | AZ-104, AZ-900, Terraform Associate, [azure-system-administration](https://github.com/rubak714/azure-system-administration), [ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws) |
+| 🖥️ **IT administration and support** | Active Directory, Microsoft 365, Windows Server and Linux, helpdesk and ticketing | [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab) |
+| 🌐 **Networks** | Routing, switching, VLANs, network automation | M.Sc. Communication Systems and Networks, Detecon network automation lab |
+| 🤖 **Machine learning research** | Benchmarking and evaluation of ML methods, generative models | M.Sc. thesis (grade 1.5), 2 peer-reviewed publications |
+| ⚙️ **AI in daily work** | AI agents and MCP, prompt versioning, MLOps pipelines | [azure-mlops-llmops-platform](https://github.com/rubak714/azure-mlops-llmops-platform), [fairness-audit-ai](https://github.com/rubak714/fairness-audit-ai) |
+
+**Open to:**
+
+- **IT and cloud roles:** IT Administration, Systems Administration, Cloud Administration, Cloud Engineering, DevOps, IT Support
+- **Research roles:** doctoral and research positions in machine learning
 
 | | |
 |---|---|
@@ -28,13 +39,15 @@ Actively building hands-on projects and studying for AZ-104 and CompTIA Security
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rubkp110-%230077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Birdybird00-%23212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=dtcxCoIAAAAJ)
 [![Credly](https://img.shields.io/badge/Credly-Verified_Badges-%23FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rubaiya110/badges)
-[![AZ-900](https://img.shields.io/badge/Microsoft-AZ--900_Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
+[![AZ-104](https://img.shields.io/badge/Microsoft-AZ--104_Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)
+[![Terraform](https://img.shields.io/badge/HashiCorp-Terraform_Associate-5835CC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)
 [![GitHub](https://img.shields.io/badge/GitHub-rubak714-%23181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rubak714)
 
 ---
 
-### 🧱 Infrastructure, Cloud and Programming Skills
+### 🧱 Infrastructure, Cloud and Machine Learning Skills
 
 ![stack layers](assets/stack.svg)
 
@@ -42,11 +55,11 @@ Actively building hands-on projects and studying for AZ-104 and CompTIA Security
 
 ### 📊 My Current Status
 
-[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Available%20Now-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
+[![Open to](https://img.shields.io/badge/Open%20to-IT%20%C2%B7%20Cloud%20%C2%B7%20Research%20roles-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
 [![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-1a3a5a?style=flat-square)](https://www.linkedin.com/in/rubkp110/)
+[![AZ-104](https://img.shields.io/badge/AZ--104-Certified%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)
+[![Terraform](https://img.shields.io/badge/Terraform%20Associate-Certified%202026-5835CC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)
 [![AZ-900](https://img.shields.io/badge/AZ--900-Certified%20May%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
-[![AZ-104](https://img.shields.io/badge/AZ--104-Studying%20Now-2355a4?style=flat-square&logo=microsoftazure&logoColor=white)](https://github.com/rubak714/azure-iac-foundation)
-[![Security+](https://img.shields.io/badge/Security%2B-Studying%20Now-c05020?style=flat-square)](https://tryhackme.com/p/Birdybird00)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
 
 Building hands-on projects continuously. Each repo has a troubleshooting document because nothing works the first time, and writing it down is part of the learning.
@@ -57,21 +70,54 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 #### 📜 Certifications
 
+**☁️ Cloud and Infrastructure as Code** (industry certification exams)
+
 | Certification | Issuer | Earned | Verify |
 |---|---|---|---|
+| ✅ Microsoft Certified: Azure Administrator Associate (AZ-104) | Microsoft | 2026 | [View credential](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902) |
+| ✅ HashiCorp Certified: Terraform Associate (004) | HashiCorp | 2026 | [View badge](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6) |
 | ✅ Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | May 13, 2026 | [View credential](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902) |
-| 🔄 AZ-104: Azure Administrator | Microsoft | In progress | |
-| 🔄 CompTIA Security+ | CompTIA | In progress | |
 
-#### 🎓 Academic Recognition
+**🌐 Networking and Security** (Cisco Networking Academy at TH Köln, instructor-led courses with course completion certificates)
 
-| Award | Institution | Detail |
+| Course | Covers | Completed |
 |---|---|---|
-| 🏆 DAAD STIBET Scholarship | TH Köln | Master's thesis research funding |
-| 🎯 GPA 1.7 | TH Köln | M.Sc. Communication Systems and Networks |
-| 🥇 Dean's List | MIST, Bangladesh | B.Sc. Electrical, Electronic and Coomunication Engineering |
+| 📘 CCNAv7: Enterprise Networking, Security, and Automation | OSPF, ACLs, NAT, WAN, QoS, network automation | Jul 2022 |
+| 📘 CCNAv7: Switching, Routing, and Wireless Essentials | VLANs, inter-VLAN routing, STP, EtherChannel, WLAN, static routing | May 2022 |
+| 📘 CCNAv7: Introduction to Networks | IPv4 and IPv6 addressing, Ethernet, routers and switches, small network security | Jan 2021 |
+| 📘 DevNet Associate | Python, REST APIs, Linux, application deployment and network automation | Mar 2023 |
+| 📘 Cybersecurity Essentials | Confidentiality, integrity, availability, threats and countermeasures | Nov 2020 |
+
+The three CCNAv7 courses together are the full CCNA curriculum.
+
+**🟧 AWS Partner Training** (one-day classroom trainings during the Detecon internship)
+
+| Training | Completed |
+|---|---|
+| 📗 AWS Partner: Machine Learning on AWS (Technical) | Mar 2023 |
+| 📗 AWS Partner: AWS Cloud Practitioner Essentials | Oct 2022 |
+| 📗 AWS Partner: Containers on AWS (Technical) | Sep 2022 |
+
+**🐍 Programming, Data and Machine Learning** (online courses)
+
+| Course | Provider | Completed | Verify |
+|---|---|---|---|
+| 📙 Image Noise Reduction with Auto-encoders using TensorFlow (guided project) | Coursera Project Network | Mar 2023 | [Verify](https://coursera.org/verify/M8GAUK66X27B) |
+| 📙 Data Analysis with Python | IBM via Coursera | Jan 2022 | [Verify](https://coursera.org/verify/24NW2WXU6SFZ) |
+| 📙 Programming for Everybody (Getting Started with Python) | University of Michigan via Coursera | Aug 2020 | |
+
+Certificate files are collected in [All-Certifications](https://github.com/rubak714/All-Certifications).
+
+#### 🎓 Academic Record
+
+| Item | Where | Detail |
+|---|---|---|
+| 🎯 Final grade 1.7, thesis 1.5 | TH Köln | M.Sc. Communication Systems and Networks |
+| 📄 Journal article (2025), second author | Biomedical Signal Processing and Control (Elsevier) | MitoSkel: AI tool for segmentation of mitochondria from light microscopy images. [View paper](https://doi.org/10.1016/j.bspc.2025.107762) |
+| 📄 Workshop paper (2024), first author | VIMS Workshop Proceedings, TH Köln | Comparison of Missing Data Imputation Techniques using Autoencoders. [View paper](https://doi.org/10.57684/COS-1240) |
+| 🏆 DAAD STIBET graduation scholarship | TH Köln | Awarded by a selection committee, 2024 |
+| 🥇 Dean's List 2016 | MIST, Bangladesh | B.Sc. Electrical, Electronic and Communication Engineering |
 | 🏅 Talentpool Scholarships | Multiple | Awarded across school and college studies |
-| 📄 Elsevier Publication (2025) | CECAD Research Center, Cologne | Computer vision for mitochondria segmentation |
 
 #### 🎮 GitHub Badges
 
@@ -82,36 +128,44 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 ---
 
-### 💼 Experience
+### 💼 Experience and Research
+
+#### 🎓 TH Köln - Master's Thesis Research (2024 - 2025)
+
+Benchmarked seven imputation methods on Demographic and Health Surveys data, including the generative models GAIN and VAE, with survey-disjoint cross-validation to prevent data leakage. Thesis grade 1.5. An earlier research project on the same question became a first-author workshop paper. [View paper](https://doi.org/10.57684/COS-1240)
+
+#### 🔬 CECAD Research Center, University of Cologne - Research Intern
+
+Image annotation and a Python GUI for mitochondria segmentation from microscopy images. Second author of the resulting peer-reviewed article (Elsevier, 2025). [View paper](https://doi.org/10.1016/j.bspc.2025.107762)
 
 #### 🏢 Detecon International (Deutsche Telekom) - Internship
 
-Hands-on with multi-cloud environments and Terraform across GCP, AWS, and Azure. Exposure to real production infrastructure workflows at scale inside a Deutsche Telekom subsidiary.
-
-#### 🔬 CECAD Research Center, University of Cologne - Student Research Assistant
-
-Computer vision project for mitochondria segmentation from microscopy images. Built a Python GUI for the analysis workflow. Work led to a peer-reviewed Elsevier publication (2025). [View paper](https://www.sciencedirect.com/science/article/pii/S1746809425002733)
+Kubernetes tasks in a network automation lab (AI/MLOps epic), Python test automation, and Terraform on GCP, AWS and Azure, including a self-initiated Terraform task.
 
 ---
 
 ### 📁 Projects and Repositories
 
-> Building projects that map to real job goals, not tutorial clones.
+> Projects built end to end and documented, from IT administration and cloud infrastructure to machine learning evaluation.
+
+#### ⭐ Featured Projects
 
 | Project | Stack | What it solves |
 |---|---|---|
-| ☁️ [**azure-iac-foundation**](https://github.com/rubak714/azure-iac-foundation) | Azure · Bicep · RBAC · Policy · PowerShell | Azure landing zone for a fictional German SME (Hessler Logistik GmbH). Naming convention, mandatory tags, RBAC with least privilege, Azure Policy guardrails. AZ-104 aligned. Built alongside AZ-104 study, step by step. |
+| 🏗️ [**ephemeral-environments-on-aws**](https://github.com/rubak714/ephemeral-environments-on-aws) | AWS · Terraform · GitHub Actions (OIDC) · Lambda · API Gateway · DynamoDB | Every pull request gets its own isolated AWS environment. Terraform provisions it, an integration test runs against it, the live URL is posted as a PR comment, and everything is destroyed when the PR closes. No stored AWS credentials. |
+| ☁️ [**azure-system-administration**](https://github.com/rubak714/azure-system-administration) | Azure Portal · Entra ID · RBAC · VNets · VM Scale Sets · Monitor · Key Vault | Seven hands-on Azure administration labs: one per AZ-104 exam domain, a Key Vault lab and an end-to-end capstone. Each lab has a break-it-and-fix-it exercise and the matching Azure CLI commands. |
+
+#### 📂 More Projects
+
+| Project | Stack | What it solves |
+|---|---|---|
 | 🏗️ [**enterprise-helpdesk-ad-lab**](https://github.com/rubak714/enterprise-helpdesk-ad-lab) | AD DS · osTicket · Linux · Prometheus · Ansible | Simulated company IT environment covering identity, helpdesk, servers, monitoring, automation and security as one integrated system |
-| 🚀 [**devops-production-platform**](https://github.com/rubak714/devops-production-platform) | Docker · K8s · Terraform · GKE · Prometheus | Dockerized Flask on Kubernetes with HPA auto-scaling, Terraform GKE on GCP, Prometheus and Grafana via Helm, GitHub Actions CI/CD, load tested with incident response runbooks |
+| 🗄️ [**azure-data-platform-terraform**](https://github.com/rubak714/azure-data-platform-terraform) | Terraform · Azure (ADLS Gen2, Key Vault) · GitHub Actions | Azure data platform as reusable Terraform modules, deployed through a CI/CD pipeline |
+| 🧪 [**azure-mlops-llmops-platform**](https://github.com/rubak714/azure-mlops-llmops-platform) | Python · MLflow · scikit-learn · GitHub Actions | ML pipeline with experiment tracking, a model registration threshold, prompt versioning for a summarisation task, and CI with pytest and flake8 |
+| 🤖 [**fairness-audit-ai**](https://github.com/rubak714/fairness-audit-ai) | Python · scikit-learn · LLM evaluation | Fairness metrics (statistical parity, disparate impact, equal opportunity) and a counterfactual probe that checks whether a language model's answer changes when gendered terms are swapped |
 | ⚙️ [**DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD**](https://github.com/rubak714/DevOps-Projects-K8s-Terraform-Helm-GCP-CI-CD) | K8s · Terraform · Helm · GCP · Actions | 128 commits of working infrastructure code across GitHub Actions pipelines, Kubernetes with Helm, Terraform GCP provisioning |
 | 🎓 [**Master-s-Projects-at-German-University**](https://github.com/rubak714/Master-s-Projects-at-German-University) | Python · TensorFlow · Networking | Applied IT, cloud, networking and multi-tier systems from M.Sc. at TH Köln |
 | 📄 [**All-Certifications**](https://github.com/rubak714/All-Certifications) | | Cloud, networking and IT certifications with proof |
-
----
-
-### 🏭 Recent Project: Enterprise IT Lab
-
-![enterprise lab](assets/enterprise.svg)
 
 ---
 
@@ -128,7 +182,7 @@ Computer vision project for mitochondria segmentation from microscopy images. Bu
 **☁️ Cloud Platforms and IaC**
 
 ![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
-![AZ-900](https://img.shields.io/badge/AZ--900_Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AZ-104](https://img.shields.io/badge/AZ--104_Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
@@ -144,6 +198,15 @@ Computer vision project for mitochondria segmentation from microscopy images. Bu
 ![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-%23049fd9.svg?style=flat-square&logo=cisco&logoColor=black)
+
+**🤖 Machine Learning and AI (Research and Projects)**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
 **🔒 Security and SOC**
 
@@ -180,14 +243,6 @@ Computer vision project for mitochondria segmentation from microscopy images. Bu
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white)
 
-**🤖 Machine Learning and AI (Academic Background)**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
-
 **🤝 Collaboration and Support Tools**
 
 ![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white)
@@ -200,9 +255,13 @@ Computer vision project for mitochondria segmentation from microscopy images. Bu
 
 ### ⚡ Recent Activity
 
-- ☁️ Started **[azure-iac-foundation](https://github.com/rubak714/azure-iac-foundation)** - Azure landing zone for Hessler Logistik GmbH, AZ-104 aligned `2026-05-17`
+- 🏅 Earned **[Microsoft Certified: Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)** `2026`
+- 🏅 Earned **[HashiCorp Certified: Terraform Associate (004)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)** `2026`
+- ☁️ Updated **[azure-system-administration](https://github.com/rubak714/azure-system-administration)** - seven hands-on Azure administration labs `2026-07-16`
+- 🏗️ Updated **[ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws)** - a fresh AWS environment for every pull request `2026-07-12`
+- 🤖 Published **[fairness-audit-ai](https://github.com/rubak714/fairness-audit-ai)** - fairness metrics and a counterfactual probe for language models `2026-07`
+- 🧪 Published **[azure-mlops-llmops-platform](https://github.com/rubak714/azure-mlops-llmops-platform)** - MLflow tracking and prompt versioning `2026-05`
 - 🏅 Earned **Microsoft Certified: Azure Fundamentals (AZ-900)** `2026-05-13`
-- ⭐ Starred **[TheDevOpsHub/AZ-104](https://github.com/TheDevOpsHub/AZ-104)** `2026-05-01`
 - 📦 Pushed to **[rubak714/rubak714](https://github.com/rubak714/rubak714)** `2026-05-17`
 - ⭐ Starred **[Azure-Samples/azure-ad-workload-identity](https://github.com/Azure-Samples/azure-ad-workload-identity)** `2026-04-17`
 
