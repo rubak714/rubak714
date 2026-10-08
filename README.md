@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=IT+Operations+%2B+AI+%7C+CloudOps+%C2%B7+MLOps+%C2%B7+LLMOps;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;AZ-104+%C2%B7+AZ-900+%C2%B7+Terraform+Associate+certified;Where+IT+operations+and+machine+learning+meet)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=Administration+%C2%B7+Support+%C2%B7+Data+%C2%B7+Research;CloudOps+%C2%B7+MLOps+%C2%B7+LLMOps+%7C+IT+Operations+%2B+AI;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;AZ-104+%C2%B7+AZ-900+%C2%B7+Terraform+Associate+certified;Steady+systems.+Clear+data.+Tested+models.)](https://git.io/typing-svg)
 
 ![terminal](assets/terminal.svg)
 
@@ -6,29 +6,36 @@
 
 ### 👤 About
 
-**I keep systems running, and I understand the AI that is moving into them.**
+**I keep systems running, make data usable, and put machine learning to the test.**
 
-Most people come from one side, operations or machine learning. I have worked on both. As an intern at **Detecon International (Deutsche Telekom)** I worked in a Kubernetes network automation lab and with Terraform across three clouds. As a research intern at the **CECAD Research Center (University of Cologne)** I helped build the interface of an AI image-analysis tool and became second author of the journal article that followed. My M.Sc. in Communication Systems and Networks at TH Köln (final grade 1.7, thesis 1.5, DAAD STIBET scholarship) joins the two: networks and systems in the coursework, machine learning in the thesis.
+Administration, support, data analysis and research usually sit in four different teams. I have hands-on practice in all four, and I treat them as one job: find out what is really happening, fix it, and write it down.
 
-That puts me at the intersection of **CloudOps, MLOps and LLMOps**:
+- At **Detecon International (Deutsche Telekom)** I worked in a Kubernetes network automation lab, on Python test automation, and with Terraform across three clouds.
+- At the **CECAD Research Center (University of Cologne)** I annotated microscopy image data, helped build the interface of an AI image-analysis tool and became second author of the journal article that followed.
+- In my **M.Sc. thesis at TH Köln** (grade 1.5, final grade 1.7, DAAD STIBET scholarship) I prepared and analysed Demographic and Health Surveys data and compared seven statistical and deep learning methods for missing values.
+- In my **own labs** I administer Active Directory, Windows Server, Linux and Azure, run a helpdesk with tickets, and build pipelines for data and models.
 
-- **Operations:** Azure administration (AZ-104 certified), identity and access, networking, monitoring and backup, helpdesk and ticketing workflows, infrastructure as code with Terraform.
-- **AI:** benchmarking and evaluating models, MLflow pipelines, prompt versioning, AI agents and the Model Context Protocol (MCP) in my daily work.
-- **What connects them:** automation, measurement and documentation. Every project here records what failed and how it was fixed.
+That puts me at the intersection of **CloudOps, MLOps and LLMOps**, with data as the thread that runs through all three:
+
+- **Administration:** Azure (AZ-104 certified), Active Directory and Entra ID, identity and access, networks, monitoring and backup, infrastructure as code with Terraform.
+- **Support:** helpdesk and ticketing workflows, troubleshooting on Windows and Linux, user onboarding, documentation that the next person can follow.
+- **Data:** cleaning, preparing and analysing data with Python (Pandas, NumPy) and SQL, handling missing values, error metrics, reproducible pipelines.
+- **Research and AI:** benchmarking and evaluating models, MLflow, prompt versioning, AI agents and the Model Context Protocol (MCP) in my daily work.
 
 #### 💡 Why me
 
-A ticket queue, a cloud subscription and a machine learning pipeline fail for the same reasons: unclear ownership, missing monitoring, and changes nobody wrote down. I have learned to handle these from both directions.
+A failed login, a table full of gaps and a model that scores worse than expected are the same kind of problem. Each one asks what changed, what is missing, and how to prove it. I have practised answering that question on servers, in tickets, in datasets and in experiments.
 
-On the operations side I manage users, access, networks and servers, and I stay with a problem until it is closed. On the AI side I know how models are trained, evaluated and deployed, so I can tell where an intelligent workflow will help a team and where it will only add risk.
+The mix is useful in each of these fields. In administration and support, I read logs and tickets as data and look for the pattern behind the fault that keeps coming back. In data analysis, I know where the numbers come from and how the systems behind them can distort them. In research, I can build and maintain the infrastructure my own experiments need.
 
-A team that brings me in gets one person who can run the day-to-day operations and also bring AI into them with care.
+A team that brings me in gets one person who keeps the systems steady, helps the people who use them, turns their data into answers, and brings AI in with care.
 
 | Area | What I do | Evidence |
 |---|---|---|
-| ☁️ **Cloud operations (CloudOps)** | Azure administration, identity and access, networking, monitoring and backup, infrastructure as code | AZ-104, AZ-900, Terraform Associate, [azure-system-administration](https://github.com/rubak714/azure-system-administration), [ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws) |
+| ☁️ **Cloud administration (CloudOps)** | Azure administration, identity and access, networking, monitoring and backup, infrastructure as code | AZ-104, AZ-900, Terraform Associate, [azure-system-administration](https://github.com/rubak714/azure-system-administration), [ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws) |
 | 🖥️ **IT administration and support** | Active Directory, Microsoft 365, Windows Server and Linux, helpdesk and ticketing | [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab) |
 | 🌐 **Networks** | Routing, switching, VLANs, network automation | M.Sc. Communication Systems and Networks, five Cisco Networking Academy courses, Detecon network automation lab |
+| 📊 **Data analysis** | Data cleaning and preparation, missing-data handling, statistical evaluation, data platforms | M.Sc. thesis on Demographic and Health Surveys data, IBM Data Analysis with Python, [azure-data-platform-terraform](https://github.com/rubak714/azure-data-platform-terraform) |
 | 🧪 **MLOps and LLMOps** | Experiment tracking, model registration, prompt versioning, CI for ML code, AI agents and MCP | [azure-mlops-llmops-platform](https://github.com/rubak714/azure-mlops-llmops-platform), [fairness-audit-ai](https://github.com/rubak714/fairness-audit-ai) |
 | 🤖 **Machine learning research** | Benchmarking and evaluation of ML methods, generative models | M.Sc. thesis (grade 1.5), 2 peer-reviewed publications |
 
@@ -54,7 +61,7 @@ A team that brings me in gets one person who can run the day-to-day operations a
 
 ---
 
-### 🧱 Infrastructure, Cloud and Machine Learning Skills
+### 🧱 Infrastructure, Cloud, Data and Machine Learning Skills
 
 ![stack layers](assets/stack.svg)
 
@@ -62,7 +69,7 @@ A team that brings me in gets one person who can run the day-to-day operations a
 
 ### 📊 My Current Status
 
-[![Profile](https://img.shields.io/badge/Profile-CloudOps%20%C2%B7%20MLOps%20%C2%B7%20LLMOps-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
+[![Profile](https://img.shields.io/badge/Profile-Administration%20%C2%B7%20Support%20%C2%B7%20Data%20%C2%B7%20ML%20Research-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
 [![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-1a3a5a?style=flat-square)](https://www.linkedin.com/in/rubkp110/)
 [![AZ-104](https://img.shields.io/badge/AZ--104-Certified%20Aug%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)
 [![Terraform](https://img.shields.io/badge/Terraform%20Associate-Certified%20Jun%202026-5835CC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)
@@ -161,7 +168,7 @@ Kubernetes tasks in a network automation lab (AI/MLOps epic), Python test automa
 
 ### 📁 Projects and Repositories
 
-> Projects built end to end and documented, from IT administration and cloud infrastructure to machine learning evaluation.
+> Projects built end to end and documented, from IT administration and cloud infrastructure to data platforms and machine learning evaluation.
 
 #### ⭐ Featured Projects
 
