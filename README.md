@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=Cloud+%26+IT+Infrastructure+%7C+ML+Research+%7C+Cologne%2C+Germany;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;AZ-104+%C2%B7+AZ-900+%C2%B7+Terraform+Associate+certified;Open+to+IT+Admin+%2F+Cloud+%2F+DevOps+roles+and+ML+research)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1600&color=7AB8E8&center=true&vCenter=true&width=720&lines=IT+Operations+%2B+AI+%7C+CloudOps+%C2%B7+MLOps+%C2%B7+LLMOps;M.Sc.+Communication+Systems+%26+Networks+%7C+TH+Koeln;Azure+%C2%B7+Linux+%C2%B7+Active+Directory+%C2%B7+Terraform+%C2%B7+Kubernetes;AZ-104+%C2%B7+AZ-900+%C2%B7+Terraform+Associate+certified;Where+IT+operations+and+machine+learning+meet)](https://git.io/typing-svg)
 
 ![terminal](assets/terminal.svg)
 
@@ -6,24 +6,31 @@
 
 ### 👤 About
 
-I run IT and cloud infrastructure, and I bring a research background in machine learning.
+**I keep systems running, and I understand the AI that is moving into them.**
 
-My M.Sc. in Communication Systems and Networks at TH Köln (final grade 1.7, thesis 1.5, DAAD STIBET scholarship) is the common base: networks, systems and data. On the infrastructure side I hold three certifications (AZ-104, AZ-900, Terraform Associate), completed an internship at Detecon International (Deutsche Telekom), and build labs for Azure administration, Active Directory, helpdesk workflows and cloud automation. On the research side I wrote a thesis and two peer-reviewed publications on evaluating machine learning methods.
+Most people come from one side, operations or machine learning. I have worked on both. As an intern at **Detecon International (Deutsche Telekom)** I worked in a Kubernetes network automation lab and with Terraform across three clouds. As a research intern at the **CECAD Research Center (University of Cologne)** I helped build the interface of an AI image-analysis tool and became second author of the journal article that followed. My M.Sc. in Communication Systems and Networks at TH Köln (final grade 1.7, thesis 1.5, DAAD STIBET scholarship) joins the two: networks and systems in the coursework, machine learning in the thesis.
 
-The two sides support each other. Administration work gets more reliable when it is measured, automated and documented the way research is, and machine learning gets more useful when someone understands the systems it runs on. I use AI agents and the Model Context Protocol (MCP) in my daily work, and I document every project from the start, including failures and fixes.
+That puts me at the intersection of **CloudOps, MLOps and LLMOps**:
+
+- **Operations:** Azure administration (AZ-104 certified), identity and access, networking, monitoring and backup, helpdesk and ticketing workflows, infrastructure as code with Terraform.
+- **AI:** benchmarking and evaluating models, MLflow pipelines, prompt versioning, AI agents and the Model Context Protocol (MCP) in my daily work.
+- **What connects them:** automation, measurement and documentation. Every project here records what failed and how it was fixed.
+
+#### 💡 Why me
+
+A ticket queue, a cloud subscription and a machine learning pipeline fail for the same reasons: unclear ownership, missing monitoring, and changes nobody wrote down. I have learned to handle these from both directions.
+
+On the operations side I manage users, access, networks and servers, and I stay with a problem until it is closed. On the AI side I know how models are trained, evaluated and deployed, so I can tell where an intelligent workflow will help a team and where it will only add risk.
+
+A team that brings me in gets one person who can run the day-to-day operations and also bring AI into them with care.
 
 | Area | What I do | Evidence |
 |---|---|---|
-| ☁️ **Cloud and systems administration** | Azure administration, identity and access, networking, monitoring and backup, infrastructure as code | AZ-104, AZ-900, Terraform Associate, [azure-system-administration](https://github.com/rubak714/azure-system-administration), [ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws) |
+| ☁️ **Cloud operations (CloudOps)** | Azure administration, identity and access, networking, monitoring and backup, infrastructure as code | AZ-104, AZ-900, Terraform Associate, [azure-system-administration](https://github.com/rubak714/azure-system-administration), [ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws) |
 | 🖥️ **IT administration and support** | Active Directory, Microsoft 365, Windows Server and Linux, helpdesk and ticketing | [enterprise-helpdesk-ad-lab](https://github.com/rubak714/enterprise-helpdesk-ad-lab) |
-| 🌐 **Networks** | Routing, switching, VLANs, network automation | M.Sc. Communication Systems and Networks, Detecon network automation lab |
+| 🌐 **Networks** | Routing, switching, VLANs, network automation | M.Sc. Communication Systems and Networks, five Cisco Networking Academy courses, Detecon network automation lab |
+| 🧪 **MLOps and LLMOps** | Experiment tracking, model registration, prompt versioning, CI for ML code, AI agents and MCP | [azure-mlops-llmops-platform](https://github.com/rubak714/azure-mlops-llmops-platform), [fairness-audit-ai](https://github.com/rubak714/fairness-audit-ai) |
 | 🤖 **Machine learning research** | Benchmarking and evaluation of ML methods, generative models | M.Sc. thesis (grade 1.5), 2 peer-reviewed publications |
-| ⚙️ **AI in daily work** | AI agents and MCP, prompt versioning, MLOps pipelines | [azure-mlops-llmops-platform](https://github.com/rubak714/azure-mlops-llmops-platform), [fairness-audit-ai](https://github.com/rubak714/fairness-audit-ai) |
-
-**Open to:**
-
-- **IT and cloud roles:** IT Administration, Systems Administration, Cloud Administration, Cloud Engineering, DevOps, IT Support
-- **Research roles:** doctoral and research positions in machine learning
 
 | | |
 |---|---|
@@ -55,7 +62,7 @@ The two sides support each other. Administration work gets more reliable when it
 
 ### 📊 My Current Status
 
-[![Open to](https://img.shields.io/badge/Open%20to-IT%20%C2%B7%20Cloud%20%C2%B7%20Research%20roles-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
+[![Profile](https://img.shields.io/badge/Profile-CloudOps%20%C2%B7%20MLOps%20%C2%B7%20LLMOps-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
 [![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-1a3a5a?style=flat-square)](https://www.linkedin.com/in/rubkp110/)
 [![AZ-104](https://img.shields.io/badge/AZ--104-Certified%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)
 [![Terraform](https://img.shields.io/badge/Terraform%20Associate-Certified%202026-5835CC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)
@@ -98,12 +105,19 @@ The three CCNAv7 courses together are the full CCNA curriculum.
 | 📗 AWS Partner: AWS Cloud Practitioner Essentials | Oct 2022 |
 | 📗 AWS Partner: Containers on AWS (Technical) | Sep 2022 |
 
-**🐍 Programming, Data and Machine Learning** (online courses)
+**🐍 Programming, Data, Machine Learning and DevOps** (online courses with completion certificates)
 
 | Course | Provider | Completed | Verify |
 |---|---|---|---|
+| 📙 GCP DevOps Project | KodeKloud | Feb 2024 | |
 | 📙 Image Noise Reduction with Auto-encoders using TensorFlow (guided project) | Coursera Project Network | Mar 2023 | [Verify](https://coursera.org/verify/M8GAUK66X27B) |
+| 📙 Python Entry-Level Programmer (PCEP-30-02) preparation course | KodeKloud | Mar 2023 | |
+| 📙 Object-Oriented Programming in Python | DataCamp | Oct 2022 | |
 | 📙 Data Analysis with Python | IBM via Coursera | Jan 2022 | [Verify](https://coursera.org/verify/24NW2WXU6SFZ) |
+| 📙 Building Deep Learning Applications with Keras 2.0 | LinkedIn Learning | Jan 2022 | |
+| 📙 Fake News Detection with Machine Learning (guided project) | Coursera Project Network | Jan 2022 | [Verify](https://coursera.org/verify/KJ73N5LYCVQS) |
+| 📙 Breast Cancer Prediction Using Machine Learning (guided project) | Coursera Project Network | Jan 2022 | [Verify](https://coursera.org/verify/PCTGUYQJGXQT) |
+| 📙 Full Stack Web Development | Shikhbe Shobai | Oct 2020 | |
 | 📙 Programming for Everybody (Getting Started with Python) | University of Michigan via Coursera | Aug 2020 | |
 
 Certificate files are collected in [All-Certifications](https://github.com/rubak714/All-Certifications).
@@ -118,6 +132,7 @@ Certificate files are collected in [All-Certifications](https://github.com/rubak
 | 🏆 DAAD STIBET graduation scholarship | TH Köln | Awarded by a selection committee, 2024 |
 | 🥇 Dean's List 2016 | MIST, Bangladesh | B.Sc. Electrical, Electronic and Communication Engineering |
 | 🏅 Talentpool Scholarships | Multiple | Awarded across school and college studies |
+| 👩‍💻 IEEE Women in Engineering | IEEE | Member in good standing, 2019 certificate of membership |
 
 #### 🎮 GitHub Badges
 
