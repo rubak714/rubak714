@@ -64,8 +64,8 @@ A team that brings me in gets one person who can run the day-to-day operations a
 
 [![Profile](https://img.shields.io/badge/Profile-CloudOps%20%C2%B7%20MLOps%20%C2%B7%20LLMOps-1a7a3a?style=flat-square&logoColor=white)](https://www.linkedin.com/in/rubkp110/)
 [![Location](https://img.shields.io/badge/Location-Cologne%2C%20Germany-1a3a5a?style=flat-square)](https://www.linkedin.com/in/rubkp110/)
-[![AZ-104](https://img.shields.io/badge/AZ--104-Certified%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)
-[![Terraform](https://img.shields.io/badge/Terraform%20Associate-Certified%202026-5835CC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)
+[![AZ-104](https://img.shields.io/badge/AZ--104-Certified%20Aug%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)
+[![Terraform](https://img.shields.io/badge/Terraform%20Associate-Certified%20Jun%202026-5835CC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)
 [![AZ-900](https://img.shields.io/badge/AZ--900-Certified%20May%202026-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Active-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Birdybird00)
 
@@ -81,8 +81,8 @@ Building hands-on projects continuously. Each repo has a troubleshooting documen
 
 | Certification | Issuer | Earned | Verify |
 |---|---|---|---|
-| ✅ Microsoft Certified: Azure Administrator Associate (AZ-104) | Microsoft | 2026 | [View credential](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902) |
-| ✅ HashiCorp Certified: Terraform Associate (004) | HashiCorp | 2026 | [View badge](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6) |
+| ✅ Microsoft Certified: Azure Administrator Associate (AZ-104) | Microsoft | Aug 2026 | [View credential](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902) |
+| ✅ HashiCorp Certified: Terraform Associate (004) | HashiCorp | Jun 2026 | [View badge](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6) |
 | ✅ Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | May 13, 2026 | [View credential](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902) |
 
 **🌐 Networking and Security** (Cisco Networking Academy at TH Köln, instructor-led courses with course completion certificates)
@@ -270,8 +270,8 @@ Kubernetes tasks in a network automation lab (AI/MLOps epic), Python test automa
 
 ### ⚡ Recent Activity
 
-- 🏅 Earned **[Microsoft Certified: Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)** `2026`
-- 🏅 Earned **[HashiCorp Certified: Terraform Associate (004)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)** `2026`
+- 🏅 Earned **[Microsoft Certified: Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902)** `2026-08`
+- 🏅 Earned **[HashiCorp Certified: Terraform Associate (004)](https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6)** `2026-06`
 - ☁️ Updated **[azure-system-administration](https://github.com/rubak714/azure-system-administration)** - seven hands-on Azure administration labs `2026-07-16`
 - 🏗️ Updated **[ephemeral-environments-on-aws](https://github.com/rubak714/ephemeral-environments-on-aws)** - a fresh AWS environment for every pull request `2026-07-12`
 - 🤖 Published **[fairness-audit-ai](https://github.com/rubak714/fairness-audit-ai)** - fairness metrics and a counterfactual probe for language models `2026-07`
