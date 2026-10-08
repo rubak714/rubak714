@@ -1,0 +1,319 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "version": "2.1.0",
+    "last_updated": "2026-10-08",
+    "author": "Rubaiya",
+    "github": "https://github.com/rubak714",
+    "linkedin": "https://www.linkedin.com/in/rubkp110",
+    "google_scholar": "https://scholar.google.com/citations?user=dtcxCoIAAAAJ"
+  },
+  "identity": {
+    "name": "Rubaiya Kabir Pranti",
+    "education": "M.Sc. Communication Systems and Networks, TH Köln, final grade 1.7, thesis 1.5",
+    "location": "Cologne, Germany",
+    "open_to_relocation_within_germany": true,
+    "languages_spoken": [
+      "English (C1)",
+      "German (B1)",
+      "Bengali (native)"
+    ],
+    "profile": "IT operations and AI at one desk: CloudOps, MLOps, LLMOps, systems, networks and support"
+  },
+  "roles_i_can_fill": [
+    {
+      "title": "IT Support Specialist",
+      "level": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "skills": [
+        "Helpdesk & ticketing (Jira, Confluence, Freshdesk)",
+        "User onboarding & offboarding",
+        "Hardware & software troubleshooting",
+        "Remote desktop support (RDP, TeamViewer)",
+        "Printer, VPN & peripheral setup",
+        "ITIL-aware incident & change management",
+        "Asset management & documentation"
+      ]
+    },
+    {
+      "title": "On-Premise Systems Administrator",
+      "skills": [
+        "Linux server administration (Ubuntu, RHEL, Debian)",
+        "Windows Server 2016 / 2019 / 2022",
+        "Group Policy Objects (GPO) design & enforcement",
+        "Patch management & update cycles",
+        "Backup & disaster recovery (Veeam, rsync)",
+        "Cron, systemd, task scheduling",
+        "Hyper-V & VMware virtualisation",
+        "Bash & PowerShell scripting for automation"
+      ]
+    },
+    {
+      "title": "Network Administrator",
+      "skills": [
+        "TCP/IP, DNS, DHCP, subnetting, VLANs",
+        "VPN configuration (OpenVPN, IPSec, WireGuard)",
+        "Firewall rules (pfSense, Windows Firewall, NSG)",
+        "Cisco IOS basics (routing, switching, ACLs)",
+        "BGP / OSPF fundamentals",
+        "Network monitoring (Zabbix, PRTG, Prometheus)",
+        "Wireless network administration",
+        "Packet analysis (Wireshark)"
+      ]
+    },
+    {
+      "title": "SOC Analyst",
+      "skills": [
+        "SIEM: Splunk, Elastic SIEM, Microsoft Sentinel",
+        "Log analysis & correlation",
+        "Alert triage & incident response",
+        "Threat detection & hunt basics",
+        "Vulnerability management (Nessus, OpenVAS)",
+        "IAM auditing & access reviews",
+        "Endpoint security monitoring (Defender, Datadog)",
+        "Security documentation & reporting"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Administrator",
+      "skills": [
+        "Exchange Online — mailboxes, routing, shared mailboxes, DLs",
+        "Microsoft Teams — governance, channels, policies, guest access",
+        "SharePoint Online & OneDrive administration",
+        "Licence assignment & cost optimisation",
+        "Conditional Access & MFA policies",
+        "Microsoft Intune (MDM/MAM)",
+        "Defender for Endpoint & Microsoft Purview basics",
+        "Compliance & retention policies"
+      ]
+    },
+    {
+      "title": "Active Directory Administrator",
+      "skills": [
+        "AD DS design, OU structure & delegation",
+        "Group Policy (GPO) creation and troubleshooting",
+        "Domain Controller management & replication",
+        "RBAC — role assignment, least privilege",
+        "Azure AD Connect (hybrid identity sync)",
+        "LDAP & Kerberos fundamentals",
+        "Password policies, fine-grained password policies",
+        "AD auditing & health monitoring"
+      ]
+    },
+    {
+      "title": "Azure / Cloud Administrator",
+      "skills": [
+        "Azure AD / Entra ID — SSO, MFA, PIM, Conditional Access",
+        "Azure Virtual Machines, scale sets & availability zones",
+        "Azure Networking — VNet, NSG, Load Balancer, DNS zones",
+        "Azure Kubernetes Service (AKS) & container workloads",
+        "Azure Monitor, Log Analytics & Alerts",
+        "IaC with Terraform & Ansible",
+        "AWS (EC2, S3, IAM, VPC, CloudWatch)",
+        "GCP (Compute Engine, GKE, Cloud IAM)"
+      ]
+    },
+    {
+      "title": "Machine Learning Research and Evaluation",
+      "skills": [
+        "Benchmarking of imputation methods (Mean, KNN, MICE-Ridge, AE, DAE, VAE, GAIN)",
+        "Experimental design and survey-disjoint cross-validation",
+        "Hyperparameter tuning of neural models",
+        "Error metrics: RMSE, MAE, R2, correlation",
+        "TensorFlow, PyTorch, scikit-learn, Pandas, NumPy",
+        "Scientific writing: 2 peer-reviewed publications"
+      ]
+    },
+    {
+      "title": "MLOps and AI in Daily Operations",
+      "skills": [
+        "MLflow experiment tracking and model registration",
+        "Prompt versioning for language model tasks",
+        "Fairness metrics and counterfactual probes for language models",
+        "CI for ML code with pytest, flake8 and GitHub Actions",
+        "AI agents and the Model Context Protocol (MCP) in daily work"
+      ]
+    }
+  ],
+  "scripting_and_automation": {
+    "languages": [
+      "Python",
+      "Bash",
+      "PowerShell",
+      "Go"
+    ],
+    "uses": [
+      "Server provisioning scripts",
+      "AD user bulk management",
+      "Log parsing & alerting",
+      "Health-check automation",
+      "REST API integrations"
+    ]
+  },
+  "monitoring_and_observability": [
+    "Grafana",
+    "Prometheus",
+    "ELK Stack",
+    "Datadog",
+    "Splunk",
+    "Zabbix"
+  ],
+  "containers_and_cicd": {
+    "containers": [
+      "Docker",
+      "Kubernetes",
+      "Helm"
+    ],
+    "cicd": [
+      "GitHub Actions",
+      "Jenkins",
+      "GitLab CI"
+    ]
+  },
+  "databases": [
+    "PostgreSQL",
+    "MySQL",
+    "Microsoft SQL Server",
+    "MongoDB"
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+      "issuer": "Microsoft",
+      "verify": "https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/9A3AB87CB930C9A4?sharingId=540EF4559245D902",
+      "earned": "2026-08"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate (004)",
+      "issuer": "HashiCorp",
+      "verify": "https://www.credly.com/badges/4cbcf82b-53d2-4b27-b8a3-acea9ab9c0d6",
+      "earned": "2026-06"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "verify": "https://learn.microsoft.com/api/credentials/share/en-us/RubaiyaKabirPranti-9870/D7BB95205F89A886?sharingId=540EF4559245D902",
+      "earned": "2026-05-13"
+    }
+  ],
+  "cisco_networking_academy_courses": [
+    {
+      "name": "CCNAv7: Enterprise Networking, Security, and Automation",
+      "completed": "2022-07"
+    },
+    {
+      "name": "CCNAv7: Switching, Routing, and Wireless Essentials",
+      "completed": "2022-05"
+    },
+    {
+      "name": "CCNAv7: Introduction to Networks",
+      "completed": "2021-01"
+    },
+    {
+      "name": "DevNet Associate",
+      "completed": "2023-03"
+    },
+    {
+      "name": "Cybersecurity Essentials",
+      "completed": "2020-11"
+    }
+  ],
+  "aws_partner_trainings": [
+    {
+      "name": "AWS Partner: Machine Learning on AWS (Technical)",
+      "completed": "2023-03"
+    },
+    {
+      "name": "AWS Partner: AWS Cloud Practitioner Essentials",
+      "completed": "2022-10"
+    },
+    {
+      "name": "AWS Partner: Containers on AWS (Technical)",
+      "completed": "2022-09"
+    }
+  ],
+  "online_courses": [
+    {
+      "name": "GCP DevOps Project",
+      "provider": "KodeKloud",
+      "completed": "2024-02"
+    },
+    {
+      "name": "Image Noise Reduction with Auto-encoders using TensorFlow (guided project)",
+      "provider": "Coursera Project Network",
+      "completed": "2023-03",
+      "verify": "https://coursera.org/verify/M8GAUK66X27B"
+    },
+    {
+      "name": "Python Entry-Level Programmer (PCEP-30-02) preparation course",
+      "provider": "KodeKloud",
+      "completed": "2023-03",
+      "note": "course completion, not the Python Institute exam"
+    },
+    {
+      "name": "Object-Oriented Programming in Python",
+      "provider": "DataCamp",
+      "completed": "2022-10"
+    },
+    {
+      "name": "Data Analysis with Python",
+      "provider": "IBM via Coursera",
+      "completed": "2022-01",
+      "verify": "https://coursera.org/verify/24NW2WXU6SFZ"
+    },
+    {
+      "name": "Building Deep Learning Applications with Keras 2.0",
+      "provider": "LinkedIn Learning",
+      "completed": "2022-01"
+    },
+    {
+      "name": "Fake News Detection with Machine Learning (guided project)",
+      "provider": "Coursera Project Network",
+      "completed": "2022-01",
+      "verify": "https://coursera.org/verify/KJ73N5LYCVQS"
+    },
+    {
+      "name": "Breast Cancer Prediction Using Machine Learning (guided project)",
+      "provider": "Coursera Project Network",
+      "completed": "2022-01",
+      "verify": "https://coursera.org/verify/PCTGUYQJGXQT"
+    },
+    {
+      "name": "Full Stack Web Development",
+      "provider": "Shikhbe Shobai",
+      "completed": "2020-10"
+    },
+    {
+      "name": "Programming for Everybody (Getting Started with Python)",
+      "provider": "University of Michigan via Coursera",
+      "completed": "2020-08"
+    }
+  ],
+  "memberships": [
+    {
+      "name": "IEEE Women in Engineering",
+      "year": 2019,
+      "detail": "Member in good standing, certificate of membership"
+    }
+  ],
+  "publications": [
+    {
+      "title": "MitoSkel: AI tool for semantic segmentation and quantification of mitochondria from light microscopy images",
+      "venue": "Biomedical Signal Processing and Control (Elsevier)",
+      "year": 2025,
+      "role": "second author",
+      "doi": "https://doi.org/10.1016/j.bspc.2025.107762"
+    },
+    {
+      "title": "Comparison of Missing Data Imputation Techniques using Autoencoders",
+      "venue": "VIMS Workshop Proceedings, TH Köln",
+      "year": 2024,
+      "role": "first author",
+      "doi": "https://doi.org/10.57684/COS-1240"
+    }
+  ],
+  "certifications_repo": "https://github.com/rubak714/All-Certifications"
+}
